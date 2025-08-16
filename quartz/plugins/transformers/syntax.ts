@@ -9,6 +9,7 @@ interface Theme extends Record<string, CodeTheme> {
 interface Options {
   theme?: Theme
   keepBackground?: boolean
+  langs?: string[]
 }
 
 const defaultOptions: Options = {

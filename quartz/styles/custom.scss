@@ -1,3 +1,241 @@
 @use "./base.scss";
 
+// cssclasses
+
+.article-title.small-title {
+  font-size: 1.3rem;
+}
+
 // put your custom CSS here!
+
+.darkmode,
+.page-footer,
+.search-button,
+hr,
+h1 .internal,
+h2 .internal,
+h3 .internal,
+h4 .internal,
+h5 .internal,
+h6 .internal {
+  display: none !important;
+}
+
+.article-title,
+h1,
+h2,
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+  text-align: center;
+  font-variant-caps: small-caps;
+
+  background: color-mix(in srgb, var(--light) 98%, white);
+
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+
+  text-align: center;
+  font-variant-caps: small-caps;
+
+  background: color-mix(in srgb, var(--light) 98%, white);
+
+  border-radius: 5px;
+  border: 1px solid #404040;
+}
+
+// ---
+
+h1:not(.article-title)::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.7em;
+  margin-right: 5px;
+}
+
+h1:hover::before {
+  content: "H1";
+}
+h2:hover::before {
+  content: "H2";
+}
+h3:hover::before {
+  content: "H3";
+}
+h4:hover::before {
+  content: "H4";
+}
+h5:hover::before {
+  content: "H5";
+}
+h6:hover::before {
+  content: "H6";
+}
+
+.article-title:hover::before {
+  content: "";
+}
+
+//---
+
+.external {
+  color: rgb(185, 125, 248);
+}
+
+a.internal {
+  background-color: var(--light);
+  color: #7cafc2;
+}
+.callout a.internal {
+  color: rgb(84, 200, 208);
+}
+
+// ---
+
+.article-title,
+.page article > h1 {
+  font-size: 1.6rem;
+}
+
+body {
+  font-size: 1.1rem;
+}
+code {
+  font-size: 1rem !important;
+}
+
+p + ul,
+p + ol {
+  margin-top: 0.3em !important;
+}
+
+p {
+  margin-bottom: 0.2em;
+}
+
+// ---
+
+.callout {
+  padding: 3px;
+}
+
+.callout-title {
+  border-bottom: none;
+  gap: 0;
+  padding: 2px 5px 2px 5px;
+}
+
+.callout-content {
+  background-color: var(--light);
+  border: solid rgba(var(--callout-color), 0.15);
+  border-width: 3px;
+}
+
+.callout-content-inner {
+  margin: 10px;
+}
+.callout-content-inner p {
+  margin: 0px;
+}
+
+.callout pre {
+  padding: 10px;
+  margin: 0px;
+  gap: 0px;
+}
+
+.callout-icon {
+  margin-right: 5px;
+}
+
+.callout {
+  &[data-callout="toc"] {
+    --color: #bababa;
+    --border: #3f3f3f;
+    --bg: #3f3f3f;
+    --callout-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'%3e%3cpath d='M4 6h16M4 12h16M4 18h16'/%3e%3c/svg%3e");
+  }
+  &[data-callout="description"] {
+    --color: #bababa;
+    --border: #3f3f3f;
+    --bg: #3f3f3f;
+    --callout-icon: var(--callout-icon-question);
+  }
+}
+
+.callout[data-callout-metadata="hide-title"] .callout-title {
+  display: none;
+}
+
+// ---
+
+ul ul::before,
+ol ol::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--lightgray);
+}
+
+ul ul,
+ol ol {
+  position: relative;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  background-color: #242424;
+  color: rgb(218, 151, 93);
+}
+
+// ---
+
+strong {
+  color: rgb(209, 63, 141);
+}
+
+em {
+  color: rgb(201, 87, 148);
+}
+
+// ---
+
+thead {
+  background-color: #383838;
+}
+
+div .table-container table {
+  border-collapse: collapse;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+td,
+th {
+  border: solid 1px #666666;
+  padding: 4px 8px;
+}

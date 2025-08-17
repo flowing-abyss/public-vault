@@ -11,6 +11,7 @@
 .darkmode,
 .page-footer,
 .search-button,
+.external-icon,
 hr,
 h1 .internal,
 h2 .internal,
@@ -50,6 +51,22 @@ h6 {
 
   background: color-mix(in srgb, var(--light) 98%, white);
 
+  border-radius: 5px;
+  border: 1px solid #404040;
+}
+
+// ---
+
+blockquote {
+  border-left: 8px solid #383838;
+  border-radius: 4px;
+  background: #292929;
+}
+
+// ---
+
+.external-embed.youtube,
+img {
   border-radius: 5px;
   border: 1px solid #404040;
 }
@@ -215,11 +232,18 @@ code {
 // ---
 
 strong {
-  color: rgb(209, 63, 141);
+  color: rgb(209, 63, 141) !important;
 }
 
 em {
-  color: rgb(201, 87, 148);
+  color: rgb(201, 87, 148) !important;
+}
+
+.external strong,
+.external em,
+.internal strong,
+.internal em {
+  color: inherit !important;
 }
 
 // ---

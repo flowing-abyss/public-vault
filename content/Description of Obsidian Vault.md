@@ -6,30 +6,30 @@ aliases: []
 status: 📢
 priority: 🇨
 category:
-  - "[[public|public]]"
-meta: 
-problem: 
-creator: 
+  - "[[public]]"
+meta:
+problem:
+creator:
 production:
-  - "[[flowing-abyss.com|flowing-abyss.com]]"
-url: 
-cover: 
-published: 
+  - "[[flowing-abyss.com]]"
+url: "[flowing-abyss](https://flowing-abyss.com/Description-of-Obsidian-Vault)"
+cover:
+published:
 start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-08-17T15:40:54+07:00
-title: Obsidian Vault
+updated: 2025-08-17T16:05:11+07:00
+title: "Obsidian Vault"
 share: true
 ---
 
 ![Intro](https://youtu.be/Zc6ph-mw9wU)
 
 %%
-![[boosty_buy_now.png|boosty_buy_now.png]]
-![[telegram_discussion.png|telegram_discussion.png]]
-![[new_changelog.png|new_changelog.png]]
+[[boosty_buy_now.png]]
+[[telegram_discussion.png]]
+[[new_changelog.png]]
 %%
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
@@ -45,10 +45,10 @@ share: true
 </div>
 
 > [!toc]+ Table of Contents
-> - [[#Описание|Описание]]
-> - [[#Что вы получите|Что вы получите]]
-> - [[#Скриншоты|Скриншоты]]
-> - [[#Дополнения|Дополнения]]
+> - [[#Описание]]
+> - [[#Что вы получите]]
+> - [[#Скриншоты]]
+> - [[#Дополнения]]
 
 # Описание
 
@@ -77,7 +77,7 @@ share: true
 - ⭐ Менеджер с уклоном в аналитику *(обзоры и иерархические заметки)*
 - ⭐ Физик-инженер в исследовательском институте *(longform projects)*
 
-⭐ *⭐Эти контексты я рассмотрю позже и при условии, если будет заметный интерес к хранилищу.*
+⭐ *Эти контексты я рассмотрю позже и при условии, если будет заметный интерес к хранилищу.*
 
 В рамках примеров будет рассмотрено какие элементы в системе стоит создавать и что можно в них делать. Важно отметить, что хоть я и не доведу каждый из примеров до уровня "вот так должна выглядеть ваша система через 2 года", но я всё же покажу из чего будет состоять рабочий процесс и куда он может привести. По ходу дела я отвечу на следующие вопросы:
 - Как стоит читать
@@ -101,20 +101,20 @@ share: true
 
 # Скриншоты
 
-![[obsidian vault - index.png|obsidian vault - index.png]]
-![[obsidian vault - contacts.png|obsidian vault - contacts.png]]
-![[obsidian vault - dynamic grouping.png|obsidian vault - dynamic grouping.png]]
-![[obsidian vault - hierarchy.png|obsidian vault - hierarchy.png]]
-![[obsidian vault - note.png|obsidian vault - note.png]]
-![[obsidian vault - panels.png|obsidian vault - panels.png]]
-![[obsidian vault - projects.png|obsidian vault - projects.png]]
-![[obsidian vault - quick switcher.png|obsidian vault - quick switcher.png]]
-![[obsidian vault - sorting tasks.png|obsidian vault - sorting tasks.png]]
-![[obsidian vault - sources.png|obsidian vault - sources.png]]
-![[obsidian vault - structure.png|obsidian vault - structure.png]]
-![[obsidian vault - task calendar.png|obsidian vault - task calendar.png]]
-![[obsidian vault - vault statistics.png|obsidian vault - vault statistics.png]]
-![[obsidian vault - calendar.png|obsidian vault - calendar.png]]
+![[obsidian vault - index.png]]
+![[obsidian vault - contacts.png]]
+![[obsidian vault - dynamic grouping.png]]
+![[obsidian vault - hierarchy.png]]
+![[obsidian vault - note.png]]
+![[obsidian vault - panels.png]]
+![[obsidian vault - projects.png]]
+![[obsidian vault - quick switcher.png]]
+![[obsidian vault - sorting tasks.png]]
+![[obsidian vault - sources.png]]
+![[obsidian vault - structure.png]]
+![[obsidian vault - task calendar.png]]
+![[obsidian vault - vault statistics.png]]
+![[obsidian vault - calendar.png]]
 
 # Дополнения
 

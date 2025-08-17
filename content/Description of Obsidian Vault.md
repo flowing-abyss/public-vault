@@ -27,9 +27,9 @@ share: true
 ![Intro](https://youtu.be/Zc6ph-mw9wU)
 
 %%
-[[boosty_buy_now.png|boosty_buy_now.png]]
-[[telegram_discussion.png|telegram_discussion.png]]
-[[new_changelog.png|new_changelog.png]]
+![[boosty_buy_now.png|boosty_buy_now.png]]
+![[telegram_discussion.png|telegram_discussion.png]]
+![[new_changelog.png|new_changelog.png]]
 %%
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">

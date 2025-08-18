@@ -8,10 +8,10 @@ priority: 🇨
 category:
   - "[[public]]"
 meta:
+  - "[[flowing-abyss]]"
 problem:
 creator:
 production:
-  - "[[flowing-abyss.com]]"
 url: "[flowing-abyss](https://flowing-abyss.com/Description-of-Obsidian-Vault)"
 cover:
 published:
@@ -19,7 +19,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-08-17T19:29:43+07:00
+updated: 2025-08-18T10:56:05+07:00
 title: "Obsidian Vault"
 share: true
 ---

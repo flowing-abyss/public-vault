@@ -3,7 +3,7 @@ tags:
   - note/basic/primary
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
-created: 2025-08-18T13:27:42+07:00
+created: 2025-08-18T13:27:42
 updated: 2025-08-24T13:53:08+07:00
 share: true
 title: "MarkDB-Connect"

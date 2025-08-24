@@ -430,3 +430,9 @@ title: "Zotero Tags"
 Ну что ж... Теперь идите и наведите порядок в своей системе.
 
 На этом у меня всё.
+
+<div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
+  <a href="https://t.me/thepresumptionofnaturalness/68" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+    <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+  </a>
+</div>

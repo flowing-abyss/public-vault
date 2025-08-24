@@ -136,7 +136,7 @@ a.internal {
 // ---
 
 .article-title,
-.page article>h1 {
+.page article > h1 {
   font-size: 1.6rem;
 }
 
@@ -148,8 +148,8 @@ code {
   font-size: 1rem !important;
 }
 
-p+ul,
-p+ol {
+p + ul,
+p + ol {
   margin-top: 0.3em !important;
 }
 
@@ -206,10 +206,10 @@ p {
   }
 
   &[data-callout="code"] {
-    --color: #bababa;
-    --border: #303030;
-    --bg: #303030;
-    --callout-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M16 18l6-6-6-6M8 6l-6 6 6 6'/%3e%3c/svg%3e");
+    --color: #bababa !important;
+    --border: #303030 !important;
+    --bg: #303030 !important;
+    --callout-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M16 18l6-6-6-6M8 6l-6 6 6 6'/%3e%3c/svg%3e") !important;
   }
 
   &[data-callout="description"] {

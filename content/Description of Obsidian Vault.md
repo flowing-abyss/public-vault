@@ -19,7 +19,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-08-18T10:56:05+07:00
+updated: 2025-08-24T13:34:04+07:00
 title: "Obsidian Vault"
 share: true
 ---
@@ -39,7 +39,7 @@ share: true
   <a href="https://t.me/thepresumptionofnaturalness/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
-  <a href="https://disk.yandex.ru/d/Fxja5usJIZMiew" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
 </div>
@@ -58,10 +58,13 @@ share: true
 - Внедрена система префиксов, которая заметным образом ускоряет создание заметок
 - Интегрирована логика интервальных повторений (через [Spaced Repetition](https://obsidian.md/plugins?id=obsidian-spaced-repetition) или [Obsidian to Anki](https://obsidian.md/plugins?id=obsidian-to-anki-plugin) – на выбор)
 - Реализована [интеграция с Zotero](https://obsidian.md/plugins?id=obsidian-zotero-desktop-connector)
-- Добавлена [система дел](https://habr.com/en/articles/833654/)
+- Добавлена [система дел](https://habr.com/en/articles/833654/), которая сильно интегрирована в базу знаний
+	- Добавлен мощный календарь для Tasks
+	- Добавлена динамическая фильтрация задач
+	- Добавлена сортировка по времени `⏰️`
 - [Интегрирован плагин Breadcrumbs](https://habr.com/en/articles/806339/)
 - [Добавлены Longform-проекты](https://habr.com/en/articles/789248/)
-- Весьма сильно улучшено отображение заметок-категорий и внедрены [интерактивные Dataview-таблицы](https://github.com/anareaty/dataview-interactive-views) с возможностью фильтрации
+- Весьма сильно улучшено отображение заметок-категорий и внедрены ~~[интерактивные Dataview-таблицы](https://github.com/anareaty/dataview-interactive-views)~~ Bases с возможностью быстрой, динамической фильтрации
 - Внедрена логика с дополнениями к источникам и проектам
 - В качестве базовой темы используется [Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus)
 
@@ -77,15 +80,15 @@ share: true
 - ⭐ Менеджер с уклоном в аналитику *(обзоры и иерархические заметки)*
 - ⭐ Физик-инженер в исследовательском институте *(longform projects)*
 
-⭐ *Эти контексты я рассмотрю позже и при условии, если будет заметный интерес к хранилищу.*
+<font color="#72AEFD">⭐ Эти контексты я рассмотрю позже и при условии, если будет заметный интерес к хранилищу. Но не переживайте. Вам разбора и первых трёх контекстов хватит на года два-четыре.</font>
 
-В рамках примеров будет рассмотрено какие элементы в системе стоит создавать и что можно в них делать. Важно отметить, что хоть я и не доведу каждый из примеров до уровня "вот так должна выглядеть ваша система через 2 года", но я всё же покажу из чего будет состоять рабочий процесс и куда он может привести. По ходу дела я отвечу на следующие вопросы:
+В рамках примеров будет рассмотрено какие элементы в системе стоит создавать и что можно в них делать. По ходу дела я отвечу на следующие вопросы:
 - Как стоит читать
 - Как строить структуру, чтобы организовывать свою работу
 - Каким образом добываются заметки
 - Как заметки помогают в проектах
 
-*Даже если вам вовсе не понравится демо-хранилище, то рабочие процессы, рассуждения, а также различные действия с заметками и их обоснование вам всё же могут пригодиться. Ну, и да. В видео также будут показаны разные и интересные технические штучки.*
+Даже если вам вовсе не понравится демо-хранилище, то рабочие процессы, рассуждения, а также различные действия с заметками и их обоснование вам всё же могут пригодиться. Ну, и да. В видео также будут показаны разные и интересные технические штучки.
 
 # Что вы получите
 
@@ -377,8 +380,8 @@ share: true
 > Теоретически все технические изменения можно внедрить путём копирования шаблонов, папки `.obsidian` и всех других сервисных папок. Но я так делать не рекомендую. Всё же основная мощь персональной системы не в её технической накрученности, а в общей способности агрегировать, структурировать и продуцировать информацию. Однако если вы всё же захотите что-то внедрить, то можете сделать на основе моих объяснений, которые будут даваться в процессе видео.
 
 > [!info] Информация для новичков
-> Несмотря на внешний минимализм системы, технических наворотов в ней будет довольно много. Если вы едва ли понимаете зачем нужен [frontmatter](https://help.obsidian.md/properties), как пишутся скрипты для [Templater](https://silentvoid13.github.io/Templater/introduction.html), как формируются [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)-запросы или вы не можете открыть [css-сниппет](https://help.obsidian.md/snippets), чтобы пофиксить в нём ту или иную проблему, то предложенная система для вас будет, либо переусложнённой фигнёй, либо "недоступной" магией. Чтобы таких негативных исходов избежать, я бы предложил вам всё же потратить своё время и прочие ресурсы на изучение других, более простых хранилищ.
->
+> Несмотря на внешний минимализм системы, технических наворотов в ней будет довольно много. Если вы едва ли понимаете зачем нужен [frontmatter](https://help.obsidian.md/properties), как пишутся скрипты для [Templater](https://silentvoid13.github.io/Templater/introduction.html), как формируются ~~[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)-запросы~~ конфиги для Bases или вы не можете открыть [css-сниппет](https://help.obsidian.md/snippets), чтобы пофиксить в нём ту или иную проблему, то предложенная система для вас будет, либо переусложнённой фигнёй, либо "недоступной" магией. Чтобы таких негативных исходов избежать, я бы предложил вам всё же потратить своё время и прочие ресурсы на изучение других, [более простых хранилищ](https://github.com/SoRobby/ObsidianStarterVault).
+> ⠀
 > *Хотя есть* [_обратное мнение_](https://t.me/thepresumptionofnaturalness/66?comment=5086) *о том, что данное хранилище наооброт очень даже подойдет новичкам из-за его продуманности.*
 
 > [!info] Про процесс чтения
@@ -420,7 +423,7 @@ share: true
   <a href="https://t.me/thepresumptionofnaturalness/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
-  <a href="https://disk.yandex.ru/d/Fxja5usJIZMiew" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
 </div>

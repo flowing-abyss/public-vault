@@ -1,0 +1,1182 @@
+{
+  "vaults": [],
+  "general_settings": {
+    "showMoreActionsButton": false,
+    "betaFeatures": false,
+    "legacyMode": false,
+    "silentOpen": false,
+    "saveBehavior": "addToObsidian"
+  },
+  "highlighter_settings": {
+    "highlighterEnabled": true,
+    "alwaysShowHighlights": true,
+    "highlightBehavior": "highlight-inline"
+  },
+  "migrationVersion": 1,
+  "interpreter_settings": {
+    "interpreterModel": "gpt-4o-mini",
+    "models": [
+      {
+        "baseUrl": "https://api.openai.com/v1/chat/completions",
+        "enabled": true,
+        "id": "gpt-4o-mini",
+        "name": "GPT-4o Mini",
+        "provider": "OpenAI"
+      },
+      {
+        "baseUrl": "https://api.openai.com/v1/chat/completions",
+        "enabled": true,
+        "id": "gpt-4o",
+        "name": "GPT-4o",
+        "provider": "OpenAI"
+      },
+      {
+        "baseUrl": "https://api.openai.com/v1/chat/completions",
+        "enabled": true,
+        "id": "gpt-o1-mini",
+        "name": "GPT-o1 Mini",
+        "provider": "OpenAI"
+      },
+      {
+        "baseUrl": "https://api.anthropic.com/v1/messages",
+        "enabled": true,
+        "id": "claude-3-5-sonnet-20240620",
+        "name": "Claude 3.5 Sonnet",
+        "provider": "Anthropic"
+      },
+      {
+        "baseUrl": "https://api.anthropic.com/v1/messages",
+        "enabled": true,
+        "id": "claude-3-haiku-20240307",
+        "name": "Claude 3 Haiku",
+        "provider": "Anthropic"
+      },
+      {
+        "baseUrl": "https://api.anthropic.com/v1/messages",
+        "enabled": true,
+        "id": "claude-3-opus-20240229",
+        "name": "Claude 3 Opus",
+        "provider": "Anthropic"
+      }
+    ],
+    "providers": [],
+    "interpreterEnabled": true,
+    "interpreterAutoRun": true,
+    "defaultPromptContext": "{{fullHtml|strip_tags:(\"script,h1,h2,h3,h4,h5,h6,meta,a,ol,ul,li,p,em,strong,i,b,img,video,audio,math,tablecite,strong,td,th,tr,caption,u\")|strip_attr:(\"alt,src,href,id,content,property,name,datetime,title\")}}"
+  },
+  "property_types": [
+    {
+      "defaultValue": "{{title}}",
+      "name": "title",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{url}}",
+      "name": "source",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{author|split:\", \"|wikilink|join}}",
+      "name": "author",
+      "type": "multitext"
+    },
+    {
+      "name": "published",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "type": "datetime"
+    },
+    {
+      "defaultValue": "{{description}}",
+      "name": "description",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "type": "multitext"
+    },
+    {
+      "name": "aliases",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "🟥",
+      "name": "status",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{image}}",
+      "name": "cover",
+      "type": "text"
+    },
+    {
+      "name": "updated",
+      "type": "datetime"
+    },
+    {
+      "name": "category",
+      "type": "multitext"
+    },
+    {
+      "name": "meta",
+      "type": "multitext"
+    },
+    {
+      "name": "problem",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{author|split:\\\", \\\"|wikilink|join}}",
+      "name": "creator",
+      "type": "multitext"
+    },
+    {
+      "name": "production",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "[{{domain}}]({{url}})",
+      "name": "url",
+      "type": "text"
+    },
+    {
+      "name": "rating",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{schema:genre|wikilink|join|lower}}",
+      "name": "genre",
+      "type": "multitext"
+    },
+    {
+      "name": "addition",
+      "type": "multitext"
+    },
+    {
+      "name": "reviewed",
+      "type": "datetime"
+    },
+    {
+      "defaultValue": "{{schema:@VideoObject:author}}",
+      "name": "channel",
+      "type": "text"
+    },
+    {
+      "defaultValue": "[[Videos]]",
+      "name": "related",
+      "type": "multitext"
+    },
+    {
+      "defaultValue": "{{schema:@VideoObject:thumbnailUrl|first}}",
+      "name": "thumbnailUrl",
+      "type": "text"
+    },
+    {
+      "defaultValue": "{{schema:@VideoObject:duration|replace:\\\"PT\\\",\\\"\\\",\\\"S\\\",\\\"\\\"}}",
+      "name": "duration",
+      "type": "text"
+    },
+    {
+      "name": "watched",
+      "type": "text"
+    }
+  ],
+  "reader_settings": {
+    "fontSize": 1.5,
+    "lineHeight": 1.6,
+    "maxWidth": 38,
+    "theme": "default",
+    "themeMode": "auto"
+  },
+  "template_1731471381688l9dx37r": {
+    "schemaVersion": "0.1.0",
+    "name": "movie (letterboxd)",
+    "behavior": "create",
+    "noteContentFormat": "\n![cover]({{schema:image}})\n\n",
+    "properties": [
+      {
+        "id": "17314713816898a6w61a",
+        "name": "tags",
+        "value": "source/cinematic/movie, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713816895hkh7lc",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471381689mqzy4ck",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471381689e403ouq",
+        "name": "rating",
+        "value": "",
+        "type": "text"
+      },
+      {
+        "id": "1731471381689gm0ofl3",
+        "name": "cover",
+        "value": "{{schema:image}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471381689gnr44n2",
+        "name": "published",
+        "value": "{{schema:releasedEvent[*].startDate|date:\\\\\\\\\"YYYY\\\\\\\\\"|first}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471381689f0vc0fg",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471381689r6fphx5",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471381689b786s5g",
+        "name": "genre",
+        "value": "{{schema:genre|wikilink|join|lower}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471381689z7yl3bl",
+        "name": "creator",
+        "value": "{{schema:director[*].name|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471381689sc40d2b",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713816894mie7s1",
+        "name": "url",
+        "value": "[{{domain|replace:\\\".com\\\", \\\"\\\"}}]({{url}})",
+        "type": "text"
+      }
+    ],
+    "triggers": [
+      "https://letterboxd.com/"
+    ],
+    "noteNameFormat": "{{schema:name}}",
+    "path": "sources",
+    "id": "1731471381688l9dx37r",
+    "context": ""
+  },
+  "template_1732081734893w3hja43uy": {
+    "schemaVersion": "0.1.0",
+    "name": "article (content)",
+    "behavior": "create",
+    "noteContentFormat": "\n<%*\nconst template = `---\ntags:\n  - mark/addition/aggregator\n---\n\n{{content|replace:(\"`\":\"\\\\`\",\"\\\\\":\"\\\\\\\\\",\"${\":\"\\\\${\")}}\n`;\n\nawait tp.file.create_new(template, \"{{title|safe_name}}\" + \" - content\", false, \"base/additions\");\n-%>",
+    "properties": [
+      {
+        "id": "1731471350617ckx4lkl",
+        "name": "tags",
+        "value": "source/article/paper, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506178yxooda",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617n861c4l",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617otetgte",
+        "name": "cover",
+        "value": "{{image}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617hdbb7ul",
+        "name": "published",
+        "value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+        "type": "text"
+      },
+      {
+        "id": "17314713506174pqyfmp",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617ic6nork",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617toqarm3",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179prt5yl",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506172pfplxk",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179jgmx81",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617c8qqxah",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617epz6mtt",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      },
+      {
+        "id": "1732080879435u3m3yv43s",
+        "name": "addition",
+        "value": "[[{{title|safe_name}} - content|📄]]",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [],
+    "noteNameFormat": "{{title|safe_name}}",
+    "path": "sources",
+    "id": "1732081734893w3hja43uy",
+    "context": ""
+  },
+  "template_1733898204057zy2qvmpp8": {
+    "schemaVersion": "0.1.0",
+    "name": "video (content)",
+    "behavior": "create",
+    "noteContentFormat": "\n>[!link]- Youtube\n> <iframe title=\"{{schema:name}}\" src=\"{{schema:@VideoObject:embedUrl}}?feature=oembed\" height=\"113\" width=\"200\" style=\"aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;\" allowfullscreen=\"\" allow=\"fullscreen\"></iframe>\n\n<%*\nconst template = `---\ntags:\n  - mark/addition/aggregator\n---\n\n{{selectorHtml:.ytd-transcript-segment-list-renderer|first|replace:\\\"&nbsp;\\\":\\\" \\\"|join|markdown}}\n`;\n\nawait tp.file.create_new(template, \"{{schema:name|safe_name}}\" + \" - content\", false, \"base/additions\");\n-%>",
+    "properties": [
+      {
+        "id": "1731471360892rytirl3",
+        "name": "tags",
+        "value": "source/video/recording, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892kbkiflo",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892k8lw61s",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892m91orml",
+        "name": "cover",
+        "value": "{{schema:thumbnailUrl|slice:0}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892uz2cnya",
+        "name": "published",
+        "value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
+        "type": "date"
+      },
+      {
+        "id": "1731471360892yi26ul3",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471360892fv0khoa",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "17314713608925fkegp0",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892taz9arw",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892o3w542b",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892tu50xw9",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892pygzy81",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713608926vfw059",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      },
+      {
+        "id": "1733898294025oyhpzmy9d",
+        "name": "addition",
+        "value": "[[{{schema:name|safe_name}} - content|📄]]",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.youtube.com/"
+    ],
+    "noteNameFormat": "{{schema:name|safe_name}}",
+    "path": "sources",
+    "id": "1733898204057zy2qvmpp8",
+    "context": ""
+  },
+  "template_1748442928792336bzmb62": {
+    "schemaVersion": "0.1.0",
+    "name": "video (fast+content)",
+    "behavior": "create",
+    "noteContentFormat": "\n>[!link]- Youtube\n> <iframe title=\"{{schema:name}}\" src=\"{{schema:@VideoObject:embedUrl}}?feature=oembed\" height=\"113\" width=\"200\" style=\"aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;\" allowfullscreen=\"\" allow=\"fullscreen\"></iframe>\n\n<%*\nconst template = `---\ntags:\n  - mark/addition/aggregator\n---\n\n{{selectorHtml:.ytd-transcript-segment-list-renderer|first|replace:\\\"&nbsp;\\\":\\\" \\\"|join|markdown}}\n`;\n\nawait tp.file.create_new(template, \"{{schema:name|safe_name}}\" + \" - content\", false, \"base/additions\");\n-%>\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n%>",
+    "properties": [
+      {
+        "id": "1731471360892rytirl3",
+        "name": "tags",
+        "value": "source/video/recording, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892kbkiflo",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892k8lw61s",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892m91orml",
+        "name": "cover",
+        "value": "{{schema:thumbnailUrl|slice:0}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892uz2cnya",
+        "name": "published",
+        "value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
+        "type": "date"
+      },
+      {
+        "id": "1731471360892yi26ul3",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471360892fv0khoa",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "17314713608925fkegp0",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892taz9arw",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892o3w542b",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892tu50xw9",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892pygzy81",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713608926vfw059",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      },
+      {
+        "id": "1733898294025oyhpzmy9d",
+        "name": "addition",
+        "value": "[[{{schema:name|safe_name}} - content|📄]]",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [
+      "https://www.youtube.com/"
+    ],
+    "noteNameFormat": "{{schema:name|safe_name}}",
+    "path": "sources",
+    "id": "1748442928792336bzmb62",
+    "context": ""
+  },
+  "template_1731471350545xvh44v3": {
+    "schemaVersion": "0.1.0",
+    "name": "article",
+    "behavior": "create",
+    "noteContentFormat": "",
+    "properties": [
+      {
+        "id": "1731471350617ckx4lkl",
+        "name": "tags",
+        "value": "source/article/paper, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506178yxooda",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617n861c4l",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617otetgte",
+        "name": "cover",
+        "value": "{{image}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617hdbb7ul",
+        "name": "published",
+        "value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+        "type": "text"
+      },
+      {
+        "id": "17314713506174pqyfmp",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617ic6nork",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617toqarm3",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179prt5yl",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506172pfplxk",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179jgmx81",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617c8qqxah",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617epz6mtt",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      }
+    ],
+    "triggers": [],
+    "noteNameFormat": "{{title}}",
+    "path": "sources",
+    "id": "1731471350545xvh44v3",
+    "context": ""
+  },
+  "template_1731471360891f4jbcxk": {
+    "schemaVersion": "0.1.0",
+    "name": "video",
+    "behavior": "create",
+    "noteContentFormat": "\n>[!link]- Youtube\n> <iframe title=\"{{schema:name}}\" src=\"{{schema:@VideoObject:embedUrl}}?feature=oembed\" height=\"113\" width=\"200\" style=\"aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;\" allowfullscreen=\"\" allow=\"fullscreen\"></iframe>\n\n{{selectorHtml:ytd-macro-markers-list-item-renderer.ytd-macro-markers-list-renderer a#endpoint:has(#time)|join:\" \"|replace:\"<a \":\"<li><a \",\" hidden=\":\" id=\"hidden\" hidden=\"|remove_html:\"#hidden\"|strip_tags:li, a|markdown}}",
+    "properties": [
+      {
+        "id": "1731471360892rytirl3",
+        "name": "tags",
+        "value": "source/video/recording, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892kbkiflo",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892k8lw61s",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892m91orml",
+        "name": "cover",
+        "value": "{{schema:thumbnailUrl|slice:0}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892uz2cnya",
+        "name": "published",
+        "value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
+        "type": "date"
+      },
+      {
+        "id": "1731471360892yi26ul3",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471360892fv0khoa",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "17314713608925fkegp0",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892taz9arw",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892o3w542b",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892tu50xw9",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892pygzy81",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713608926vfw059",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      }
+    ],
+    "triggers": [
+      "https://www.youtube.com/"
+    ],
+    "noteNameFormat": "{{schema:name|safe_name}}",
+    "path": "sources",
+    "id": "1731471360891f4jbcxk",
+    "context": "{{selectorHtml:.ytd-transcript-segment-list-renderer|first|replace:\\\"&nbsp;\\\":\\\" \\\"|join|markdown}}"
+  },
+  "template_1753942267230a0pwpzjdb": {
+    "id": "1753942267230a0pwpzjdb",
+    "name": "fleeting note",
+    "behavior": "create",
+    "noteNameFormat": "{{date|\"YYYY-MM-DD\"}} {{title}} - clipping",
+    "path": "base/notes",
+    "noteContentFormat": "\n{{highlights|map: item => item.text|join:\"\\n\\n\"}}\n\n{{url}}",
+    "properties": [
+      {
+        "id": "17539423292350y25y5xrb",
+        "name": "tags",
+        "value": "note/basic/primary, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17539423358461xoe9l3zp",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17539423415480ay7mbq45",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1753942345785yy48hnqu6",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      }
+    ],
+    "triggers": [],
+    "context": ""
+  },
+  "template_1748442217326y9ajnt936": {
+    "schemaVersion": "0.1.0",
+    "name": "article (fast)",
+    "behavior": "create",
+    "noteContentFormat": "<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n%>",
+    "properties": [
+      {
+        "id": "1731471350617ckx4lkl",
+        "name": "tags",
+        "value": "source/article/paper, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506178yxooda",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617n861c4l",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617otetgte",
+        "name": "cover",
+        "value": "{{image}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617hdbb7ul",
+        "name": "published",
+        "value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+        "type": "text"
+      },
+      {
+        "id": "17314713506174pqyfmp",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617ic6nork",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617toqarm3",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179prt5yl",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506172pfplxk",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179jgmx81",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617c8qqxah",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617epz6mtt",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      }
+    ],
+    "triggers": [],
+    "noteNameFormat": "{{title|safe_name}}",
+    "path": "sources",
+    "id": "1748442217326y9ajnt936",
+    "context": ""
+  },
+  "template_1748442355494d6pay7cmk": {
+    "schemaVersion": "0.1.0",
+    "name": "article (fast+content)",
+    "behavior": "create",
+    "noteContentFormat": "<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n%>\n\n<%*\nconst template = `---\ntags:\n  - mark/addition/aggregator\n---\n\n{{content|replace:(\"`\":\"\\\\`\",\"\\\\\":\"\\\\\\\\\",\"${\":\"\\\\${\")}}\n`;\n\nawait tp.file.create_new(template, \"{{title|safe_name}}\" + \" - content\", false, \"base/additions\");\n-%>",
+    "properties": [
+      {
+        "id": "1731471350617ckx4lkl",
+        "name": "tags",
+        "value": "source/article/paper, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506178yxooda",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617n861c4l",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617otetgte",
+        "name": "cover",
+        "value": "{{image}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471350617hdbb7ul",
+        "name": "published",
+        "value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+        "type": "text"
+      },
+      {
+        "id": "17314713506174pqyfmp",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617ic6nork",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471350617toqarm3",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179prt5yl",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506172pfplxk",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713506179jgmx81",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617c8qqxah",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471350617epz6mtt",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      },
+      {
+        "id": "1748442463116yr626htzl",
+        "name": "addition",
+        "value": "[[{{title|safe_name}} - content|📄]]",
+        "type": "multitext"
+      }
+    ],
+    "triggers": [],
+    "noteNameFormat": "{{title|safe_name}}",
+    "path": "sources",
+    "id": "1748442355494d6pay7cmk",
+    "context": ""
+  },
+  "template_1748442880789a90sovi02": {
+    "schemaVersion": "0.1.0",
+    "name": "video (fast)",
+    "behavior": "create",
+    "noteContentFormat": "\n>[!link]- Youtube\n> <iframe title=\"{{schema:name}}\" src=\"{{schema:@VideoObject:embedUrl}}?feature=oembed\" height=\"113\" width=\"200\" style=\"aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;\" allowfullscreen=\"\" allow=\"fullscreen\"></iframe>\n\n{{selectorHtml:ytd-macro-markers-list-item-renderer.ytd-macro-markers-list-renderer a#endpoint:has(#time)|join:\" \"|replace:\"<a \":\"<li><a \",\" hidden=\":\" id=\"hidden\" hidden=\"|remove_html:\"#hidden\"|strip_tags:li, a|markdown}}\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n%>",
+    "properties": [
+      {
+        "id": "1731471360892rytirl3",
+        "name": "tags",
+        "value": "source/video/recording, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892kbkiflo",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892k8lw61s",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892m91orml",
+        "name": "cover",
+        "value": "{{schema:thumbnailUrl|slice:0}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471360892uz2cnya",
+        "name": "published",
+        "value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
+        "type": "date"
+      },
+      {
+        "id": "1731471360892yi26ul3",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471360892fv0khoa",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "17314713608925fkegp0",
+        "name": "category",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892taz9arw",
+        "name": "meta",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892o3w542b",
+        "name": "problem",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892tu50xw9",
+        "name": "creator",
+        "value": "{{author|split:\\\", \\\"|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471360892pygzy81",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713608926vfw059",
+        "name": "url",
+        "value": "[{{domain}}]({{url}})",
+        "type": "text"
+      }
+    ],
+    "triggers": [
+      "https://www.youtube.com/"
+    ],
+    "noteNameFormat": "{{schema:name|safe_name}}",
+    "path": "sources",
+    "id": "1748442880789a90sovi02",
+    "context": "{{selectorHtml:.ytd-transcript-segment-list-renderer|first|replace:\\\"&nbsp;\\\":\\\" \\\"|join|markdown}}"
+  },
+  "template_list": [
+    "1753942267230a0pwpzjdb",
+    "1731471350545xvh44v3",
+    "1748442217326y9ajnt936",
+    "1732081734893w3hja43uy",
+    "1748442355494d6pay7cmk",
+    "1731471360891f4jbcxk",
+    "1748442880789a90sovi02",
+    "1733898204057zy2qvmpp8",
+    "1748442928792336bzmb62",
+    "1731471371879fm6ci5i",
+    "1731471381688l9dx37r"
+  ],
+  "template_1731471371879fm6ci5i": {
+    "schemaVersion": "0.1.0",
+    "name": "movie (imdb)",
+    "behavior": "create",
+    "noteContentFormat": "\n![cover]({{schema:image}})\n\n",
+    "properties": [
+      {
+        "id": "1731471371901t5pnkm4",
+        "name": "tags",
+        "value": "source/cinematic/movie, mark/fleeting",
+        "type": "multitext"
+      },
+      {
+        "id": "17314713719017shh8vc",
+        "name": "aliases",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471371901bjmm9bt",
+        "name": "status",
+        "value": "🟥",
+        "type": "text"
+      },
+      {
+        "id": "1731471371901fvm4ut6",
+        "name": "rating",
+        "value": "",
+        "type": "text"
+      },
+      {
+        "id": "1731471371901qqiqsvw",
+        "name": "cover",
+        "value": "{{schema:image}}",
+        "type": "text"
+      },
+      {
+        "id": "1731471371901qn37gcs",
+        "name": "published",
+        "value": "{{schema:datePublished|split:\\\\\\\\\"-\\\\\\\\\"|slice:0,1}}",
+        "type": "text"
+      },
+      {
+        "id": "17314713719016cy15ic",
+        "name": "created",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "173147137190127ch22c",
+        "name": "updated",
+        "value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+        "type": "datetime"
+      },
+      {
+        "id": "1731471371901ec854le",
+        "name": "genre",
+        "value": "{{schema:genre|wikilink|join|lower}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471371901ptdy62p",
+        "name": "creator",
+        "value": "{{schema:director[*].name|wikilink|join}}",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471371902aaxoetk",
+        "name": "production",
+        "value": "",
+        "type": "multitext"
+      },
+      {
+        "id": "1731471371902ugct9y4",
+        "name": "url",
+        "value": "[{{domain|replace:\\\".com\\\", \\\"\\\"}}]({{url}})",
+        "type": "text"
+      }
+    ],
+    "triggers": [
+      "https://www.imdb.com/"
+    ],
+    "noteNameFormat": "{{schema:name}}",
+    "path": "sources",
+    "id": "1731471371879fm6ci5i",
+    "context": ""
+  },
+  "stats": {
+    "addToObsidian": 25,
+    "copyToClipboard": 0,
+    "saveFile": 0,
+    "share": 0
+  }
+}

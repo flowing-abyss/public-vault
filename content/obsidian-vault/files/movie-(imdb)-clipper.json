@@ -1,0 +1,73 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "movie (imdb)",
+	"behavior": "create",
+	"noteContentFormat": "\n![cover]({{schema:image}})\n\n",
+	"properties": [
+		{
+			"name": "tags",
+			"value": "source/cinematic/movie, mark/fleeting",
+			"type": "multitext"
+		},
+		{
+			"name": "aliases",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "status",
+			"value": "🟥",
+			"type": "text"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "cover",
+			"value": "{{schema:image}}",
+			"type": "text"
+		},
+		{
+			"name": "published",
+			"value": "{{schema:datePublished|split:\\\\\\\\\"-\\\\\\\\\"|slice:0,1}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "updated",
+			"value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "genre",
+			"value": "{{schema:genre|wikilink|join|lower}}",
+			"type": "multitext"
+		},
+		{
+			"name": "creator",
+			"value": "{{schema:director[*].name|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "production",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "url",
+			"value": "[{{domain|replace:\\\".com\\\", \\\"\\\"}}]({{url}})",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.imdb.com/"
+	],
+	"noteNameFormat": "{{schema:name}}",
+	"path": "sources"
+}

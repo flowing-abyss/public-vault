@@ -1,0 +1,76 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "article",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "tags",
+			"value": "source/article/paper, mark/fleeting",
+			"type": "multitext"
+		},
+		{
+			"name": "aliases",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "status",
+			"value": "🟥",
+			"type": "text"
+		},
+		{
+			"name": "cover",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "published",
+			"value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "updated",
+			"value": "{{date|\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "category",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "meta",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "problem",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "creator",
+			"value": "{{author|split:\\\", \\\"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "production",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "url",
+			"value": "[{{domain}}]({{url}})",
+			"type": "text"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "sources"
+}

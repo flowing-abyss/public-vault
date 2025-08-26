@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: NoOpComponent, // Use the no-op component to disable footer
+  footer: Component.Backlinks(), // Use the no-op component to disable footer
 }
 
 // components for pages that display a single page (e.g. a single note)

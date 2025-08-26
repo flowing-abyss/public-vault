@@ -311,3 +311,16 @@ tbody tr:nth-child(odd) {
 .highlight-punctuation {
   color: rgb(84, 200, 208);
 }
+
+// backlinks
+
+.backlinks h3 {
+  display: none;
+}
+.backlinks::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid var(--lightgray);
+  margin-bottom: 1rem;
+}

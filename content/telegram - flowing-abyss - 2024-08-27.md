@@ -2,28 +2,28 @@
 tags:
   - project/short
 aliases: []
-status: 🟦
+status: 🟩
 priority: 🇨
 category:
 meta:
 problem:
 creator:
 production:
+url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2024-08-27)"
 cover:
 published:
 start: 2025-08-27T11:16:53+07:00
 end: 2025-08-27T11:16:53+07:00
 total_hours: 0
 created: 2025-08-27T11:16:53+07:00
-updated: 2025-08-27T11:20:56+07:00
+updated: 2025-08-27T11:30:10+07:00
 share: true
 title: "Промежуточная информация по паблику"
-url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2024-08-27)"
 ---
 
 ![[flowing-abyss-question.png]]
 
->[!toc] Table of Contents
+> [!toc] Table of Contents
 > - [[#Связанный чат]]
 > - [[#Топ донатеров]]
 
@@ -104,4 +104,4 @@ ___
 
 ---
 
-Если вам какой-то из материалов понравился или даже в чём-то помог, то можете оставить свой тёплый комментарий на [Habr](https://habr.com/en/users/flowing_abyss/publications/articles/) или в [Telegram](https://t.me/flowing_abyss_chat). Также вы можете выразить благодарность через [DonationAlerts](https://www.donationalerts.com/r/flowing_abyss). Ну, или если вы совсем продвинутый юзер, то вот мой криптокошелёк – `0x2bA25DC1223AC46F195ee65AB91842d4F1152eeB`.
+Если вам какой-то из материалов понравился или даже в чём-то помог, то можете оставить свой тёплый комментарий на [Habr](https://habr.com/en/users/flowing_abyss/publications/articles/) или в [Telegram](https://t.me/flowing_abyss_chat). Также вы можете выразить благодарность через [Boosty](https://boosty.to/flowing-abyss/donate). Ну, или если вы совсем продвинутый юзер, то вот мой криптокошелёк – `0x2bA25DC1223AC46F195ee65AB91842d4F1152eeB`.

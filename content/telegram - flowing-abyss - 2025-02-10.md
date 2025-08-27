@@ -2,23 +2,23 @@
 tags:
   - project/short
 aliases: []
-status: 🟦
+status: 📢
 priority: 🇨
 category:
 meta:
 problem:
 creator:
 production:
+url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-02-10)"
 cover:
 published:
 start: 2025-08-27T10:54:36+07:00
-end:
+end: 2025-08-27T10:54:36+07:00
 total_hours: 0
 created: 2025-08-27T10:54:36+07:00
-updated: 2025-08-27T11:00:38+07:00
+updated: 2025-08-27T11:16:38+07:00
 share: true
 title: "Промежуточная информация по паблику"
-url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-02-10)"
 ---
 
 ![[flowing-abyss-question.png]]

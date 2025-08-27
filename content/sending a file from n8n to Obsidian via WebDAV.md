@@ -5,7 +5,7 @@ aliases:
   - "Передача файла из n8n в Obsidian через WebDAV"
 url: "[flowing-abyss](https://flowing-abyss.com/sending-a-file-from-n8n-to-Obsidian-via-WebDAV)"
 created: 2025-08-18T17:18:11+07:00
-updated: 2025-08-18T21:36:14+07:00
+updated: 2025-08-27T11:35:45+07:00
 cssclasses:
   - small-title
 share: true
@@ -79,7 +79,7 @@ services:
 Вот такой простой способ отправлять файлы в своё хранилище. Если вы знаете, как это можно сделать ещё проще, то расскажите об этом в чате.
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://t.me/thepresumptionofnaturalness_chat/8424" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://t.me/flowing_abyss_chat/8424" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
 </div>

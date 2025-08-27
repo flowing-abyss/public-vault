@@ -19,7 +19,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-08-24T20:42:51+07:00
+updated: 2025-08-27T11:34:58+07:00
 title: "Obsidian Vault"
 share: true
 ---
@@ -36,7 +36,7 @@ share: true
   <a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="boosty_buy_now.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
-  <a href="https://t.me/thepresumptionofnaturalness/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://t.me/flowing_abyss/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
   <a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
@@ -52,7 +52,7 @@ share: true
 
 # Описание
 
-Данное хранилище является технически продвинутой версией [демо-хранилища](https://t.me/thepresumptionofnaturalness/53). Однако вместе с новыми механиками, я также сделал большой упор на визуальный минимализм и на оптимизацию workflow (управлять всем хранилищем можно будет через один хоткей).
+Данное хранилище является технически продвинутой версией [демо-хранилища](https://t.me/flowing_abyss/53). Однако вместе с новыми механиками, я также сделал большой упор на визуальный минимализм и на оптимизацию workflow (управлять всем хранилищем можно будет через один хоткей).
 
 Отличия от демо-хранилища:
 - Внедрена система префиксов, которая заметным образом ускоряет создание заметок
@@ -100,7 +100,7 @@ share: true
 
 С другой стороны, не буду уж совсем преуменьшать потенциальную пользу видео. Вы увидите вещи, которые вероятно даже не предполагали, что можно сделать в "текстовом" редакторе. Вы увидите процессы, которые будут уходить сильно дальше и глубже, чем в популярных системах по типу PARA или LYT. О том, что данное хранилище является само по себе некоторой мета-структурой, которая будет упорядочивать другие структуры, я уж совсем молчу...
 
-Отзывы, вопросы и комментарии я предлагаю оставлять [под постом](https://t.me/thepresumptionofnaturalness/66). Иначе говоря, вы можете задавать вопросы по видео, по хранилищу, можете прикреплять скрины, можете гневно (но культурно) проклинать за то, что потратили последние кровные на то, что вам оказалось ненужным. Всё это мы будем обсуждать в открытую.
+Отзывы, вопросы и комментарии я предлагаю оставлять [под постом](https://t.me/flowing_abyss/66). Иначе говоря, вы можете задавать вопросы по видео, по хранилищу, можете прикреплять скрины, можете гневно (но культурно) проклинать за то, что потратили последние кровные на то, что вам оказалось ненужным. Всё это мы будем обсуждать в открытую.
 
 # Скриншоты
 
@@ -381,7 +381,7 @@ share: true
 
 > [!info] Информация для новичков
 > Несмотря на внешний минимализм системы, технических наворотов в ней будет довольно много. Если вы едва ли понимаете зачем нужен [frontmatter](https://help.obsidian.md/properties), как пишутся скрипты для [Templater](https://silentvoid13.github.io/Templater/introduction.html), как формируются ~~[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)-запросы~~ конфиги для Bases или вы не можете открыть [css-сниппет](https://help.obsidian.md/snippets), чтобы пофиксить в нём ту или иную проблему, то предложенная система для вас будет, либо переусложнённой фигнёй, либо "недоступной" магией. Чтобы таких негативных исходов избежать, я бы предложил вам всё же потратить своё время и прочие ресурсы на изучение других, [более простых хранилищ](https://github.com/SoRobby/ObsidianStarterVault).<br><br>
-> *Хотя есть* [_обратное мнение_](https://t.me/thepresumptionofnaturalness/66?comment=5086) *о том, что данное хранилище наооброт очень даже подойдет новичкам из-за его продуманности.*
+> *Хотя есть* [_обратное мнение_](https://t.me/flowing_abyss/66?comment=5086) *о том, что данное хранилище наооброт очень даже подойдет новичкам из-за его продуманности.*
 
 > [!info] Про процесс чтения
 > В видео будет ооооочень долгая часть с процессом чтения. Это связано с тем, что чтение сделано в стиле стрима, т.е. я буду читать и прям на ходу буду пытаться рассуждать и объяснять свои решения. Этот блок можно пропустить и посмотреть сразу как делаются заметки. Но я бы не рекомендовал ничего пропускать, т.к. разные части видео **не** являются независимыми друг от друга. К тому же, на мой взгляд, процесс чтения для большинства является большой проблемой. Если пропустить блок с чтением, то есть огромный шанс, что чтение так и останется проблемой и как следствие сам по себе процесс заметкотворчества станет не более, чем глупым коллекционированием.
@@ -395,7 +395,7 @@ share: true
 > 
 > Шрифты жёстко заданы в сниппете `general-view.css`. Это сделано для того, чтобы у вас хранилище выглядело примерно также, как и на видео.
 >
-> Чтобы поставить свои шрифты, из сниппета вам нужно убрать вот [эти](https://t.me/thepresumptionofnaturalness_chat/3457) строчки.
+> Чтобы поставить свои шрифты, из сниппета вам нужно убрать вот [эти](https://t.me/flowing_abyss_chat/3457) строчки.
 >
 > - <u>Импорт аннотаций из Zotero</u>
 > 
@@ -411,7 +411,7 @@ share: true
 > - 🟨 with references or requires clarification
 > 	- аннотация имеющая подтверждение или наоборот нуждающаяся в подтверждениях/разъяснениях
 > 
-> Это ограничение можно использовать как возможность. Например, красным можно выделять ключевые слова (как я очень часто делал на видео), голубеньким — слова, [выражающие](https://t.me/thepresumptionofnaturalness_chat/4075) взаимосвязь, а серые — для [имитации оглавления](https://t.me/thepresumptionofnaturalness_chat/4444). Эти цвета выполнят свою функцию при анализе текста и навигации, но при этом они не будут засорять Obsidian.
+> Это ограничение можно использовать как возможность. Например, красным можно выделять ключевые слова (как я очень часто делал на видео), голубеньким — слова, [выражающие](https://t.me/flowing_abyss_chat/4075) взаимосвязь, а серые — для [имитации оглавления](https://t.me/flowing_abyss_chat/4444). Эти цвета выполнят свою функцию при анализе текста и навигации, но при этом они не будут засорять Obsidian.
 >
 > *Кстати, выбор таких цветов не имеет какой-то глубинной причины. Просто так получилось, что [[typical set of text highlighters.png|в наборах текстовыделителей]] часто идут именно эти цвета.*
 
@@ -419,7 +419,7 @@ share: true
   <a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="boosty_buy_now.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
-  <a href="https://t.me/thepresumptionofnaturalness/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://t.me/flowing_abyss/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
   <a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">

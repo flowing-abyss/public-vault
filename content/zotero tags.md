@@ -95,7 +95,7 @@ title: "Zotero Tags"
 4. Источник изучен -> ставится `🟩 done`
 	- На этом этапе можно поставить [[#Rating|оценку]]
 
-[О том](https://t.me/thepresumptionofnaturalness_chat/7087) почему не стоит делать промежуточные статусы.
+[О том](https://t.me/flowing_abyss_chat/7087) почему не стоит делать промежуточные статусы.
 
 > [!code]- Zotero tag action
 > Этот код можно использовать для быстрого, массового изменения тегов через плагин [zotero-actions-tags](https://github.com/windingwind/zotero-actions-tags). Работает по принципу `switch or toggle`.<br>
@@ -432,7 +432,7 @@ title: "Zotero Tags"
 На этом у меня всё.
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://t.me/thepresumptionofnaturalness/68" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://t.me/flowing_abyss/68" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
 </div>

@@ -41,7 +41,7 @@ title: "Changelog"
 	- `hover-bases-header` - показывает панель Bases при наведении
 - Внесены мелкие изменения в `general-view.css`
 
-💔 На таблицах Bases не работают Supercharged иконки. Чтобы ускорить исправление этой проблемы, нужно **обязательно** зайти в [issue](https://github.com/mdelobelle/obsidian_supercharged_links/issues/245) плагина и поставить лайк разработчику.
+💔 ~~На таблицах Bases не работают Supercharged иконки. Чтобы ускорить исправление этой проблемы, нужно **обязательно** зайти в [issue](https://github.com/mdelobelle/obsidian_supercharged_links/issues/245) плагина и поставить лайк разработчику.~~ Обновите плагин Supercharged Links. Если у вас будут дублироваться иконки, то добавьте [этот](https://t.me/flowing_abyss_chat/8680) сниппет в `supercharged-links-manual.css`.
 
 > [!info] Обновление
 > Обновление с `2.1.0` на `3.0.0` делается всё также через [[upgrade vault using a script.mp4|скрипт]].

@@ -2,7 +2,7 @@
 tags:
   - project/short
 aliases: []
-status: 🟩
+status: 📢
 priority: 🇨
 category:
 meta:

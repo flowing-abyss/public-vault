@@ -5,6 +5,7 @@ title: "Changelog"
 >[!toc]+ Vault versions
 > `Obsidian >= 1.9.10`
 > 
+> - [[#3.1.0]] 
 > - [[#3.0.0]]
 > 
 > `Obsidian < 1.9.10`
@@ -12,6 +13,26 @@ title: "Changelog"
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 3.1.0
+
+- Обновлены плагины и тема
+- Удалён плагин [Breadcrumbs](https://github.com/SkepticMystic/breadcrumbs)
+	- [[bases replaces breadcrumbs|Вместо него используется Bases]]
+	- Обновлен [[mobile workspace.png|default]] workspace
+	- Обновлён сниппет `breadcrumbs.css`
+	- Обновлён сниппет `supercharged-links-manual.css`
+- Удалён плагин [Hover Editor](https://github.com/nothingislost/obsidian-hover-editor)
+	- Не является критическим. Его добавление оставлено на усмотрение пользователя
+- Отключены core плагины: Backlinks и Outgoing links
+	- Они заменены панелью слева
+- Обновлены настройки для [Context Command Hider](https://github.com/mara-li/obsidian-context-menu-hider)
+- В корень хранилища добавлен файл `.version`, в котором будет указываться версия хранилища
+- [[filter panel.png|Фильтрующая панель]] не будет ломаться, если в названиях заметок есть одинарная кавычка (`'`)
+
+> [!info] Обновление
+> Обновление с `3.0.0` на `3.1.0` делается [[upgrade-from-version-3.0.0-to-3.1.0|заменой файлов]]. 
+> Обновление с `2.1.0` на `3.1.0` делается через [[upgrade vault using a script.mp4|скрипт]].
 
 # 3.0.0
 

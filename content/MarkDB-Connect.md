@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
 created: 2025-08-18T13:27:42
-updated: 2025-09-08T07:56:03+07:00
+updated: 2025-09-10T21:03:07+07:00
 share: true
 title: "MarkDB-Connect"
 cssclasses:
@@ -86,7 +86,7 @@ zotero: "[🇿](zotero://select/items/@dalioBolshieDolgovyeKrizisy2021)"
 
 ### Использование плагина
 
-При загрузке плагин автоматически сихнонизирует элементы Zotero с заметками Obsidian.
+При загрузке плагин автоматически синхронизирует элементы Zotero с заметками Obsidian.
 
 Синхронизировать вручную можно из меню: Tools ➝ MarkDB-connect Sync Tags
 ![[MarkDB-Connect - sync tags.png]]

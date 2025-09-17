@@ -40,7 +40,7 @@ title: "Changelog"
 - Удалён плагин [Editor Shortcuts](https://github.com/timhor/obsidian-editor-shortcuts), т.к. используемые из него команды есть в Quiet Outline
 - Внедрён [Bases](https://help.obsidian.md/bases)
 	- Все Dataview-запросы, которые возможно, заменены на Bases
-	- Удалён плагин [Dataview Interactive Views](https://github.com/anareaty/dataview-interactive-views), т.к. он имеет [проблемы](https://t.me/thepresumptionofnaturalness_chat/8431) на новой версии Obsidian
+	- Удалён плагин [Dataview Interactive Views](https://github.com/anareaty/dataview-interactive-views), т.к. он имеет [проблемы](https://t.me/flowing_abyss_chat/8431) на новой версии Obsidian
 	- Установлен плагин [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) для быстрых фильтрующих кнопок
 	- [[filter panel.png|Фильтрующая панель]] работает по принципу
 		- `[ ... OR ...] AND [ ... OR ...] AND ...`
@@ -93,7 +93,7 @@ title: "Changelog"
 	- [Recent Files](https://github.com/tgrosinger/recent-files-obsidian)
 		- Данный плагин заменён вкладкой в inbox
 - Обновлены плагины
-- Изменена дефолтная [[new default panels.png|раскладка панелей]] ([обоснование](https://t.me/thepresumptionofnaturalness/66?comment=5428))
+- Изменена дефолтная [[new default panels.png|раскладка панелей]] ([обоснование](https://t.me/flowing_abyss/66?comment=5428))
 - Исправлена проблема загрузки панели Breadcrumbs
 	- Также плагин будет работать только на компьютере (`isDesktopOnly: true`)
 - [[Lazy plugins loader|Добавлен плагин Lazy Plugin Loader]]

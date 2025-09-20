@@ -17,7 +17,7 @@ start: 2025-09-20T17:50:42+07:00
 end: 2025-09-20
 total_hours: 0
 created: 2025-09-20T17:50:42+07:00
-updated: 2025-09-20T23:14:16+07:00
+updated: 2025-09-20T23:41:40+07:00
 share: true
 title: "Freemium модель для Obsidian Vault"
 ---
@@ -92,7 +92,7 @@ Obsidian — шикарный инструмент, но ещё более по�
 На этом у меня всё.
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://t.me/flowing_abyss" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+  <a href="https://t.me/flowing_abyss/72" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
     <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
 </div>

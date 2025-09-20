@@ -22,7 +22,7 @@ share: true
 title: "Freemium модель для Obsidian Vault"
 ---
 
-![](flowing-abyss-free.png)
+![[flowing-abyss-free.png]]
 
 > [!toc] Table of Contents
 > - [[#Публичный доступ]]

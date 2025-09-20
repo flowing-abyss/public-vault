@@ -86,3 +86,9 @@ title: "Промежуточная информация по паблику"
 - [Неплохая статья, которая рассказывает, почему Claude Code классный инструмент](https://t.me/flowing_abyss_chat/9111)
 - [Почему я не буду внедрять в хранилище плагин Journals](https://t.me/flowing_abyss_chat/9251)
 - [Классное видео про то, как начать больше читать на английском](https://t.me/flowing_abyss_chat/9253)
+
+<div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
+  <a href="https://t.me/flowing_abyss" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+    <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+  </a>
+</div>

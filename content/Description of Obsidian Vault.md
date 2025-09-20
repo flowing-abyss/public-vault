@@ -19,12 +19,12 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-08-27T11:34:58+07:00
+updated: 2025-09-20T21:25:24+07:00
 title: "Obsidian Vault"
 share: true
 ---
 
-![Intro](https://youtu.be/Zc6ph-mw9wU)
+![Obsidian Vault](https://youtu.be/4wB-Ph5XYV0)
 
 %%
 [[boosty_buy_now.png]]
@@ -49,6 +49,8 @@ share: true
 > - [[#Что вы получите]]
 > - [[#Скриншоты]]
 > - [[#Дополнения]]
+
+- ❗️ [[freemium obsidian vault|Freemium модель для Obsidian Vault]]
 
 # Описание
 

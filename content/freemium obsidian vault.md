@@ -17,7 +17,7 @@ start: 2025-09-20T17:50:42+07:00
 end: 2025-09-20
 total_hours: 0
 created: 2025-09-20T17:50:42+07:00
-updated: 2025-09-20T23:41:40+07:00
+updated: 2025-09-21T01:35:17+07:00
 share: true
 title: "Freemium модель для Obsidian Vault"
 ---

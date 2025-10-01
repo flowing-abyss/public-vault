@@ -16,7 +16,7 @@ start: 2025-09-20T21:46:10+07:00
 end: 2025-09-20
 total_hours: 1
 created: 2025-09-20T21:46:10+07:00
-updated: 2025-09-20T23:20:54+07:00
+updated: 2025-10-02T01:16:04+07:00
 share: true
 title: "Промежуточная информация по паблику"
 ---
@@ -72,7 +72,7 @@ title: "Промежуточная информация по паблику"
 - [Плагин Similar Notes, который показывает похожие заметки на основе эмбеддингов](https://t.me/flowing_abyss_chat/8052)
 - [Какую музыку слушают участники сообщества](https://t.me/flowing_abyss_chat/8082)
 - [Скрипт на Bash, который записывает и транскрибирует аудио через сервис Groq](https://t.me/flowing_abyss_chat/8183)
-- [Триггеры для того, чтобы я сделать заметку](https://t.me/flowing_abyss_chat/8297)
+- [Триггеры для того, чтобы я решил сделать заметку](https://t.me/flowing_abyss_chat/8297)
 - [Передача файла из n8n в Obsidian через WebDAV](https://t.me/flowing_abyss_chat/8424)
 - [Беспомощный, но смешной ответ ИИ](https://t.me/flowing_abyss_chat/8431)
 - [Плюсы и минусы Bases](https://t.me/flowing_abyss_chat/8454)

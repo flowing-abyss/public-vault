@@ -1,6 +1,8 @@
 ---
 tags:
+  - status/published
   - project/short
+  - priority/c
   - mark/ignore
 aliases: []
 status: 📢
@@ -19,7 +21,7 @@ total_hours: 0
 created: 2025-08-27T11:24:51+07:00
 updated: 2025-09-20T21:29:01+07:00
 share: true
-title: "Промежуточная информация по паблику"
+title: Промежуточная информация по паблику
 ---
 
 ![[flowing-abyss-question.png]]

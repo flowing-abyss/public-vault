@@ -1,6 +1,8 @@
 ---
 tags:
+  - status/published
   - project/single
+  - priority/c
   - category/public
 aliases: []
 status: 📢
@@ -19,8 +21,8 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-10-29T01:59:01+07:00
-title: "Obsidian Vault"
+updated: 2025-11-01T00:23:26+07:00
+title: Obsidian Vault
 share: true
 ---
 
@@ -51,6 +53,7 @@ share: true
 > - [[#Дополнения]]
 
 - ❗️ [[freemium obsidian vault|Freemium модель для Obsidian Vault]]
+- [Google NotebookLM](https://notebooklm.google.com/notebook/2252228c-9e81-4440-82d2-9ca13faa87ec)
 
 # Описание
 

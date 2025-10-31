@@ -1,6 +1,7 @@
 ---
 tags:
   - project/short
+  - mark/ignore
 aliases: []
 status: 📢
 priority: 🇨

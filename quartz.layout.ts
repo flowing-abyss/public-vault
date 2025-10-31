@@ -9,8 +9,31 @@ const NoOpComponent: QuartzComponent = () => null
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
-  footer: Component.Backlinks(), // Use the no-op component to disable footer
+  afterBody: [
+    Component.ConditionalRender({
+      condition: (props) => props.fileData.slug === "index",
+      component: Component.RecentNotes({
+        title: "Recent",
+        limit: 100,
+        linkToMore: false,
+        showTags: false,
+        filter: (page) => {
+          // Exclude index page and obsidian-vault folder
+          if (page.slug === "index" || page.slug?.startsWith("obsidian-vault/")) {
+            return false
+          }
+
+          // Exclude pages with #mark/ignore tag
+          if (page.frontmatter?.tags?.includes("mark/ignore")) {
+            return false
+          }
+
+          return true
+        },
+      }),
+    }),
+  ],
+  footer: Component.Backlinks(),
 }
 
 // components for pages that display a single page (e.g. a single note)

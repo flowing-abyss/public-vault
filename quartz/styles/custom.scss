@@ -13,16 +13,15 @@
 // hide
 
 .darkmode,
-.page-footer,
 .search-button,
 .external-icon,
-hr,
-h1 .internal,
-h2 .internal,
-h3 .internal,
-h4 .internal,
-h5 .internal,
-h6 .internal {
+hr:not(.recent-notes hr),
+.page article h1 .internal,
+.page article h2 .internal,
+.page article h3 .internal,
+.page article h4 .internal,
+.page article h5 .internal,
+.page article h6 .internal {
   display: none !important;
 }
 
@@ -79,7 +78,7 @@ img {
 
 h1:not(.article-title)::before,
 h2::before,
-h3::before,
+h3:not(.recent-notes h3)::before,
 h4::before,
 h5::before,
 h6::before {
@@ -98,7 +97,7 @@ h2:hover::before {
   content: "H2";
 }
 
-h3:hover::before {
+h3:not(.recent-notes h3):hover::before {
   content: "H3";
 }
 
@@ -323,4 +322,88 @@ tbody tr:nth-child(odd) {
   width: 100%;
   border-bottom: 1px solid var(--lightgray);
   margin-bottom: 1rem;
+}
+
+// recent notes
+
+.recent-notes {
+  margin-top: 2rem;
+  flex-direction: column;
+
+  // Hide original component title
+  > h3:first-child {
+    display: none !important;
+  }
+
+  // Style list like backlinks
+  .recent-ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0.5rem 0 !important;
+    text-align: left !important;
+  }
+
+  .recent-li {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+
+    .section {
+      text-align: left !important;
+
+      .desc {
+        text-align: left !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+        h3 {
+          display: inline !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          background: none !important;
+          border: none !important;
+          text-align: left !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          font-variant-caps: normal !important;
+          line-height: inherit !important;
+          font-family: inherit !important;
+
+          a.internal {
+            background-color: transparent !important;
+            color: rgb(124, 175, 194) !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-weight: inherit !important;
+            text-align: left !important;
+            font-variant-caps: normal !important;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            line-height: inherit !important;
+            font-family: inherit !important;
+
+            &:hover {
+              color: rgb(124, 175, 194) !important;
+              background-color: transparent !important;
+              text-decoration: underline !important;
+            }
+
+            &::before {
+              display: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Hide dates
+  .meta {
+    display: none !important;
+  }
+
+  // Hide tags
+  .tags {
+    display: none !important;
+  }
 }

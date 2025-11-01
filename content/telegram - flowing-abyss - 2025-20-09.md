@@ -19,7 +19,7 @@ start: 2025-09-20T21:46:10+07:00
 end: 2025-09-20
 total_hours: 1
 created: 2025-09-20T21:46:10+07:00
-updated: 2025-10-02T01:16:04+07:00
+updated: 2025-11-01T12:19:34+07:00
 share: true
 title: Промежуточная информация по паблику
 ---
@@ -89,9 +89,3 @@ title: Промежуточная информация по паблику
 - [Неплохая статья, которая рассказывает, почему Claude Code классный инструмент](https://t.me/flowing_abyss_chat/9111)
 - [Почему я не буду внедрять в хранилище плагин Journals](https://t.me/flowing_abyss_chat/9251)
 - [Классное видео про то, как начать больше читать на английском](https://t.me/flowing_abyss_chat/9253)
-
-<div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://t.me/flowing_abyss/71" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
-</div>

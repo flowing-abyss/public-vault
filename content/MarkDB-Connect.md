@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
 created: 2025-08-18T13:27:42
-updated: 2025-09-10T21:03:07+07:00
+updated: 2025-11-01T12:18:58+07:00
 share: true
 title: "MarkDB-Connect"
 cssclasses:
@@ -92,9 +92,3 @@ zotero: "[🇿](zotero://select/items/@dalioBolshieDolgovyeKrizisy2021)"
 ![[MarkDB-Connect - sync tags.png]]
 
 На этом всё.
-
-<div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://t.me/flowing_abyss/68" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
-</div>

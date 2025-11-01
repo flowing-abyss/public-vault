@@ -2,6 +2,7 @@
 title: "upgrade from 3.0.0 to 3.1.0"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Обновление делается обычной заменой файлов.

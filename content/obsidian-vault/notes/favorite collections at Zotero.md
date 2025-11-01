@@ -2,6 +2,7 @@
 title: "favority collections"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 В Zotero нет механики для создания избранных коллекций. Однако никто не мешает эту механику придумать самому.

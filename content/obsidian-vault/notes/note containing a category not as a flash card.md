@@ -2,6 +2,7 @@
 title: "prefixes update"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Для заметок с категорией добавлен шаблон, который позволяет создать обычную заметку (не карточку).

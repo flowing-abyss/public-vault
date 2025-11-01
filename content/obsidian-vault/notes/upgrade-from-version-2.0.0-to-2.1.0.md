@@ -2,6 +2,7 @@
 title: "upgrade"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Обновление делается обычной заменой файлов.

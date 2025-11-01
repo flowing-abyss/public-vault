@@ -2,6 +2,7 @@
 title: "changes to the evergreen"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Заметки, которые относятся к Evergreen workflow будут отображаться в inbox в виде таблиц:

@@ -1,5 +1,6 @@
 ---
 title: "Changelog"
+comments: false
 ---
 
 >[!toc]+ Vault versions

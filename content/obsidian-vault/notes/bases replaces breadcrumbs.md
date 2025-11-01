@@ -2,6 +2,7 @@
 title: "bases replaces breadcrumbs"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Панель Breadcrumbs заменена на Bases.

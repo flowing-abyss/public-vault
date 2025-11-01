@@ -2,6 +2,7 @@
 title: "Web Clipper"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Шаблоны для [Obsidian Web Clipper](https://obsidian.md/clipper)

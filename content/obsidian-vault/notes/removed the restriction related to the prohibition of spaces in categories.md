@@ -2,6 +2,7 @@
 title: "breaking change"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 В категориях теперь можно использовать пробелы.

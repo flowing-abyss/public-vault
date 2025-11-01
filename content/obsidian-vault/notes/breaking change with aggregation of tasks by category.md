@@ -2,6 +2,7 @@
 title: "breaking change"
 cssclasses:
   - no-inline-title
+comments: false
 ---
 
 Раньше, чтобы начать агрегировать задачи по категории, нужно было создавать соответствующую заметку:

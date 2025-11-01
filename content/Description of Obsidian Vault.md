@@ -21,7 +21,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-11-01T12:20:26+07:00
+updated: 2025-11-01T12:22:02+07:00
 title: Obsidian Vault
 share: true
 comments: false
@@ -46,12 +46,6 @@ comments: false
     <img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
   </a>
 </div>
-
-> [!toc]+ Table of Contents
-> - [[#Описание]]
-> - [[#Что вы получите]]
-> - [[#Скриншоты]]
-> - [[#Дополнения]]
 
 - ❗️ [[freemium obsidian vault|Freemium модель для Obsidian Vault]]
 - [Google NotebookLM](https://notebooklm.google.com/notebook/2252228c-9e81-4440-82d2-9ca13faa87ec)

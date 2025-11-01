@@ -12,17 +12,6 @@ title: "Zotero Tags"
 
 ![[zotero tags - items.png]]
 
->[!toc]+ Table of Contents
->- [[#Введение]]
->- [[#Tags]]
->    - [[#Statuses]]
->    - [[#Rating]]
->    - [[#Scientificity]]
->- [[#Трёхмерная система]]
->- [[#Actions & Tags]]
->- [[#AI-powered]]
->- [[#Заключение]]
-
 # Введение
 
 В коллекции тысячи источников.

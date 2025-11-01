@@ -19,9 +19,10 @@ start: 2025-08-27T11:24:51+07:00
 end: 2025-08-27T11:24:51+07:00
 total_hours: 0
 created: 2025-08-27T11:24:51+07:00
-updated: 2025-11-01T12:23:24+07:00
+updated: 2025-11-02T01:02:53+07:00
 share: true
 title: Промежуточная информация по паблику
+comments: false
 ---
 
 ![[flowing-abyss-question.png]]

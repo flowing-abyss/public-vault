@@ -429,19 +429,13 @@ tbody tr:nth-child(odd) {
   h3::before,
   h4::before,
   h5::before,
-  h6::before,
-  .depth-1::before,
-  .depth-2::before,
-  .depth-3::before,
-  .depth-4::before,
-  .depth-5::before,
-  .depth-6::before,
-  a::before {
+  h6::before {
     display: none !important;
     content: none !important;
   }
 
   // Ensure TOC links don't show level indicators
+  ul li::before,
   ul li a::before {
     display: none !important;
     content: none !important;
@@ -451,11 +445,4 @@ tbody tr:nth-child(odd) {
 // Additional fix for TOC container
 .toc {
   overflow: visible !important;
-
-  // Prevent hover effects on TOC items
-  * {
-    &::before {
-      display: none !important;
-    }
-  }
 }

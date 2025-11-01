@@ -1,6 +1,7 @@
 ---
 title: "Changelog"
 comments: false
+enableToc: false
 ---
 
 >[!toc]+ Vault versions

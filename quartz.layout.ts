@@ -1,9 +1,8 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { QuartzComponent } from "./quartz/components/types"
 
-// Define a component that renders nothing
-const NoOpComponent: QuartzComponent = () => null
+// Empty component that renders nothing
+const EmptyComponent = () => null
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -32,15 +31,29 @@ export const sharedPageComponents: SharedLayout = {
         },
       }),
     }),
+    Component.Backlinks(),
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "flowing-abyss/public-vault",
+        repoId: "R_kgDOPef5JQ",
+        category: "Announcements",
+        categoryId: "DIC_kwDOPef5Jc4CxUsQ",
+        mapping: "pathname",
+        strict: false,
+        reactionsEnabled: false,
+        inputPosition: "bottom",
+      },
+    }),
   ],
-  footer: Component.Backlinks(),
+  footer: EmptyComponent,
 }
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle()],
   left: [Component.Search()],
-  right: [],
+  right: [Component.TableOfContents()],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)

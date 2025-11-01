@@ -2,6 +2,8 @@
 title: "instruction"
 cssclasses:
   - small-title
+comments: false
+enableToc: false
 ---
 
 %%

@@ -5,7 +5,7 @@ enableToc: false
 ---
 
 >[!toc]+ Vault versions
-> `Obsidian >= 1.10`
+> `Obsidian >= 1.10.3`
 > 
 > - [[#4.0.0]]
 > 
@@ -22,7 +22,63 @@ enableToc: false
 
 # 4.0.0
 
-В разработке.
+- Обновлены плагины и тема
+- Удалён плагин [Better Command Palette](https://github.com/AlexBieg/obsidian-better-command-palette), т.к. его функционал появился в [Another Quick Switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher)
+- Добавлена стилизация задач [[tasks-as-blocks.png.png|в виде блоков]]
+- Отрефакторены [[refactoring-today.png|today]] и [[refactoring-upcoming.png|upcoming]]
+- Отрефакторен [[refactoring-inbox.png|inbox]]
+	- Сделан один поиск для всех вкладок
+	- Добавлены относительные время редактирования и создания
+	- Заметки группируются по директории
+	- Внизу отображается количество заметок
+- Обновлено главное меню `Alt+P`
+	- Добавлена вкладка с заметкой [[notes-database.png|notes]]
+	- Добавлены [[comments-in-the-main-menu.png|комментарии]] в меню
+	- Удалено меню для Longform-проектов
+	- Удалено меню для передвижения по дневниковым заметкам
+	- В меню `new -> inbox` сделаны более [[quick-notes-in-the-main-menu.png|подробные названия]]
+	- Убраны назойливые предупреждения при создании заметок вне контекста
+- При открытии периодических заметок курсор будет перемещаться в конец
+- Улучшена работа [[filter panel.png|фильтрующей панели]]
+	- Панель работает реактивным образом - какие есть значения в отображаемой таблице, такие будут и в фильтре
+	- Добавлена возможноcть фильтровать [[filter-by-empty-values.png|по пустым значениям]] (`∅ empty`)
+	- Добавлены [[two-filtration-modes.png|два режима фильтрации]]
+		- "OR" - *отфильтровать, где есть или то, или то*
+			- `[ ... OR ...] AND [ ... OR ...] AND ...`
+		- "AND" - *отфильтровать, где есть и то, и то одновременно*
+			- `[ ... AND ...] AND [ ... AND ...] AND ...`
+- Добавлен новый workspace [[workspace-for-search.png|search]]
+- При выборе типа источника будет показываться [[short-menu-for-sources.png|сокращённое меню]]
+- Структура категории [[refactoring-the-display-of-the-category-structure.png|отображается плотнее и нагляднее]]
+- Изменены [[accent-colors.png|цвета акцентов]] для разных начертаний
+- Изменено [[card-divider.png|отображение разделителя]] для карточек (`—`)
+- Из [Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) убран разделитель для однострочных карточек
+- Удалены мета-шаблоны и скрапперы
+	- Для быстрого добавления контента используйте [[obsidian web clipper|Obsidian Web Clipper]]
+- В `sources` заменена вкладка `🎉 fun` на `✨ collection`
+	- На ней будут отображаться источники, у которых в метаданных есть `cover`
+	- Стиль отображения будет почти такой же минималистичный [[film-collection.png|как у Letterboxd]]
+- В sources и projects добавлены [[kanban-for-projects.png|kanban-отображения]], сделанные на основе callout
+- Улучшено описание работы префиксов, а также добавлена [[subcategories-for-prefixes.png|возможность делать подкатегории]] (вложенные колоды)
+- Таблицы стали [[metadata-source.png|более информативными]]
+- Отрефакторен шаблон категорий (при обновлении категории будут пересозданы)
+- Улучшены разделители [[separator-for-tags-in-the-menu.png|в меню выбора тегов]]
+- [[canvas-refactoring-based-on-periodic-notes.png|Добавлены canvases]] для 2024 и 2026 годов
+	- Сделана навигация между годами
+	- В месяцах несуществующие заметки будут отображаться серым
+- Логика для создания/изменения/удаления префиксов у задач вынесена в отдельный скрипт `task.js`
+	- К задачам [[prefix-subtasks-and-comments.png|автоматически будет добавляться]] префикс подзадачи `⤵️` и комментария `💬`
+- Удалена папка `templates/insert` . Все шаблоны из неё [[inserts-and-commands.png|перенесены в QuickAdd]]
+- Улучшен шаблон для создания alias (`Alt+A`)
+	- Если есть выделенный текст, то при нажатии на хоткей он добавится в aliases
+- У людей появилось [[people-description.png|дополнительное текстовое поле]] `description` 
+- Обновлен список [[excluded-files.png|исключенных файлов]], чтобы улучшить релевантность поиска
+- Заметки с `relevant: true` будут группироваться [[relevant-grouping.png|вверху таблиц]]
+- Обновлены настройки для [Context Command Hider](https://github.com/mara-li/obsidian-context-menu-hider) (используйте английский интерфейс для Obsidian)
+
+> [!info] Обновление
+> - Обновите Obsidian до `>= 1.10.3` версии
+> - Обновление с `3.1.0` на `4.0.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 3.1.0
 
@@ -41,8 +97,8 @@ enableToc: false
 - [[filter panel.png|Фильтрующая панель]] не будет ломаться, если в названиях заметок есть одинарная кавычка (`'`)
 
 > [!info] Обновление
-> - Обновление с `3.0.0` на `3.1.0` делается [[upgrade-from-version-3.0.0-to-3.1.0|заменой файлов]]. 
-> - Обновление с `2.1.0` на `3.1.0` делается через [[upgrade vault using a script.mp4|скрипт]].
+> - Обновление с `3.0.0` на `3.1.0` делается [[upgrade-from-version-3.0.0-to-3.1.0|заменой файлов]]
+> - Обновление с `2.1.0` на `3.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 3.0.0
 
@@ -75,7 +131,7 @@ enableToc: false
 💔 ~~На таблицах Bases не работают Supercharged иконки. Чтобы ускорить исправление этой проблемы, нужно **обязательно** зайти в [issue](https://github.com/mdelobelle/obsidian_supercharged_links/issues/245) плагина и поставить лайк разработчику.~~ Обновите плагин Supercharged Links. Если у вас будут дублироваться иконки, то добавьте [этот](https://t.me/flowing_abyss_chat/8680) сниппет в `supercharged-links-manual.css`.
 
 > [!info] Обновление
-> Обновление с `2.1.0` на `3.0.0` делается всё также через [[upgrade vault using a script.mp4|скрипт]].
+> Обновление с `2.1.0` на `3.0.0` делается всё также через [[upgrade vault using a script.mp4|скрипт]]
 
 # 2.1.0
 

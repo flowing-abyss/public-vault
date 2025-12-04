@@ -1,13 +1,13 @@
 ---
 tags:
-  - status/done
+  - status/published
   - project/short
   - priority/c
   - category/public
   - category/knowledge_base
 aliases:
   - RSS в Obsidian или путь к цифровой свалке
-status: 🟩
+status: 📢
 priority: 🇨
 category:
   - "[[public]]"
@@ -23,7 +23,7 @@ published:
 start: 2025-11-02T14:06:41+07:00
 end: 2025-11-10T14:06:41+07:00
 created: 2025-11-02T14:06:41+07:00
-updated: 2025-11-13T14:19:37+07:00
+updated: 2025-11-13T16:52:48+07:00
 share: true
 title: RSS в Obsidian или путь к цифровой свалке
 comments: true

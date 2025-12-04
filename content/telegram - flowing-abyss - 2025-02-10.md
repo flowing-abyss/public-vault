@@ -4,11 +4,14 @@ tags:
   - project/short
   - priority/c
   - mark/ignore
+  - category/public
 aliases: []
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
 meta:
+  - "[[flowing-abyss]]"
 problem:
 creator:
 production:

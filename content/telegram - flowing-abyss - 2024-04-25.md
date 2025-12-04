@@ -8,7 +8,9 @@ aliases: []
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
 meta:
+  - "[[flowing-abyss]]"
 problem:
 creator:
 production:

@@ -21,7 +21,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2025-11-01T12:22:02+07:00
+updated: 2025-12-04T12:21:18+07:00
 title: Obsidian Vault
 share: true
 comments: false
@@ -36,15 +36,15 @@ comments: false
 %%
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="boosty_buy_now.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
-  <a href="https://t.me/flowing_abyss/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
-  <a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
+	<a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+		<img src="boosty_buy_now.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+	</a>
+	<a href="https://t.me/flowing_abyss/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+		<img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+	</a>
+	<a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+		<img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+	</a>
 </div>
 
 - ❗️ [[freemium obsidian vault|Freemium модель для Obsidian Vault]]
@@ -124,255 +124,255 @@ comments: false
 > [!example]- Тайм-коды
 > <div style="max-width:520px;margin:32px auto 0 auto;font-family:sans-serif;">
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">00:00</span>
->     <span>Короткое введение</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">00:00</span>
+> 		<span>Короткое введение</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">01:12</span>
->     <span>Студент биоинформатик</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">01:12</span>
+> 		<span>Студент биоинформатик</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">02:15</span>
->     <span>Создание категории</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">02:15</span>
+> 		<span>Создание категории</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">03:43</span>
->     <span>Точки входа</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">03:43</span>
+> 		<span>Точки входа</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">06:25</span>
->     <span>Индексная заметка</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">06:25</span>
+> 		<span>Индексная заметка</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">07:24</span>
->     <span>Мета-заметка</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">07:24</span>
+> 		<span>Мета-заметка</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">13:59</span>
->     <span>Учебный план (1st academic year)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">13:59</span>
+> 		<span>Учебный план (1st academic year)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">18:47</span>
->     <span>Сопутствующие источники</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">18:47</span>
+> 		<span>Сопутствующие источники</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">22:03</span>
->     <span>Новые категории</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">22:03</span>
+> 		<span>Новые категории</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">32:59</span>
->     <span>Создание источника</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">32:59</span>
+> 		<span>Создание источника</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">34:32</span>
->     <span>Структура курса</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">34:32</span>
+> 		<span>Структура курса</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">35:33</span>
->     <span>Структура на основе заголовков</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">35:33</span>
+> 		<span>Структура на основе заголовков</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">37:34</span>
->     <span>Конспекты в виде заметок</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">37:34</span>
+> 		<span>Конспекты в виде заметок</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">42:19</span>
->     <span>Знакомство с Breadcrumbs</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">42:19</span>
+> 		<span>Знакомство с Breadcrumbs</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">47:51</span>
->     <span>Организация практики</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">47:51</span>
+> 		<span>Организация практики</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">50:19</span>
->     <span>Создание проектов</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">50:19</span>
+> 		<span>Создание проектов</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">59:02</span>
->     <span>Заголовки + проекты</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">59:02</span>
+> 		<span>Заголовки + проекты</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:04:25</span>
->     <span>Sources</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:04:25</span>
+> 		<span>Sources</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:09:11</span>
->     <span>Понемногу к заметкам</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:09:11</span>
+> 		<span>Понемногу к заметкам</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:11:35</span>
->     <span>О преимуществах Zotero</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:11:35</span>
+> 		<span>О преимуществах Zotero</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:13:11</span>
->     <span>Создание источника в Zotero</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:13:11</span>
+> 		<span>Создание источника в Zotero</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:18:39</span>
->     <span><a href="https://youtu.be/nNAXnE6SnJo" style="color:#29bbb1;text-decoration:underline;" target="_blank">Алгоритм чтения и формирования заметок</a></span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:18:39</span>
+> 		<span><a href="https://youtu.be/nNAXnE6SnJo" style="color:#29bbb1;text-decoration:underline;" target="_blank">Алгоритм чтения и формирования заметок</a></span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:36:10</span>
->     <span>Начинаем читать</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">1:36:10</span>
+> 		<span>Начинаем читать</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">2:15:30</span>
->     <span>Префиксы</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">2:15:30</span>
+> 		<span>Префиксы</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">2:26:21</span>
->     <span>Первая заметка (два процесса)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">2:26:21</span>
+> 		<span>Первая заметка (два процесса)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">2:46:38</span>
->     <span>Продолжаем чтение (классификаторы)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">2:46:38</span>
+> 		<span>Продолжаем чтение (классификаторы)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">3:45:43</span>
->     <span>Делаем заметки</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">3:45:43</span>
+> 		<span>Делаем заметки</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">4:45:17</span>
->     <span>Концентрация на смысле (marks)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">4:45:17</span>
+> 		<span>Концентрация на смысле (marks)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">5:08:08</span>
->     <span>Продолжаем чтение</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">5:08:08</span>
+> 		<span>Продолжаем чтение</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">5:38:19</span>
->     <span>⚔️</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">5:38:19</span>
+> 		<span>⚔️</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">6:02:47</span>
->     <span>Продолжаем чтение</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">6:02:47</span>
+> 		<span>Продолжаем чтение</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">6:17:49</span>
->     <span>Добавление в систему дел</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">6:17:49</span>
+> 		<span>Добавление в систему дел</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">6:25:56</span>
->     <span>Продолжаем чтение</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">6:25:56</span>
+> 		<span>Продолжаем чтение</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">7:38:45</span>
->     <span>Делаем заметки</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">7:38:45</span>
+> 		<span>Делаем заметки</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">7:55:43</span>
->     <span>Резюмируем процесс чтения</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">7:55:43</span>
+> 		<span>Резюмируем процесс чтения</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:16:32</span>
->     <span>Будущий корпорат или как попасть на стажировку</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:16:32</span>
+> 		<span>Будущий корпорат или как попасть на стажировку</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:18:23</span>
->     <span>Мета-заметка как компания</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:18:23</span>
+> 		<span>Мета-заметка как компания</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:20:01</span>
->     <span>Мета-заметка как классификатор (создание проекта)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:20:01</span>
+> 		<span>Мета-заметка как классификатор (создание проекта)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:34:46</span>
->     <span>Источники внутри проекта</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:34:46</span>
+> 		<span>Источники внутри проекта</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:39:18</span>
->     <span>Конечность проекта</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:39:18</span>
+> 		<span>Конечность проекта</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:22px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:50:49</span>
->     <span>Проработка проекта (статусы на # Заголовках)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:22px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">8:50:49</span>
+> 		<span>Проработка проекта (статусы на # Заголовках)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:24px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">9:08:08</span>
->     <span>Структурирование (структура коллекций в Zotero)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:24px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">9:08:08</span>
+> 		<span>Структурирование (структура коллекций в Zotero)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:16px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">9:25:39</span>
->     <span>Корпорат</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:16px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">9:25:39</span>
+> 		<span>Корпорат</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">9:57:22</span>
->     <span>Инди-программист (entrepreneurship)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">9:57:22</span>
+> 		<span>Инди-программист (entrepreneurship)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:24px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:17:22</span>
->     <span>Development (иерархии)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:24px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:17:22</span>
+> 		<span>Development (иерархии)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:24px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:38:30</span>
->     <span>Балансировка нагрузки</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:24px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:38:30</span>
+> 		<span>Балансировка нагрузки</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:47:14</span>
->     <span>Main menu (alt+p)</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:47:14</span>
+> 		<span>Main menu (alt+p)</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:58:36</span>
->     <span>Hotkeys</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">10:58:36</span>
+> 		<span>Hotkeys</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:6px;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">11:06:32</span>
->     <span>Plugins</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:6px;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">11:06:32</span>
+> 		<span>Plugins</span>
+> 	</div>
 >
->   <div style="display:flex;gap:14px;margin-bottom:0;">
->     <span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">11:42:50</span>
->     <span>Микроскоп</span>
->   </div>
+> 	<div style="display:flex;gap:14px;margin-bottom:0;">
+> 		<span style="width:82px;text-align:right;color:#20adbb;font-variant-numeric:tabular-nums;white-space:nowrap;flex-shrink:0;">11:42:50</span>
+> 		<span>Микроскоп</span>
+> 	</div>
 >
 > </div>
 
@@ -416,13 +416,13 @@ comments: false
 > *Кстати, выбор таких цветов не имеет какой-то глубинной причины. Просто так получилось, что [[typical set of text highlighters.png|в наборах текстовыделителей]] часто идут именно эти цвета.*
 
 <div style="display: flex; gap: 20px; width: 100%; margin: auto 0 auto 0; box-sizing: border-box;">
-  <a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="boosty_buy_now.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
-  <a href="https://t.me/flowing_abyss/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
-  <a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
-    <img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
-  </a>
+	<a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+		<img src="boosty_buy_now.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+	</a>
+	<a href="https://t.me/flowing_abyss/66" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+		<img src="telegram_discussion.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+	</a>
+	<a href="https://flowing-abyss.com/obsidian-vault/changelog" style="flex:1; display: flex; align-items: center; justify-content: center; height: 70px;">
+		<img src="new_changelog.png" style="border:1px solid #EBEBEC; border-radius:8px; padding:7px; max-width: 100%; max-height: 56px; height:auto; box-sizing:border-box;">
+	</a>
 </div>

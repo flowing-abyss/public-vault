@@ -55,7 +55,7 @@ enableToc: false
 	- Удалён плагин [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin), т.к. в нём больше нет необходимости
 - Обновлены стили в [Dynamics Highlights](https://github.com/nothingislost/obsidian-dynamic-highlights)
 - Обновлены настройки [Linter](https://github.com/platers/obsidian-linter)
-- Шаблон для импорта источников из Zotero объединён в один шаблон
+- Шаблоны для импорта источников из Zotero объединены в один шаблон
 	- Теперь в тело заметки будут сразу выгружаться аннотации
 	- Данный шаблон будет также работать при [[zotero-mass-import.png|массовом импорте источников]]
 	- [[Obsidian-and-Zotero-metadata-sync|о согласовании метаданных Obsidian и Zotero...]]

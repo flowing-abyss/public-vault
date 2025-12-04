@@ -6,7 +6,8 @@ enableToc: false
 
 >[!toc]+ Vault versions
 > `Obsidian >= 1.10.3`
-> 
+>
+> - [[#5.0.0]]
 > - [[#4.0.0]]
 > 
 > `Obsidian <= 1.9.14`
@@ -19,6 +20,66 @@ enableToc: false
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 5.0.0
+
+- Обновлены плагины
+- Изменена [[base16-default-dark.png|базовая тема]] на [Base16 Default Dark](https://github.com/flowing-abyss/obsidian-base16-default-dark)
+	- Обновлены цвета в [Obsidian List Callouts](https://github.com/mgmeyers/obsidian-list-callouts)
+	- Обновлены цвета для [Supercharged Links](https://github.com/mdelobelle/obsidian_supercharged_links)
+	- Отрефакторены сниппеты
+		- В хранилище остались специфичные для него сниппеты
+		- Это значит, что вы можете попереключаться на другие темы
+	- Удалён плагин [Style Settings](https://github.com/mgmeyers/obsidian-style-settings), т.к. в нём нет больше необходимости
+	- [[hover-metadata.png|Свойства будут отображаться]] в заметке при наведении мышки на название
+- Удалён плагин [Better Footnotes](https://github.com/aidenlx/better-fn)
+	- Obsidian корректно отображает сноски и без него
+- Удалены плагины [Better Search Views](https://github.com/ivan-lednev/better-search-views) и [Obsidian Query Control](https://github.com/reply2za/obsidian-query-control)
+	- Оба плагина приводят к сильным лагам при большом количестве элементов
+- Удалён плагин [Lazy Plugin Loader](https://github.com/alangrainger/obsidian-lazy-plugins)
+	- Его использование больше не увеличивает скорость загрузки хранилища
+- Удалён плагин [Note Aliases](https://github.com/pulsovi/obsidian-note-aliases)
+	- Его функционал заменен командой в QuickAdd
+- Удалён плагин [Better Link Inserter](https://github.com/salmund/obsidian-better-link-inserter)
+	- Его функционал заменен командой в QuickAdd
+- Удалён плагин [Hotkeys for specific files](https://github.com/Vinzent03/obsidian-hotkeys-for-specific-files)
+	- Его функционал заменен скриптом `templates/openFile.js` для QuickAdd
+- Удалён плагин [Quiet Outline](https://github.com/guopenghui/obsidian-quiet-outline), т.к. он не является критическим
+	- Команды для навигации по заголовкам заменены на команды в QuickAdd
+- Удалён плагин [Smarter Markdown Hotkeys](https://github.com/chrisgrieser/obsidian-smarter-md-hotkeys)
+	- Используемые из него команды заменены на команды в QuickAdd
+- Удалена [[filter panel.png|фильтрующая панель]]
+	- Она значительным образом тормозит интерфейс в большом хранилище
+	- Для типичных ситуаций сделаны [[different-views-of-bases.png|отдельные отображения в Bases]]
+	- Для сложных фильтраций используйте [встроенный интерфейс Bases](https://youtu.be/o_h5HC8yAeU?t=480)
+	- Удалён плагин [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin), т.к. в нём больше нет необходимости
+- Обновлены стили в [Dynamics Highlights](https://github.com/nothingislost/obsidian-dynamic-highlights)
+- Обновлены настройки [Linter](https://github.com/platers/obsidian-linter)
+- Шаблон для импорта источников из Zotero объединён в один шаблон
+	- Теперь в тело заметки будут сразу выгружаться аннотации
+	- Данный шаблон будет также работать при [[zotero-mass-import.png|массовом импорте источников]]
+	- [[Obsidian-and-Zotero-metadata-sync|о согласовании метаданных Obsidian и Zotero...]]
+- Включены обратные ссылки внизу заметки
+	- Также применен [[minimalist-backlinks.png|минималистичный стиль]], чтобы было легче считывать и быстрее навигироваться
+- Canvases будут складываться в `📁 files`
+- Добавлен сниппет `dark-print.сss` для тёмной печати
+- Обновлены workspaces и удалён `mobile`
+- Оптимизированы настройки для быстрого переключателя
+- Упразднён тег `mark/fleeting`
+	- В inbox будут отображаться заметки (`#note`), которые не имеют входящих и исходящих ссылок
+		- Если заметка находится в контексте, то она уже не fleeting
+		- Это уменьшает рутину и при этом решает проблему заметок-сирот
+	- Если вы хотите отметить заметки, то используйте `mark/bookmark`. Они будут отображаться в той же таблице, но на другом отображении
+- Упразднена логика с уникальными днями через заголовки
+	- Используйте в Inbox вкладку Periodic для обзора дневника
+- Отрефакторены `home/databases/*.base`
+- В меню `Alt+P` команды для `notes`, `sources`, `projects`, `people`, `high-notes` будут сразу вести на базы данных
+- `Today` и `Upcoming` будут выглядеть минималистичнее
+- При добавлении лога, идеи или задачи через `Alt+I` появится небольшое уведомление
+- Вернул переключатель хранилищ и кнопки для открытия боковых панелей 😀
+
+> [!info] Обновление
+> - Обновление с `4.0.0` на `5.0.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 4.0.0
 

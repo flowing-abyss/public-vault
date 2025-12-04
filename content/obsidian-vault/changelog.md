@@ -33,7 +33,7 @@ enableToc: false
 	- Удалён плагин [Style Settings](https://github.com/mgmeyers/obsidian-style-settings), т.к. в нём нет больше необходимости
 	- [[hover-metadata.png|Свойства будут отображаться]] в заметке при наведении мышки на название
 - Удалён плагин [Better Footnotes](https://github.com/aidenlx/better-fn)
-	- Obsidian корректно отображает сноски и без него
+	- Obsidian теперь корректно отображает сноски и без него
 - Удалены плагины [Better Search Views](https://github.com/ivan-lednev/better-search-views) и [Obsidian Query Control](https://github.com/reply2za/obsidian-query-control)
 	- Оба плагина приводят к сильным лагам при большом количестве элементов
 - Удалён плагин [Lazy Plugin Loader](https://github.com/alangrainger/obsidian-lazy-plugins)

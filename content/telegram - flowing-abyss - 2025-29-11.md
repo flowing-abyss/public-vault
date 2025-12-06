@@ -89,3 +89,4 @@ enableToc: false
 - [Base16 Default Dark – моя тема для Obsidian](https://t.me/flowing_abyss_chat/11005)
 - [Трудность обработки информации и трудность синтеза информации](https://t.me/flowing_abyss_chat/11018)
 - [Ревью дневниковых заметок с помощью ИИ и планирование будущего года](https://t.me/flowing_abyss_chat/11019)
+- [Продуктивность без инфоцыганщины или что изучать на старте](https://t.me/flowing_abyss_chat/11199)

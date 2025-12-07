@@ -5,10 +5,10 @@ aliases:
   - Профанация сложности
 url: "[flowing-abyss](https://flowing-abyss.com/Profanation-of-Complexity)"
 created: 2025-12-05T20:14:00+07:00
-updated: 2025-12-07T14:44:58+07:00
+updated: 2025-12-07T14:45:48+07:00
 share: true
 title: "Профанация сложности"
-comments: true
+comments: false
 enableToc: false
 cssclasses:
   - no-inline-title

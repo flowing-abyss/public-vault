@@ -2,11 +2,11 @@
 tags:
   - note/basic/primary
 aliases: []
+url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-to-Anki)"
 created: 2025-12-11T18:58:42+07:00
-updated: 2025-12-11T19:21:37+07:00
+updated: 2025-12-11T19:28:54+07:00
 share: true
 title: "Obsidian to Anki"
-url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-to-Anki)"
 comments: true
 enableToc: false
 ---
@@ -45,5 +45,4 @@ enableToc: false
 
 **Перезапустите Anki.**
 
-Карточки в хранилище создаются с помощью префиксов вот так:
-![video](https://youtu.be/4wB-Ph5XYV0?t=8130)
+Карточки в хранилище создаются с помощью префиксов вот [так](https://youtu.be/4wB-Ph5XYV0?t=8130).

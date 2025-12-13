@@ -41,8 +41,8 @@ enableToc: true
 В хранилище используется **абстракная**, **иерархическая** логика для упорядочивания. Она состоит из 4-ёх типов заметок:
 ```
 - 🗺️ category
-	- 🔎 meta-note
-		- ⚡ problem
+    - 🔎 meta-note
+        - ⚡ problem
 
 - 🧬 hierarchy
 ```
@@ -62,14 +62,14 @@ enableToc: true
 Приведу личный пример. У меня есть вот такая структура:
 ```
 - 🗺️ artificial intelligence
-	- 🔬 AI-powered medical decision support
-		- ⚡ search for a patient in the database
-		- ⚡ identification of symptoms
-		- ⚡ tests and recommendations to the doctor
-		- ⚡ test analysis and recommendations to the doctor
-		- ⚡ AI diagnosis
-		- ⚡ AI treatment planning
-		- ⚡ patient information based on data
+    - 🔬 AI-powered medical decision support
+        - ⚡ search for a patient in the database
+        - ⚡ identification of symptoms
+        - ⚡ tests and recommendations to the doctor
+        - ⚡ test analysis and recommendations to the doctor
+        - ⚡ AI diagnosis
+        - ⚡ AI treatment planning
+        - ⚡ patient information based on data
 ```
 - `🗺️ artificial intelligence` – это глобальное направление
 - `🔬 AI-powered medical decision support` – это моё исследование, которым я занимаюсь
@@ -84,24 +84,24 @@ enableToc: true
 Можно это делать из библиотечной [системы Дью](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes). Например
 ```md
 - 🗺️ 170 Ethics
-	- 🔎 172 Political ethics
-		- ⚡ 172.1 Ethics of leadership and authority
-		- ⚡ 172.2 Corruption, conflicts of interest
-		- ⚡ 172.3 Dirty hands and compromise
-		- ...
+    - 🔎 172 Political ethics
+        - ⚡ 172.1 Ethics of leadership and authority
+        - ⚡ 172.2 Corruption, conflicts of interest
+        - ⚡ 172.3 Dirty hands and compromise
+        - ...
 ```
 Вам не нужно повторять нумерацию. Просто уловите логику вложенности.
 
 Также мне нравится система [JohnyDecimal](https://johnnydecimal.com/):
 ```
 - 🗺️ 20-29 Home Business
-	- 🔎 21 Administration
-		- ⚡ 21.11 Business registration
-		- ⚡ 21.12 Office insurance
-		- ⚡ 21.13 Policies and procedures
-	- 🔎 22 Finance
-	- 🔎 23 Products
-	- ...
+    - 🔎 21 Administration
+        - ⚡ 21.11 Business registration
+        - ⚡ 21.12 Office insurance
+        - ⚡ 21.13 Policies and procedures
+    - 🔎 22 Finance
+    - 🔎 23 Products
+    - ...
 ```
 Вам не нужно повторять нумерацию:) Просто уловите логику вложенности:)
 
@@ -134,7 +134,7 @@ enableToc: true
 Вы создали такую структуру.
 ```
 - 🗺️ history
-	- 🔎 historiography
+    - 🔎 historiography
 ```
 
 К `🔎 historiography` у вас относятся следующие источники:
@@ -174,19 +174,19 @@ enableToc: true
 Далее вы можете развивать и углублять структуру в таком стиле:
 ```
 - 🗺 history
-	- 🔎 historiography
-		- 🧬 analysis of historical processes
-		- 🧬 interpretation of historical processes
-	- 🔎 methodology of history
-		- 🧬 methods of historical research
-			- 🧬 comparative analysis in history
-			- 🧬 archival research in history
-			- ...
-		- ...
-	- 🔎 ancient world
-	- 🔎 middle ages
-	- 🔎 ...
-	- ...
+    - 🔎 historiography
+        - 🧬 analysis of historical processes
+        - 🧬 interpretation of historical processes
+    - 🔎 methodology of history
+        - 🧬 methods of historical research
+            - 🧬 comparative analysis in history
+            - 🧬 archival research in history
+            - ...
+        - ...
+    - 🔎 ancient world
+    - 🔎 middle ages
+    - 🔎 ...
+    - ...
 ```
 
 Плюс в том, что у иерархических заметок легко менять метаданные, вкладывать одни иерархии в другие. Это даёт контроль, но не ломает общую, основную структуру.
@@ -252,15 +252,12 @@ note title.md
 tags:
   - note/specific/exact
   - category/computer_science
-aliases: []
 deck: obsidian::computer_science
-created: 2030-12-12
-updated: 2030-12-12
 ---
 
-Note title
+Вопрос
 —
-content
+Ответ
 ```
 
 А можно сделать внутри заметки сразу целый набор карточек:

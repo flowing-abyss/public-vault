@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2025-12-13T23:23:01+07:00
+updated: 2025-12-13T23:31:59+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -264,6 +264,27 @@ content
 ```
 
 А можно сделать внутри заметки сразу целый набор карточек:
-![[card-divider.png]]
+```
+# Блок вопросов 1
+
+Вопрос 1
+—
+Ответ 1
+Ответ 1
+
+Вопрос 2
+—
+Ответ 2
+
+# ...
+
+...
+
+# Блок вопросов N
+
+Вопрос N
+—
+Ответ N
+```
 
 Вы можете использовать и тот, и тот подход.

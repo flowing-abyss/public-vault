@@ -1,11 +1,21 @@
 ---
 tags:
-  - note/basic/primary
+  - status/published
+  - project/short
+  - priority/c
+  - category/public
 aliases:
   - Профанация сложности
+status: 📢
+priority: 🇨
+category:
+  - "[[public]]"
+meta:
+  - "[[flowing-abyss]]"
+problem:
 url: "[flowing-abyss](https://flowing-abyss.com/Profanation-of-Complexity)"
 created: 2025-12-05T20:14:00+07:00
-updated: 2025-12-07T14:45:48+07:00
+updated: 2025-12-12T23:34:50+07:00
 share: true
 title: "Профанация сложности"
 comments: false

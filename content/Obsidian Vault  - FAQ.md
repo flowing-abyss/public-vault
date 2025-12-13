@@ -24,7 +24,7 @@ enableToc: true
 Меню `Alt+P` – это место с которого запускается работа.
 
 - Что я читаю? `Alt+P -> sources`
-- Что я делаю? -> `Alt+P -> projects`
+- Что я делаю? `Alt+P -> projects`
 - Какие есть задачи? `Alt+P -> tasks`
 - Хочу добавить книгу. `Alt+P -> new -> source`
 - Хочу записать идею. `Alt+P -> new -> inbox`

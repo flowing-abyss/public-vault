@@ -173,7 +173,7 @@ enableToc: true
 
 Далее вы можете развивать и углублять структуру в таком стиле:
 ```
-- 🗺 history
+- 🗺️ history
     - 🔎 historiography
         - 🧬 analysis of historical processes
         - 🧬 interpretation of historical processes

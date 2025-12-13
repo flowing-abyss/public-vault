@@ -2,11 +2,11 @@
 tags:
   - note/basic/evergreen
 aliases: []
-created: 2025-12-13T19:22:49+07:00
-updated: 2025-12-13T22:54:05+07:00
-share: true
-title: "Obsidian Vault -FAQ"
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
+created: 2025-12-13T19:22:49+07:00
+updated: 2025-12-13T23:23:01+07:00
+share: true
+title: "Obsidian Vault - FAQ"
 comments: false
 enableToc: true
 ---
@@ -16,7 +16,7 @@ enableToc: true
 # Две главные механики
 
 В хранилище есть две основные идеи, которые формируют рабочий процесс:
-1. Меню`Alt+P`
+1. Меню **Alt+P**
 2. Системные заметки
 
 ## Главное меню Alt+P

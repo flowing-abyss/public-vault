@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2025-12-14T00:02:47+07:00
+updated: 2025-12-14T10:23:37+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -92,7 +92,7 @@ enableToc: true
 ```
 Вам не нужно повторять нумерацию. Просто уловите логику вложенности.
 
-Также мне нравится система [JohnyDecimal](https://johnnydecimal.com/):
+Также мне нравится система [JohnnyDecimal](https://johnnydecimal.com/):
 ```
 - 🗺️ 20-29 Home Business
     - 🔎 21 Administration

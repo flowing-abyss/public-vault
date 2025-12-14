@@ -81,7 +81,7 @@ enableToc: true
 
 Откуда черпать вдохновение при построении своей структуры?
 
-Можно это делать из библиотечной [системы Дью](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes). Например:
+Можно это делать из библиотечной [системы Дьюи](https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes). Например:
 ```
 - 🗺️ 170 Ethics
     - 🔎 172 Political ethics

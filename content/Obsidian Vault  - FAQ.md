@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2025-12-21T16:14:21+07:00
+updated: 2025-12-21T16:39:30+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -188,7 +188,7 @@ enableToc: true
 ```
 
 К `🔎 historiography` у вас относятся следующие источники:
-> [!note]- sources
+> [!info]- sources
 > ```
 > A Companion to the Philosophy of History and Historiography. Tucker, Aviezer.  
 > A Global History of History. Woolf, Daniel.  

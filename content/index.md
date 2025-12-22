@@ -15,4 +15,6 @@ enableToc: false
 2. Нажми `ctrl+k` и попытай удачу
 3. Залетай в [Telegram](https://t.me/flowing_abyss)
 
+[[RAW Logs]]
+
 ### recent

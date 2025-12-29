@@ -302,8 +302,8 @@ note title.md
 ---
 tags:
   - note/specific/exact
-  - category/computer_science
-deck: obsidian::computer_science
+  - category/computer_science/basics
+deck: obsidian::computer_science::basics
 ---
 
 Вопрос

@@ -217,8 +217,8 @@ p {
 
   &[data-callout="important"] {
     --color: #bababa;
-    --border: #ab4642;
-    --bg: #ab4642;
+    --border: #ab4642 !important;
+    --bg: #ab4642 !important;
   }
 
   &[data-callout="description"] {

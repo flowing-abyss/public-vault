@@ -51,6 +51,12 @@
     --callout-icon: var(--callout-icon-abstract);
   }
 
+  &[data-callout="important"] {
+    --color: #bababa;
+    --border: #ab4642;
+    --bg: #ab4642;
+  }
+
   &[data-callout="code"] {
     --color: #bababa;
     --border: #303030;

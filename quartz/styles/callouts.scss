@@ -72,9 +72,16 @@
 
   &[data-callout="tip"],
   &[data-callout="important"] {
-    --color: #d79921;
-    --border: #d7992144;
-    --bg: #d7992108;
+    --color: #ab4642;
+    --border: #ab464244;
+    --bg: #ab464210;
+    --callout-icon: var(--callout-icon-tip);
+  }
+
+  &[data-callout="wireframe"] {
+    --color: #ab4642;
+    --border: #ab4642;
+    --bg: transparent;
     --callout-icon: var(--callout-icon-tip);
   }
 

@@ -70,7 +70,8 @@
     --callout-icon: var(--callout-icon-todo);
   }
 
-  &[data-callout="tip"] {
+  &[data-callout="tip"],
+  &[data-callout="important"] {
     --color: #ab4642;
     --border: #ab464244;
     --bg: #ab464210;

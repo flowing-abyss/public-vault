@@ -128,7 +128,7 @@ enableToc: true
 
 ## Фаза 1. Калибровка. Rhythm & Motorik
 
-> [!important] Эти треки задают темп
+> [!important] `Эти треки задают темп`
 > Это тот самый "Motorik beat" – монотонный, гипнотический ритм 4/4, идеальный для ходьбы.
 
 > [!important] `Neu! — Hallogallo`
@@ -143,7 +143,7 @@ enableToc: true
 
 ## Фаза 2. Текстуризация. Intelligent Atmosphere
 
-> [!important] Звук становится плотнее
+> [!important] `Звук становится плотнее`
 > Когда шаг настроен, включаем голову и эмоции.
 
 > [!important] `Boards of Canada – Roygbiv`
@@ -164,7 +164,7 @@ enableToc: true
 
 ## Фаза 3. Глубокое погружение. Urban Melancholy
 
-> [!important] Финал прогулки
+> [!important] `Финал прогулки`
 > Время для рефлексии и киношной атмосферы.
 
 > [!important] `Burial — Archangel`

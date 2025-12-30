@@ -131,12 +131,12 @@ enableToc: true
 > [!important] Эти треки задают темп
 > Это тот самый "Motorik beat" – монотонный, гипнотический ритм 4/4, идеальный для ходьбы.
 
-> [!important] Neu! — Hallogallo
+> [!important] `Neu! — Hallogallo`
 > 10 минут чистого движения вперед. Это культ краут-рока. Это эталонный Motorik. Под этот трек невозможно стоять. Ты почувствуешь себя механизмом, рассекающим пространство.<br>
 > • • •
 > ![video](https://youtu.be/zndpi8tNZyQ)
 
-> [!important] Can — Vitamin C
+> [!important] `Can — Vitamin C`
 > Легендарная барабанная партия Джеки Либецайта. Это фанк, но инженерный, сухой и четкий. Бас-линия будет толкать тебя в спину.<br>
 > • • •
 > ![video](https://youtu.be/JXsd5W8ofDw)
@@ -146,17 +146,17 @@ enableToc: true
 > [!important] Звук становится плотнее
 > Когда шаг настроен, включаем голову и эмоции.
 
-> [!important] Boards of Canada – Roygbiv
+> [!important] `Boards of Canada – Roygbiv`
 > Короткий (всего 2:30), но культовый трек. Басовая линия вызывает мгновенный прилив эндорфинов. Звучит как воспоминание о лучшем лете в твоей жизни.<br>
 > • • •
 > ![video](https://youtu.be/SM4tQcUt_mQ)
 
-> [!important] Aphex Twin — Alberto Balsalm
+> [!important] `Aphex Twin — Alberto Balsalm`
 > IDM, который не пытается сломать тебе мозг, а массирует его. Обрати внимание на перкуссию – там звуки хлопающих дверей и скрипящих стульев. Учись видеть структуру и слышать музыку даже в тумане скучной обыденности.<br>
 > • • •
 > ![video](https://youtu.be/ulj5UJ5GHvE)
 
-> [!important] Bonobo – Kiara
+> [!important] `Bonobo – Kiara`
 > Красивая оркестровая электроника. Добавляет эпичности происходящему.
 > Если в этот момент ты идешь через парк или по набережной – эффект удваивается.<br>
 > • • •
@@ -167,17 +167,17 @@ enableToc: true
 > [!important] Финал прогулки
 > Время для рефлексии и киношной атмосферы.
 
-> [!important] Burial — Archangel
+> [!important] `Burial — Archangel`
 > Гимн одинокого человека в мегаполисе. Сбитый гаражный ритм, сэмплы из Metal Gear Solid. Идеально для вечернего города, метро, дождя или коммита в пятницу вечером (мы ж с тобой инженеры, не забывай).<br>
 > • • •
 > ![video](https://youtu.be/8k_f2QK77ew)
 
-> [!important] Massive Attack — Paradise Circus
+> [!important] `Massive Attack — Paradise Circus`
 > Бристольский трип-хоп. Тягучий, мрачный, гипнотизирующий. Расширяет вкус в сторону темной, басовой музыки.<br>
 > • • •
 > ![video](https://youtu.be/6hUkyKBsGtQ)
 
-> [!important] Radiohead — Jigsaw Falling Into Place
+> [!important] `Radiohead — Jigsaw Falling Into Place`
 > Чтобы выйти из транса на высокой ноте. Сложный ритм, нервная энергия, но невероятный драйв.
 > Пора возвращаться домой.<br>
 > • • •

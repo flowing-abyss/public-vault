@@ -51,12 +51,6 @@
     --callout-icon: var(--callout-icon-abstract);
   }
 
-  &[data-callout="important"] {
-    --color: #bababa;
-    --border: #ab4642 !important;
-    --bg: #ab4642 !important;
-  }
-
   &[data-callout="code"] {
     --color: #bababa;
     --border: #303030;
@@ -77,9 +71,9 @@
   }
 
   &[data-callout="tip"] {
-    --color: #00bfa5;
-    --border: #00bfa544;
-    --bg: #00bfa510;
+    --color: #ab4642;
+    --border: #ab464244;
+    --bg: #ab464210;
     --callout-icon: var(--callout-icon-tip);
   }
 

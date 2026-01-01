@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Tana-style-Supertags-in-Obsidian)"
 created: 2026-01-01T21:58:29+07:00
-updated: 2026-01-01T23:16:16+07:00
+updated: 2026-01-01T23:20:58+07:00
 share: true
 title: "Супертеги Tana в Obsidian (прототип)"
 comments: true
@@ -44,11 +44,11 @@ Due date: 2026-01-01
 Чтобы автоматизировать создание метаданных, можно заюзать [Metadata Menu](https://github.com/mdelobelle/metadatamenu). Суть в том, чтобы создать классы и привязать их к тегам.
 
 ```
-- 📂 classes
-  - Task.md (#Task)
-  - Idea.md (#Idea)
-  - Meeting.md (#Meeting)
-  - ...
+📂 classes
+├── Task.md (#Task)
+├── Idea.md (#Idea)
+├── Meeting.md (#Meeting)
+└── ...
 ```
 
 Настраиваем для этих классов желаемые метаданные.
@@ -71,13 +71,14 @@ await dv.view(`views/${type}`)
 
 Создаём вот такую структуру:
 ```
-- 📂 views
-  - 📂 Task
-    - view.js
-  - 📂 Idea
-    - view.js
-  - 📂 Meeting
-    - view.js
+📁 views
+├── 📁 Task
+│   └── view.js
+├── 📁 Idea
+│   └── view.js
+└── 📁 Meeting
+    └── view.js
+
 ```
 
 И внутри под каждый тип делаем своё отображение. Например, для `Task` можно вывести, сколько дней осталось до окончания в зависимости от указанного `Due date` в метаданных:

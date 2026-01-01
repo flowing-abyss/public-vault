@@ -21,7 +21,7 @@ cover:
 start: 2025-12-05
 end: 2025-12-30
 created: 2025-12-05T19:35:55+07:00
-updated: 2025-12-31T16:05:45+07:00
+updated: 2025-12-31T21:02:22+07:00
 share: true
 title: Музыка для инженера
 comments: true

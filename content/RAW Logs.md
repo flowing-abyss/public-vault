@@ -9,12 +9,13 @@ category:
 url: "[flowing-abyss](https://flowing-abyss.com/RAW-Logs)"
 relevant: false
 created: 2025-12-22T17:25:28+07:00
-updated: 2025-12-28T15:31:35+07:00
+updated: 2026-01-02T13:38:02+07:00
 share: true
 title: RAW Logs
 comments: false
 enableToc: false
 ---
 
+- 2026-01-02 | [[Рефлексирую о смерти PKM]]
 - 2025-12-28 | [[Продолжаю ненавидеть ВУЗы]]
 - 2025-12-22 | [[Жгу токены. Чищу RSS]]

@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Tana-style-Supertags-in-Obsidian)"
 created: 2026-01-01T21:58:29+07:00
-updated: 2026-01-01T23:20:58+07:00
+updated: 2026-01-01T23:27:09+07:00
 share: true
 title: "Супертеги Tana в Obsidian (прототип)"
 comments: true

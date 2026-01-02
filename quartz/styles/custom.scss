@@ -25,8 +25,7 @@ hr:not(.recent-notes hr),
 .page article h3 .internal,
 .page article h4 .internal,
 .page article h5 .internal,
-.page article h6 .internal,
-.gsc-left-header .color-text-secondary.text-sm {
+.page article h6 .internal {
   display: none !important;
 }
 
@@ -61,13 +60,6 @@ h6 {
 
   border-radius: 5px;
   border: 1px solid #404040;
-}
-
-// ---
-
-.gsc-reactions-menu
-  .color-border-primary.color-text-secondary.color-bg-overlay.gsc-reactions-popover.top.open.left {
-  background-color: #1f1f1f !important;
 }
 
 // ---

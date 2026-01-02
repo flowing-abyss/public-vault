@@ -5,7 +5,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Рефлексирую-о-смерти-PKM)"
 created: 2026-01-01T17:23:42+07:00
-updated: 2026-01-02T16:07:16+07:00
+updated: 2026-01-02T16:24:12+07:00
 share: true
 title: "Рефлексирую о смерти PKM"
 comments: false

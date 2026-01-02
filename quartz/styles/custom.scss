@@ -25,7 +25,8 @@ hr:not(.recent-notes hr),
 .page article h3 .internal,
 .page article h4 .internal,
 .page article h5 .internal,
-.page article h6 .internal {
+.page article h6 .internal,
+.gsc-left-header .color-text-secondary.text-sm {
   display: none !important;
 }
 

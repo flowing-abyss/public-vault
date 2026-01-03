@@ -64,7 +64,7 @@ comments: false
 	- Структура строится на основе [[Obsidian Vault  - FAQ#Метаданные и ссылки|метаданных и ссылок]]
 - <u>Science Stack</u>
 	- Интеграция с [Zotero](https://github.com/mgmeyers/obsidian-zotero-integration) и интервальными повторениями ([Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) или [Anki](https://github.com/ObsidianToAnki/Obsidian_to_Anki) - на выбор)
-- <u>Project Management</u>
+- <u>Task Management</u>
 	- [Система дел](https://habr.com/en/articles/833654/) и [календарь для задач](https://github.com/flowing-abyss/obsidian-task-calendar)
 - <u>Dynamic Tables</u>
 	- Таблицы Bases для управления источниками, проектами, людьми, заметками и прочим

@@ -21,7 +21,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2026-01-01T21:36:05+07:00
+updated: 2026-01-03T23:52:48+07:00
 title: Obsidian Vault
 share: true
 comments: false
@@ -47,7 +47,7 @@ comments: false
 	</a>
 </div>
 
-- [[Obsidian Vault  - FAQ|Ответы на вопросы]]
+- [[Obsidian Vault - FAQ|Ответы на вопросы]]
 - [NotebookLM](https://notebooklm.google.com/notebook/2252228c-9e81-4440-82d2-9ca13faa87ec)
 
 # Описание
@@ -60,8 +60,8 @@ comments: false
 	- Система префиксов, которая кратно ускоряет создание заметок
 	- Хранилище ориентировано на управление через клавиатуру
 - <u>Hybrid Structure</u>
-	- [[Obsidian Vault  - FAQ#Cистемные заметки|Единая логика]] для упорядочивания разных областей
-	- Структура строится на основе [[Obsidian Vault  - FAQ#Метаданные и ссылки|метаданных и ссылок]]
+	- [[Obsidian Vault - FAQ#Cистемные заметки|Единая логика]] для упорядочивания разных областей
+	- Структура строится на основе [[Obsidian Vault - FAQ#Метаданные и ссылки|метаданных и ссылок]]
 - <u>Science Stack</u>
 	- Интеграция с [Zotero](https://github.com/mgmeyers/obsidian-zotero-integration) и интервальными повторениями ([Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) или [Anki](https://github.com/ObsidianToAnki/Obsidian_to_Anki) - на выбор)
 - <u>Task Management</u>

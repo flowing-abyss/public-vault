@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-01-01T21:32:35+07:00
+updated: 2026-01-11T14:49:59+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -383,3 +383,50 @@ deck: obsidian::computer_science::basics
 Остальные цвета вы можете использовать в технических целях. Например, красным можно выделять ключевые слова (как я очень часто делал на видео), голубеньким — слова, [выражающие](https://t.me/flowing_abyss_chat/4075) взаимосвязь, а серые — для [имитации оглавления](https://t.me/flowing_abyss_chat/4444). Эти цвета выполнят свою функцию при анализе текста и навигации, но при этом они не будут засорять Obsidian.
 
 Кстати, выбор таких цветов не имеет какой-то глубинной причины. Просто так получилось, что [[typical set of text highlighters.png|в наборах текстовыделителей]] часто идут именно эти цвета.
+
+> [!info]- Выгрузка всех аннотаций
+> Альтернативный вариант аннотаций от [FeralFlora](https://github.com/FeralFlora):
+> - Blue (`#2ea8e5`) – ❓ Problem formulation
+> - Green (`#5fb236`) – 🎯 Key takeaways
+> - Yellow (`#ffd400`) – 💬 Evidence and arguments
+> - Orange (`#f19837`) – ✅ Actionable takeaways
+> - Purple (`#a28ae5`) – 🧩 Concepts and frameworks
+> - Magenta (`#e56eee`) – 🗺 Context and connections
+> - Red (`#ff6666`) – 🚧 Digging and disclaimers
+> - Gray (`#aaaaaa`) – 📌 Statistics and info
+> 
+> Адаптированный код для `templates/create/sources/zotero template.md`:
+> ```
+> {% for annotation in annotations -%}
+> {%- if annotation.color in ["#2ea8e5", "#5fb236", "#ffd400", "#f19837", "#a28ae5", "#e56eee", "#ff6666", "#aaaaaa"] -%}
+> {%- if annotation.color == "#2ea8e5" -%}
+> {%- set callout = "[!quote|#2ea8e5]+ ❓ Problem formulation" -%}
+> {%- elif annotation.color == "#5fb236" -%}
+> {%- set callout = "[!quote|#5fb236]+ 🎯 Key takeaways" -%}
+> {%- elif annotation.color == "#ffd400" -%}
+> {%- set callout = "[!quote|#ffd400]+ 💬 Evidence and arguments" -%}
+> {%- elif annotation.color == "#f19837" -%}
+> {%- set callout = "[!quote|#f19837]+ ✅ Actionable takeaways" -%}
+> {%- elif annotation.color == "#a28ae5" -%}
+> {%- set callout = "[!quote|#a28ae5]+ 🧩 Concepts and frameworks" -%}
+> {%- elif annotation.color == "#e56eee" -%}
+> {%- set callout = "[!quote|#e56eee]+ 🗺 Context and connections" -%}
+> {%- elif annotation.color == "#ff6666" -%}
+> {%- set callout = "[!quote|#ff6666]+ 🚧 Digging and disclaimers" -%}
+> {%- elif annotation.color == "#aaaaaa" -%}
+> {%- set callout = "[!quote|#aaaaaa]+ 📌 Statistics and info" -%}
+> {%- endif %}
+> > {{callout}}
+> {%- if annotation.annotatedText %}
+> > «{{annotation.annotatedText | replace("\n", "\n> ")}}» ([Page {{annotation.page}}](zotero://open-pdf/library/items/{{annotation.attachment.itemKey}}?page={{annotation.page}}&annotation={{annotation.id}}))
+> {%- endif -%}
+> {%- if annotation.imageRelativePath %}
+> > ![[{{annotation.imageRelativePath}}]]
+> > [View on page {{annotation.page}}](zotero://open-pdf/library/items/{{annotation.attachment.itemKey}}?page={{annotation.page}})
+> {%- endif -%}
+> {%- if annotation.comment %}
+> >
+> > - 💎 {{annotation.comment | replace("\n", "\n> - 💎 ")}}
+> {%- endif %}{% endif %}
+> {% endfor -%}
+> ```

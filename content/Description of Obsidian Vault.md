@@ -21,7 +21,7 @@ start: 2025-08-17
 end: 2025-08-17
 total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2026-01-03T23:52:48+07:00
+updated: 2026-01-09T16:43:05+07:00
 title: Obsidian Vault
 share: true
 comments: false

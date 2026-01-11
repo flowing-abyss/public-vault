@@ -393,7 +393,7 @@ deck: obsidian::computer_science::basics
 > - Purple (`#a28ae5`) – 🧩 Concepts and frameworks
 > - Magenta (`#e56eee`) – 🗺 Context and connections
 > - Red (`#ff6666`) – 🚧 Digging and disclaimers
-> - Gray (`#aaaaaa`) – 📌 Statistics and info<br>
+> - Gray (`#aaaaaa`) – 📌 Statistics and info<br><br>
 > • • • <br>
 > Адаптированный код для `templates/create/sources/zotero template.md`:
 > ```

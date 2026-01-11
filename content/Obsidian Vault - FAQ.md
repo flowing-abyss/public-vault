@@ -394,7 +394,7 @@ deck: obsidian::computer_science::basics
 > - Magenta (`#e56eee`) – 🗺 Context and connections
 > - Red (`#ff6666`) – 🚧 Digging and disclaimers
 > - Gray (`#aaaaaa`) – 📌 Statistics and info<br>
-> <br>Адаптированный код для `templates/create/sources/zotero template.md`:
+> Адаптированный код для `templates/create/sources/zotero template.md`:
 > ```
 > {% for annotation in annotations -%}
 > {%- if annotation.color in ["#2ea8e5", "#5fb236", "#ffd400", "#f19837", "#a28ae5", "#e56eee", "#ff6666", "#aaaaaa"] -%}

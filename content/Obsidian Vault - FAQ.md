@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-01-11T14:57:01+07:00
+updated: 2026-01-11T15:10:09+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -393,7 +393,8 @@ deck: obsidian::computer_science::basics
 > - Purple (`#a28ae5`) – 🧩 Concepts and frameworks
 > - Magenta (`#e56eee`) – 🗺 Context and connections
 > - Red (`#ff6666`) – 🚧 Digging and disclaimers
-> - Gray (`#aaaaaa`) – 📌 Statistics and info<br><br>
+> - Gray (`#aaaaaa`) – 📌 Statistics and info<br>
+>  <br>
 > • • • <br>
 > Адаптированный код для `templates/create/sources/zotero template.md`:
 > ```

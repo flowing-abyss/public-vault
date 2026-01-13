@@ -5,7 +5,12 @@ enableToc: false
 ---
 
 >[!toc]+ Vault versions
-> `Obsidian >= 1.10.3`
+>
+> `Obsidian >= 1.11.4`
+>
+> - [[#5.1.0]]
+> 
+> `Obsidian <= 1.10.3`
 >
 > - [[#5.0.0]]
 > - [[#4.0.0]]
@@ -20,6 +25,17 @@ enableToc: false
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 5.1.0
+
+- Обновлены плагины и тема
+- Удалён [Frontmatter Markdown Links](https://github.com/mnaoumov/obsidian-frontmatter-markdown-links)
+	- В Obsidian `1.11.4` появилась нативная поддержка Markdown-ссылок во frontmatter, поэтому плагин больше не нужен
+- Dashboard ведёт на 2026
+- В `hotkeys` добавлено больше ссылок
+- Обновлены настройки [Context Command Hider](https://github.com/mara-li/obsidian-context-menu-hider) 
+- Обновлены настройки [Metadata Menu](https://github.com/mdelobelle/metadatamenu)
+- Уменьшен Search Delay в [Another Quick Switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher)
 
 # 5.0.0
 

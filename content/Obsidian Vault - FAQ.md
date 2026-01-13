@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-01-11T15:10:09+07:00
+updated: 2026-01-11T15:21:36+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false

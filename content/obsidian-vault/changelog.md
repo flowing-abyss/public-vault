@@ -29,7 +29,7 @@ enableToc: false
 # 5.1.0
 
 - Обновлены плагины и тема
-- Удалён [Frontmatter Markdown Links](https://github.com/mnaoumov/obsidian-frontmatter-markdown-links)
+- Удалён плагин [Frontmatter Markdown Links](https://github.com/mnaoumov/obsidian-frontmatter-markdown-links)
 	- В Obsidian `1.11.4` появилась нативная поддержка Markdown-ссылок во frontmatter, поэтому плагин больше не нужен
 - Dashboard ведёт на 2026
 - В `hotkeys` добавлено больше ссылок

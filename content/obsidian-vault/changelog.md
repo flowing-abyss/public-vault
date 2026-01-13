@@ -37,6 +37,9 @@ enableToc: false
 - Обновлены настройки [Metadata Menu](https://github.com/mdelobelle/metadatamenu)
 - Уменьшен Search Delay в [Another Quick Switcher](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher)
 
+> [!info] Обновление
+> - Обновление с `4.0.0`/`5.0.0` на `5.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
+
 # 5.0.0
 
 - Обновлены плагины

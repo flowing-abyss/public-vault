@@ -21,11 +21,13 @@ cover:
 start: 2025-12-05
 end: 2025-12-30
 created: 2025-12-05T19:35:55+07:00
-updated: 2026-01-03T17:57:18+07:00
+updated: 2026-01-15T11:30:33+07:00
 share: true
 title: Музыка для инженера
 comments: true
 enableToc: true
+cssclasses:
+  - hide-table-thead
 ---
 
 ![[flowing-abyss-gimp.png]]
@@ -48,7 +50,7 @@ enableToc: true
 	- Сначала может быть непонятно или скучно. Я полагаю, что твои мозги привыкли к сахару поп-музыки
 	- Но дай своей биологической системе время на адаптацию. Это другой уровень
 
-## Модуль 1. Логика и цикл. Krautrock
+## Логика и цикл. Krautrock
 
 ![video](https://youtu.be/nLcmoIGudxA?list=PLjtxOIF4SP1lP4Jk6gCK8veiM7q5O4kSL)
 
@@ -63,7 +65,7 @@ enableToc: true
 
 Если ты инженер или работаешь со сложными системами, тебе будет полезно понять и прочувствовать корень современной ритмической структуры.
 
-## Модуль 2. Алгоритмическая меланхолия. Hauntology
+## Алгоритмическая меланхолия. Hauntology
 
 ![video](https://youtu.be/u8tyqgRaY_g?list=OLAK5uy_lcbBHZNY1YP-yJMLufIAuk6s1NXF0N_bU)
 
@@ -78,7 +80,7 @@ enableToc: true
 
 Музыка пугающая. Граничит на грани безумия и сна. Если ты инженер, то ты должен понять, что значит звучать "как сломанное", но не быть сломанным.
 
-## Модуль 3. Звуковая архитектура. Post-Rock
+## Звуковая архитектура. Post-Rock
 
 ![video](https://youtu.be/cQcE4_7-X78)
 
@@ -93,7 +95,7 @@ enableToc: true
 
 Если ты инженер, то должен держать всегда в уме – ты строишь системы, которые на каждом этапе будут "звучать" по-разному, но у всех них будет преемственность и чем дальше, тем эпичнее и сложнее.
 
-## Модуль 4. Урбанистическая текстура. Future Garage
+## Урбанистическая текстура. Future Garage
 
 ![video](https://youtu.be/ZCvu1QQ2Slg?list=PLjIuADMrDKIZM28YHfBPvwx2HgLACFfiW)
 
@@ -126,7 +128,7 @@ enableToc: true
 
 Действуй.
 
-## Фаза 1. Калибровка. Rhythm & Motorik
+## Калибровка. Rhythm & Motorik
 
 > [!important] Эти треки задают темп
 > Тут будет легендарный "Motorik beat" – монотонный, гипнотический ритм 4/4. Он идеальнен для ходьбы.
@@ -141,7 +143,7 @@ enableToc: true
 > • • •
 > ![video](https://youtu.be/JXsd5W8ofDw)
 
-## Фаза 2. Текстуризация. Intelligent Atmosphere
+## Текстуризация. Intelligent Atmosphere
 
 > [!important] Звук становится плотнее
 > Когда шаг настроен, включай голову и эмоции.
@@ -162,7 +164,7 @@ enableToc: true
 > • • •
 > ![video](https://youtu.be/L-kyRh7N-kE)
 
-## Фаза 3. Глубокое погружение. Urban Melancholy
+## Глубокое погружение. Urban Melancholy
 
 > [!important] Финал прогулки
 > Время для рефлексии и киношной атмосферы.

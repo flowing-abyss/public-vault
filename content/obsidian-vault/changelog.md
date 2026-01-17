@@ -34,7 +34,7 @@ enableToc: false
 - В `default` воркспейс добавлена панель [Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition)
 - Отрефакторены `home/databases/*.base`
 - Удалена `meta-notes.base`, так как она нигде не использовалась
-- В inbox не будут отображаться заметки, которые имеют категорию
+- В inbox не будут отображаться заметки, имеющие категорию
 - Увеличена задержка прыжка курсора при создании периодических заметок через панель `Alt+P`
 - Панель [Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar) теперь прозрачная
 

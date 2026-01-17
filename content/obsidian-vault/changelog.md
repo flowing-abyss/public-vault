@@ -39,7 +39,7 @@ enableToc: false
 - Панель [Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar) теперь прозрачная
 
 > [!info] Обновление
-> - Обновление с `4.0.0`/`5.0.0` на `5.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
+> - Обновление с `4.0.0`/`5.1.x` на `5.1.1` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 5.1.0
 

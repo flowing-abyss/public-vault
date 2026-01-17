@@ -8,6 +8,7 @@ enableToc: false
 >
 > `Obsidian >= 1.11.4`
 >
+> - [[#5.1.1]]
 > - [[#5.1.0]]
 > 
 > `Obsidian <= 1.10.3`
@@ -25,6 +26,20 @@ enableToc: false
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 5.1.1
+
+- Обновлены плагины
+- Исправлена проблема пустых ссылок в шаблоне для Zotero
+- В `default` воркспейс добавлена панель [Spaced Repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition)
+- Отрефакторены `home/databases/*.base`
+- Удалена `meta-notes.base`, так как она нигде не использовалась
+- В inbox не будут отображаться заметки, которые имеют категорию
+- Увеличена задержка прыжка курсора при создании периодических заметок через панель `Alt+P`
+- Панель [Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar) теперь прозрачная
+
+> [!info] Обновление
+> - Обновление с `4.0.0`/`5.0.0` на `5.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 5.1.0
 

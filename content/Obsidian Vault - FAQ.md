@@ -4,7 +4,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-01-11T15:21:36+07:00
+updated: 2026-01-23T14:15:54+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -365,6 +365,8 @@ deck: obsidian::computer_science::basics
 ![[Obsidian Vault  - FAQ 2025-12-16.png]]
 
 [Архив](https://t.me/flowing_abyss_chat/11172) со всеми шрифтами.
+
+*Если вы используете MacOS, то вам эти операции делать не нужно. Не отключайте сниппет.*
 
 # Импорт аннотаций из Zotero
 

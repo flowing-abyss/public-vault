@@ -6,7 +6,7 @@ aliases:
   - Простой и бесполезный bottom-up способ ведения заметок
 url: "[flowing-abyss](https://flowing-abyss.com/Simple-and-Useless-Bottom-Up-Note-Taking)"
 created: 2026-02-25T09:34:20+07:00
-updated: 2026-02-25T20:06:30+07:00
+updated: 2026-02-25T21:06:34+07:00
 share: true
 title: "Простой и бесполезный bottom-up способ ведения заметок"
 comments: true
@@ -95,7 +95,7 @@ cssclasses:
 [^1]: [Simple approach to organizing notes](https://forum.obsidian.md/t/simple-approach-to-organizing-notes/111598)
 [^2]: Rosch, E. (1978). Principles of categorization, публикация в E. Rosch & B. B. Lloyd (Eds.), Cognition and categorization (p. 27–48). Hillsdale, NJ: Lawrence Erlbaum Associates. | Важно упомянуть, что Rosch изучала когнитивную категоризацию (как мозг естественным образом формирует структуры и прототипы), а не проектирование информационных систем. Я по сути дерзнул сделать перенос этого знания.
 [^3]: [The Strategy of Note Taking: Folders, Tags, Links, and Redundancy](https://medium.com/obsidian-observer/the-strategy-of-note-taking-folders-tags-links-and-redundancy-03646a9c4cc5)
-[^4]: Jones, W. (2007). Keeping Found Things Found: The Study and Practice of Personal Information Management. Morgan Kaufmann. | В этой работе William Jones хорошо показал, что если база знаний (в оригинале "личная система управления информацией") не будет согласована с собственной деятельностью и целями, то всякая база (метод) будет деградировать. Из этого можно рискнуть сделать обратный вывод, что система, которая не находится в узде какого-то метода или фрейморка, на длинных дистанциях будет постоянно рассинхронизироваться с личными целями. 💎 Метод служит целям; цели питают метод.
+[^4]: Jones, W. (2007). Keeping Found Things Found: The Study and Practice of Personal Information Management. Morgan Kaufmann. | В этой работе William Jones хорошо показал, что если база знаний (в оригинале "личная система управления информацией") не будет согласована с собственной деятельностью и целями, то всякая база (метод) будет деградировать. Из этого можно рискнуть сделать обратный вывод, что система, которая не находится в узде какого-то метода или фреймворка, на длинных дистанциях будет постоянно рассинхронизироваться с личными целями. 💎 Метод служит целям; цели питают метод.
 [^5]: Точным академическим примером такого подхода является [фасетная архитектура классификации](https://en.wikipedia.org/wiki/Faceted_classification).
 [^6]: [Niklas Luhmann-Archiv](https://niklas-luhmann-archiv.de/bestand/zettelkasten/1/auszug/1). Именно так выглядит система Лумана, а не так как её описывают в популярных статьях. Важно отметить, что у Лумана была гибридная система. Это значит, что если вы, будучи новичком, начнёте строить аналогичную сеть, то без внутренней карты глубоко сложившихся интересов (доменов) такая сеть на длинных дистанциях скорее всего будет бесплодной (как если бы у яблони были только ветви без ствола).
 [^7]: [A system to organise your life](https://johnnydecimal.com/). Несмотря на то, что я плохо переношу папочный подход в контексте PKM, все же не буду отрицать, что это лучшая архитектура для папочных адептов.

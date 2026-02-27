@@ -4,15 +4,15 @@ tags:
   - mark/ignore
   - category/public
 aliases: []
+description: "Нефильтрованные логи PKM-эксперта"
 category:
   - "[[public]]"
 url: "[flowing-abyss](https://flowing-abyss.com/RAW-Logs)"
 relevant: false
 created: 2025-12-22T17:25:28+07:00
-updated: 2026-01-02T16:38:28+07:00
+updated: 2026-02-27T23:10:23+07:00
 share: true
 title: RAW Logs
-description: "Нефильтрованные дневниковые записи: рефлексия о PKM, высшем образовании, ИИ и рабочем процессе."
 comments: false
 enableToc: false
 ---

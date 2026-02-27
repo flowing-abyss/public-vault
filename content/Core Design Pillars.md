@@ -7,7 +7,7 @@ aliases:
 description: "Как геймдизайнеры документируют игры: четырёхуровневая иерархия Pillar → Feature → Mechanic → Implementation на примере Factorio."
 url: "[flowing-abyss](https://flowing-abyss.com/Core-Design-Pillars)"
 created: 2026-02-25T13:06:54+07:00
-updated: 2026-02-27T22:57:39+07:00
+updated: 2026-02-27T23:09:01+07:00
 share: true
 title: "Core Design Pillars"
 comments: true

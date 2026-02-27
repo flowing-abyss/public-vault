@@ -6,7 +6,6 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
   userOpts,
   title,
   description,
-  fileData,
   iconBase64,
 }) => {
   const { colorScheme } = userOpts
@@ -14,8 +13,6 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const useSmallerFont = title.length > 32
-
-  const pageUrl = `${cfg.baseUrl}/${fileData.slug ?? ""}`
 
   return (
     <div
@@ -29,37 +26,8 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
         fontFamily: bodyFont,
       }}
     >
-      {/* Header: icon + site url */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "1rem",
-          marginBottom: "0.5rem",
-        }}
-      >
-        {iconBase64 && (
-          <img
-            src={iconBase64}
-            width={56}
-            height={56}
-            style={{ borderRadius: "50%" }}
-          />
-        )}
-        <div
-          style={{
-            display: "flex",
-            fontSize: 32,
-            color: colors.gray,
-            fontFamily: bodyFont,
-          }}
-        >
-          {cfg.baseUrl}
-        </div>
-      </div>
-
       {/* Title */}
-      <div style={{ display: "flex", marginTop: "1rem", marginBottom: "1.5rem" }}>
+      <div style={{ display: "flex", marginBottom: "1.5rem" }}>
         <h1
           style={{
             margin: 0,
@@ -103,23 +71,32 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
         </p>
       </div>
 
-      {/* Footer: separator + page url */}
+      {/* Footer: separator + icon + url */}
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-end",
+          alignItems: "center",
+          gap: "1rem",
           paddingTop: "1.25rem",
           borderTop: `1px solid ${colors.lightgray}`,
         }}
       >
+        {iconBase64 && (
+          <img
+            src={iconBase64}
+            width={48}
+            height={48}
+            style={{ borderRadius: "50%" }}
+          />
+        )}
         <span
           style={{
-            fontSize: 24,
+            fontSize: 28,
             color: colors.gray,
             fontFamily: bodyFont,
           }}
         >
-          {pageUrl}
+          {cfg.baseUrl}
         </span>
       </div>
     </div>

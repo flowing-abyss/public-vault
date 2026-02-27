@@ -4,9 +4,10 @@ tags:
 aliases:
   - pillars
   - GDD
+description: "Классический подход к документированию игры: любой игровой концепт декомпозируется через четыре последовательных уровня."
 url: "[flowing-abyss](https://flowing-abyss.com/Core-Design-Pillars)"
 created: 2026-02-25T13:06:54+07:00
-updated: 2026-02-25T20:04:43+07:00
+updated: 2026-02-27T22:57:39+07:00
 share: true
 title: "Core Design Pillars"
 comments: true

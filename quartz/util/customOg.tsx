@@ -6,6 +6,7 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
   userOpts,
   title,
   description,
+  fileData,
   iconBase64,
 }) => {
   const { colorScheme } = userOpts
@@ -13,6 +14,8 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const useSmallerFont = title.length > 32
+
+  const pageUrl = `${cfg.baseUrl}/${fileData.slug ?? ""}`
 
   return (
     <div
@@ -91,13 +94,33 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
             margin: 0,
             display: "-webkit-box",
             WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 5,
+            WebkitLineClamp: 3,
             overflow: "hidden",
             textOverflow: "ellipsis",
           }}
         >
           {description}
         </p>
+      </div>
+
+      {/* Footer: separator + page url */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-end",
+          paddingTop: "1.25rem",
+          borderTop: `1px solid ${colors.lightgray}`,
+        }}
+      >
+        <span
+          style={{
+            fontSize: 24,
+            color: colors.gray,
+            fontFamily: bodyFont,
+          }}
+        >
+          {pageUrl}
+        </span>
       </div>
     </div>
   )

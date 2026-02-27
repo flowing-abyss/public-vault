@@ -8,7 +8,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      host: "https://cloud.umami.is/script.js",
+      websiteId: "a40322ae-9ec6-4313-9cd4-9564fcca1961",
     },
     locale: "en-US",
     baseUrl: "flowing-abyss.com",

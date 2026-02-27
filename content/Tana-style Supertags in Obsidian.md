@@ -7,6 +7,7 @@ created: 2026-01-01T21:58:29+07:00
 updated: 2026-01-01T23:27:09+07:00
 share: true
 title: "Супертеги Tana в Obsidian (прототип)"
+description: "Как реализовать логику супертегов Tana в Obsidian с помощью Metadata Menu и динамическими DataviewJS-отображениями по типу заметки."
 comments: true
 enableToc: false
 ---

@@ -22,6 +22,7 @@ created: 2025-09-20T17:50:42+07:00
 updated: 2025-11-01T12:39:20+07:00
 share: true
 title: Freemium модель для Obsidian Vault
+description: "Как freemium-модель помогла открыть 12-часовое видео по Obsidian Vault всем желающим — и почему это честнее, чем paywall."
 comments: false
 ---
 

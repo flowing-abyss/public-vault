@@ -7,6 +7,7 @@ created: 2025-08-18T13:27:42
 updated: 2025-11-05T14:00:22+07:00
 share: true
 title: "MarkDB-Connect"
+description: "Как настроить плагин MarkDB-Connect для Zotero: автоматические теги и быстрый переход к заметке в Obsidian прямо из библиотеки."
 cssclasses:
   - small-title
 ---

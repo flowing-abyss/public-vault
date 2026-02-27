@@ -7,6 +7,7 @@ created: 2025-12-13T19:22:49+07:00
 updated: 2026-01-23T14:15:54+07:00
 share: true
 title: "Obsidian Vault - FAQ"
+description: "Ответы на все вопросы по Obsidian Vault: структура системных заметок, механика Alt+P, метаданные, иерархии и советы по масштабированию."
 comments: false
 enableToc: true
 ---

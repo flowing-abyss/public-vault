@@ -22,6 +22,7 @@ end:
 created: 2025-11-29T01:16:41+07:00
 updated: 2025-12-06T11:50:04+07:00
 title: Промежуточная информация по паблику
+description: "Актуальный дайджест сообщества flowing-abyss: структуры для инженеров, n8n, GTD, Bases, Zotero и дискуссии о роли ИИ в PKM."
 share: true
 comments: false
 enableToc: false

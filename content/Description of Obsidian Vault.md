@@ -23,6 +23,7 @@ total_hours: 4
 created: 2025-08-17T10:54:15+07:00
 updated: 2026-01-09T16:43:05+07:00
 title: Obsidian Vault
+description: "Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией."
 share: true
 comments: false
 ---

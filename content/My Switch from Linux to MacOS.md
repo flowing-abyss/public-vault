@@ -23,6 +23,7 @@ created: 2026-02-12T22:26:07+07:00
 updated: 2026-02-22T22:47:31+07:00
 share: true
 title: "Мой переход с Linux на MacOS"
+description: "Исповедь бывшего фаната Linux: почему перекомпилировать Gentoo больше не имеет смысла и как macOS стал рабочим инструментом."
 comments: true
 enableToc: true
 ---

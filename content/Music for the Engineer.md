@@ -24,6 +24,7 @@ created: 2025-12-05T19:35:55+07:00
 updated: 2026-01-15T11:30:33+07:00
 share: true
 title: Музыка для инженера
+description: "Два режима прослушивания для инженера: культовые альбомы для глубокого погружения и идеальный прогулочный плейлист от Krautrock до Radiohead."
 comments: true
 enableToc: true
 cssclasses:

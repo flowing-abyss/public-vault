@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { minimalImage } from "./quartz/util/customOg"
 
 const config: QuartzConfig = {
   configuration: {
@@ -87,7 +88,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      Plugin.CustomOgImages({ imageStructure: minimalImage }),
     ],
   },
 }

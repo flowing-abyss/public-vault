@@ -5,7 +5,7 @@ aliases: []
 description: "Ответы на все вопросы по Obsidian Vault: структура системных заметок, механика Alt+P, метаданные, иерархии и советы по масштабированию."
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-02-28T19:01:24+07:00
+updated: 2026-02-28T19:03:50+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -633,7 +633,7 @@ cd .claude && git pull
 
 Далее я дам краткое описание узлов.
 
-> [!important|hide-icon]- 🪧 context
+> [!example|hide-icon]- 🪧 context
 > - **Тег**
 > 
 > `#note/discourse/context`
@@ -648,7 +648,7 @@ cd .claude && git pull
 > • • •
 > В оригинальном методе этот узел не выделяется как основной, но я решил выделить его в отдельный тип, так как он решает очень важную проблему. А именно, этот узел отвечает на вопрос: «Что мне нужно знать, чтобы понять суть проблемы?»
 
-> [!important|hide-icon]- ❓ question (вопрос / гипотеза)
+> [!example|hide-icon]- ❓ question (вопрос / гипотеза)
 > - **Тег**
 > 
 > `#note/discourse/question`
@@ -663,7 +663,7 @@ cd .claude && git pull
 > • • •
 > Сформулировать гипотезу весьма непросто, а особенно непросто сделать это в начале пути, когда толком нет никаких компетенций. Но в любом случае, это придется сделать, т.к. без внятной гипотезы можно себя просто наилегчайшим образом обречь на бесконечные, никуда не ведущие, блуждания.
 
-> [!important|hide-icon]- 👀 observation
+> [!example|hide-icon]- 👀 observation
 > - **Тег**
 > 
 > `#note/discourse/observation`
@@ -682,7 +682,7 @@ cd .claude && git pull
 >
 > Важно отметить отличие наблюдения от доказательства. Наблюдение — это констатация «что я вижу». Доказательство — это «как увиденное подтверждает или опровергает конкретный тезис».
 
-> [!important|hide-icon]- ❗️ claim (утверждение / тезис)
+> [!example|hide-icon]- ❗️ claim (утверждение / тезис)
 > - **Тег**
 > 
 > `#note/discourse/claim`
@@ -697,7 +697,7 @@ cd .claude && git pull
 > • • •
 > Если создаётся этот узел, автоматически должна возникнуть мысль: "Как это доказать?". Иначе говоря, этот узел обязан быть поддержан доказательствами (🌀 evidence).
 
-> [!important|hide-icon]- 🌀 evidence (доказательство / аргумент)
+> [!example|hide-icon]- 🌀 evidence (доказательство / аргумент)
 > - **Тег**
 > 
 > `#note/discourse/evidence`
@@ -712,7 +712,7 @@ cd .claude && git pull
 > • • •
 > Нетрудно понять, что ❗️ claim и 🌀 evidence — это два взаимосвязанных узла. По сути, именно они формируют основной вклад в дискурс.
 
-> [!important|hide-icon]- 🧪 synthesis (синтез / вывод)
+> [!example|hide-icon]- 🧪 synthesis (синтез / вывод)
 > - **Тег**
 > 
 > `#note/discourse/synthesis`

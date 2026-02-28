@@ -68,6 +68,7 @@ enableToc: false
 	- Сделано это для [[similar notes - example.png|консистентного отображения]] с рекомендуемым плагином Similar Notes (смотреть в конце)
 - Исправлено открытие файла в QuickAdd
 - Обновлены шаблоны для [[obsidian web clipper|Web Clipper]]
+- Добавлен [[canvas-refactoring-based-on-periodic-notes.png|canvas на 2027 год]]
 - Добавлена автоматически формируемая [[Gantt - projects.png|Gantt-диаграмма]] для проектов
 	- Основывается на метаданных `start` и `end`
 - Добавлено [[kanban for bases.png|интерактивное Kanban-отображение]] для Bases

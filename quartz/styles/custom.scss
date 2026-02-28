@@ -228,11 +228,11 @@ p {
 }
 
 .callout[data-callout-metadata="hide-title"] .callout-title {
-  display: none;
+  display: none !important;
 }
 
 .callout[data-callout-metadata="hide-icon"] .callout-icon {
-  display: none;
+  display: none !important;
 }
 
 // ---

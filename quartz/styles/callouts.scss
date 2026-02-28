@@ -176,3 +176,7 @@
     font-weight: $semiBoldWeight;
   }
 }
+
+.callout[data-callout-metadata="hide-icon"] .callout-icon {
+  display: none !important;
+}

@@ -231,6 +231,10 @@ p {
   display: none;
 }
 
+.callout[data-callout-metadata="hide-icon"] .callout-icon {
+  display: none;
+}
+
 // ---
 
 ul ul::before,

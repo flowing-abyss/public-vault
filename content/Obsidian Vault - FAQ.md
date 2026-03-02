@@ -547,7 +547,7 @@ cd .claude && git pull
 ```
 
 >[!info] 
-> Скиллы зависят от [Obsidian CLI](https://help.obsidian.md/cli). Убедитесь, что они у вас [[obsidian-cli.png|включены]].
+> Скиллы зависят от [Obsidian CLI](https://help.obsidian.md/cli). Убедитесь, что это у вас [[obsidian-cli.png|включено]].
 
 ## Obsidian Terminal
 

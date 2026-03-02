@@ -5,7 +5,7 @@ aliases: []
 description: "Ответы на все вопросы по Obsidian Vault: структура системных заметок, механика Alt+P, метаданные, иерархии и советы по масштабированию."
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-03-01T11:59:28+07:00
+updated: 2026-03-02T13:25:27+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -546,7 +546,7 @@ git pull origin main
 cd .claude && git pull
 ```
 
->[!info] 
+> [!info]
 > Скиллы зависят от [Obsidian CLI](https://help.obsidian.md/cli). Убедитесь, что это у вас [[obsidian-cli.png|включено]].
 
 ## Obsidian Terminal

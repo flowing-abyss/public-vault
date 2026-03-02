@@ -5,7 +5,7 @@ aliases: []
 description: "Ответы на все вопросы по Obsidian Vault: структура системных заметок, механика Alt+P, метаданные, иерархии и советы по масштабированию."
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-03-01T00:17:52+07:00
+updated: 2026-03-01T11:59:28+07:00
 share: true
 title: "Obsidian Vault - FAQ"
 comments: false
@@ -546,6 +546,9 @@ git pull origin main
 cd .claude && git pull
 ```
 
+>[!info] 
+> Скиллы зависят от [Obsidian CLI](https://help.obsidian.md/cli). Убедитесь, что они у вас [[obsidian-cli.png|включены]].
+
 ## Obsidian Terminal
 
 Плагин [Terminal](https://obsidian.md/plugins?id=terminal) встраивает терминал в Obsidian. Мне он показался довольно удобным: открываешь его на панели и работаешь в одном пространстве без переключений.
@@ -586,6 +589,8 @@ cd .claude && git pull
 > 	"useWin32Conhost": true
 > }
 > ```
+
+Вместо терминала можно также попробовать [Agent Client](https://github.com/RAIT-09/obsidian-agent-client), но он ставится сейчас через [BRAT](https://obsidian.md/plugins?id=obsidian42-brat) и дополнительно требует адаптер (`claude-agent-acp`).
 
 ## Зависимость
 

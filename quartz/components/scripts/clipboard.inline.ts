@@ -10,12 +10,12 @@ function showCopiedTooltip(target: HTMLElement) {
   const tooltip = document.createElement("span")
   tooltip.className = "inline-copy-tooltip"
   tooltip.textContent = "Copied!"
-  tooltip.style.top = `${rect.top - 28}px`
-  tooltip.style.left = `${rect.left + rect.width / 2}px`
+  // set critical layout styles inline so they apply before first paint
+  tooltip.style.cssText = `position:fixed;top:${rect.top - 30}px;left:${rect.left + rect.width / 2}px;transform:translateX(-50%);pointer-events:none;opacity:0;z-index:9999;`
   document.body.appendChild(tooltip)
-  requestAnimationFrame(() => tooltip.classList.add("visible"))
+  requestAnimationFrame(() => (tooltip.style.opacity = "1"))
   setTimeout(() => {
-    tooltip.classList.remove("visible")
+    tooltip.style.opacity = "0"
     tooltip.addEventListener("transitionend", () => tooltip.remove(), { once: true })
   }, 800)
 }

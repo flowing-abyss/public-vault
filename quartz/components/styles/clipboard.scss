@@ -46,15 +46,9 @@ code:not(pre code) {
   &:hover {
     text-decoration-color: var(--secondary);
   }
-
-  .inline-copy-tooltip {
-    display: none; // nested rule kept for reference only
-  }
 }
 
 .inline-copy-tooltip {
-  position: fixed;
-  transform: translateX(-50%);
   white-space: nowrap;
   background: var(--lightgray);
   color: var(--dark);
@@ -62,12 +56,5 @@ code:not(pre code) {
   font-family: var(--bodyFont);
   padding: 2px 7px;
   border-radius: 4px;
-  pointer-events: none;
-  opacity: 0;
   transition: opacity 0.15s;
-  z-index: 9999;
-
-  &.visible {
-    opacity: 1;
-  }
 }

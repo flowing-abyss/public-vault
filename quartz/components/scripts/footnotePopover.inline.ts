@@ -54,10 +54,26 @@ document.addEventListener("nav", () => {
           jumpLink.href = href
           jumpLink.textContent = " ↓"
           jumpLink.style.cssText = "font-size:0.8em;opacity:0.6;text-decoration:none;"
-          jumpLink.addEventListener("click", () => {
+          jumpLink.addEventListener("click", (e) => {
+            e.preventDefault()
             if (currentPopover) {
               currentPopover.remove()
               currentPopover = null
+            }
+            // Open the collapsible footnotes section (same logic as clicking the number)
+            const target = document.getElementById(href.slice(1))
+            if (target) {
+              const details = target.closest(
+                "details.footnotes-details",
+              ) as HTMLDetailsElement | null
+              if (details && !details.open) {
+                details.open = true
+                requestAnimationFrame(() =>
+                  target.scrollIntoView({ block: "start", behavior: "smooth" }),
+                )
+              } else {
+                target.scrollIntoView({ block: "start", behavior: "smooth" })
+              }
             }
           })
           pClone.appendChild(jumpLink)

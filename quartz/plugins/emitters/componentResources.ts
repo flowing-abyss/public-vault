@@ -9,6 +9,8 @@ import popoverScript from "../../components/scripts/popover.inline"
 import { transform as transpile } from "esbuild"
 import { Features, transform } from "lightningcss"
 import footnotePopoverScript from "../../components/scripts/footnotePopover.inline"
+// @ts-ignore
+import footnoteCollapseScript from "../../components/scripts/footnoteCollapse.inline"
 import popoverStyle from "../../components/styles/popover.scss"
 import { QuartzComponent } from "../../components/types"
 import styles from "../../styles/custom.scss"
@@ -89,6 +91,8 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
 
   // footnote popovers (always active, independent of enablePopovers)
   componentResources.afterDOMLoaded.push(footnotePopoverScript)
+  // footnote collapse (wrap section.footnotes in <details> collapsed by default)
+  componentResources.afterDOMLoaded.push(footnoteCollapseScript)
   if (!cfg.enablePopovers) {
     componentResources.css.push(popoverStyle)
   }

@@ -327,6 +327,47 @@ a[data-footnote-ref] {
   color: #dc9656;
 }
 
+// footnotes collapse
+
+section.footnotes {
+  padding-top: 0.75rem;
+
+  .footnotes-details {
+    > summary.footnotes-summary {
+      list-style: none;
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      color: var(--dark);
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      user-select: none;
+      margin-bottom: 0;
+
+      .footnotes-fold {
+        font-size: 1.1rem;
+        line-height: 1;
+        opacity: 0.5;
+        transition: transform 0.2s ease;
+        transform: rotate(0deg);
+      }
+    }
+
+    &[open] > summary.footnotes-summary {
+      margin-bottom: 0.5rem;
+
+      .footnotes-fold {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
 // backlinks
 
 .backlinks {

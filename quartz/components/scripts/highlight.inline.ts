@@ -86,4 +86,4 @@ function highlightSymbols() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", highlightSymbols)
+document.addEventListener("nav", highlightSymbols)

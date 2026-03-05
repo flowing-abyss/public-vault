@@ -5,18 +5,20 @@ import { QuartzEmitterPlugin } from "../types"
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
-import styles from "../../styles/custom.scss"
+// @ts-ignore
+import { transform as transpile } from "esbuild"
+import { Features, transform } from "lightningcss"
+import footnotePopoverScript from "../../components/scripts/footnotePopover.inline"
 import popoverStyle from "../../components/styles/popover.scss"
-import { BuildCtx } from "../../util/ctx"
 import { QuartzComponent } from "../../components/types"
+import styles from "../../styles/custom.scss"
+import { BuildCtx } from "../../util/ctx"
 import {
   googleFontHref,
   googleFontSubsetHref,
   joinStyles,
   processGoogleFonts,
 } from "../../util/theme"
-import { Features, transform } from "lightningcss"
-import { transform as transpile } from "esbuild"
 import { write } from "./helpers"
 
 type ComponentResources = {
@@ -82,6 +84,12 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
   // popovers
   if (cfg.enablePopovers) {
     componentResources.afterDOMLoaded.push(popoverScript)
+    componentResources.css.push(popoverStyle)
+  }
+
+  // footnote popovers (always active, independent of enablePopovers)
+  componentResources.afterDOMLoaded.push(footnotePopoverScript)
+  if (!cfg.enablePopovers) {
     componentResources.css.push(popoverStyle)
   }
 

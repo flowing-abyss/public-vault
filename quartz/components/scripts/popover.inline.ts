@@ -121,7 +121,9 @@ function clearActivePopover() {
 }
 
 document.addEventListener("nav", () => {
-  const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
+  const links = [
+    ...document.querySelectorAll("a.internal:not([data-footnote-ref])"),
+  ] as HTMLAnchorElement[]
   for (const link of links) {
     link.addEventListener("mouseenter", mouseEnterHandler)
     link.addEventListener("mouseleave", clearActivePopover)

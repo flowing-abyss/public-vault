@@ -319,6 +319,14 @@ tbody tr:nth-child(odd) {
   color: rgb(84, 200, 208);
 }
 
+.highlight-number {
+  color: #dc9656;
+}
+
+a[data-footnote-ref] {
+  color: #dc9656;
+}
+
 // backlinks
 
 .backlinks {

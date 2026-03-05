@@ -323,6 +323,14 @@ tbody tr:nth-child(odd) {
   color: #dc9656;
 }
 
+.text-highlight {
+  background: rgba(210, 185, 60, 0.25);
+  border: 1px solid rgba(210, 185, 60, 0.22);
+  border-radius: 3px;
+  padding: 0.05em 0.25em;
+  color: inherit;
+}
+
 a[data-footnote-ref] {
   color: #dc9656;
 }

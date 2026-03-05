@@ -512,6 +512,20 @@ section.footnotes {
   overflow: visible !important;
 }
 
+// Audio player
+audio {
+  width: 100%;
+  outline: none;
+  display: block;
+  color-scheme: dark;
+
+  &::-webkit-media-controls-enclosure {
+    background-color: #242424;
+    border-radius: 4px;
+    border: 1px solid #444;
+  }
+}
+
 // Code block scrollbar
 pre {
   &::-webkit-scrollbar {

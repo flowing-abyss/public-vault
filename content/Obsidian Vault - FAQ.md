@@ -1,13 +1,24 @@
 ---
 tags:
-  - note/basic/evergreen
-aliases: []
+  - status/published
+  - project/single
+  - priority/c
+  - category/knowledge_base
+aliases:
+  - FAQ
 description: "Ответы на все вопросы по Obsidian Vault: структура системных заметок, механика Alt+P, метаданные, иерархии и советы по масштабированию."
+status: 📢
+priority: 🇨
+category:
+  - "[[knowledge base]]"
+meta:
+  - "[[obsidian]]"
+problem:
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-03-05T15:29:22+07:00
+updated: 2026-03-05T23:38:36+07:00
 share: true
-title: "Obsidian Vault - FAQ"
+title: Obsidian Vault - FAQ
 comments: false
 enableToc: true
 ---

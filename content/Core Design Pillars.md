@@ -1,15 +1,20 @@
 ---
 tags:
   - note/basic/primary
+  - category/knowledge_base
+  - category/development
 aliases:
   - pillars
   - GDD
 description: "Как геймдизайнеры документируют игры: четырёхуровневая иерархия Pillar → Feature → Mechanic → Implementation на примере Factorio."
+category:
+  - "[[knowledge base]]"
+  - "[[development]]"
 url: "[flowing-abyss](https://flowing-abyss.com/Core-Design-Pillars)"
 created: 2026-02-25T13:06:54+07:00
-updated: 2026-02-27T23:09:01+07:00
+updated: 2026-03-05T23:34:42+07:00
 share: true
-title: "Core Design Pillars"
+title: Core Design Pillars
 comments: true
 enableToc: false
 cssclasses:

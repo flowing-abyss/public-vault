@@ -1,15 +1,20 @@
 ---
 tags:
   - note/basic/primary
+  - category/knowledge_base
 aliases: []
+description: Как реализовать логику супертегов Tana в Obsidian с помощью Metadata Menu и динамическими DataviewJS-отображениями по типу заметки.
 url: "[flowing-abyss](https://flowing-abyss.com/Tana-style-Supertags-in-Obsidian)"
 created: 2026-01-01T21:58:29+07:00
-updated: 2026-01-01T23:27:09+07:00
+updated: 2026-03-05T23:13:01+07:00
 share: true
-title: "Супертеги Tana в Obsidian (прототип)"
-description: "Как реализовать логику супертегов Tana в Obsidian с помощью Metadata Menu и динамическими DataviewJS-отображениями по типу заметки."
+title: Супертеги Tana в Obsidian (прототип)
 comments: true
 enableToc: false
+category:
+  - "[[knowledge base]]"
+meta:
+  - "[[obsidian]]"
 ---
 
 Решил попробовать [Tana](https://tana.inc/), т.к. давно была мысль узнать, что такое **супертеги** и как это можно использовать в Obsidian.

@@ -1,8 +1,8 @@
-import fs from "fs"
 import { Repository } from "@napi-rs/simple-git"
-import { QuartzTransformerPlugin } from "../types"
+import fs from "fs"
 import path from "path"
 import { styleText } from "util"
+import { QuartzTransformerPlugin } from "../types"
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -75,7 +75,8 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
                 created ||= file.data.frontmatter.created as MaybeDate
-                modified ||= file.data.frontmatter.modified as MaybeDate
+                modified ||= (file.data.frontmatter.updated ??
+                  file.data.frontmatter.modified) as MaybeDate
                 published ||= file.data.frontmatter.published as MaybeDate
               } else if (source === "git" && repo) {
                 try {

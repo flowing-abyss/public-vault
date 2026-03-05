@@ -3,15 +3,15 @@ tags:
   - status/published
   - project/single
   - priority/c
-  - category/public
+  - category/knowledge_base
 aliases: []
-description: "Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией."
+description: Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией.
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
+  - "[[knowledge base]]"
 meta:
-  - "[[flowing-abyss]]"
+  - "[[obsidian]]"
 problem:
 creator:
 production:
@@ -20,9 +20,8 @@ cover:
 published:
 start: 2025-08-17
 end: 2025-08-17
-total_hours: 4
 created: 2025-08-17T10:54:15+07:00
-updated: 2026-03-02T13:26:35+07:00
+updated: 2026-03-05T21:34:18+07:00
 title: Obsidian Vault
 share: true
 comments: false

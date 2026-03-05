@@ -17,5 +17,3 @@ enableToc: false
 3. Залетай в [Telegram](https://t.me/flowing_abyss)
 
 [[RAW Logs]]
-
-### recent

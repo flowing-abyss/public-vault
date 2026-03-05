@@ -3,17 +3,15 @@ tags:
   - status/published
   - project/single
   - priority/c
-  - category/public
+  - category/hobby
 aliases:
   - Музыка для инженера
 description: "Два режима прослушивания для инженера: культовые альбомы для глубокого погружения и идеальный прогулочный плейлист от Krautrock до Radiohead."
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
+  - "[[hobby]]"
 meta:
-  - "[[public writing]]"
-  - "[[flowing-abyss]]"
 problem:
 creator:
 production:

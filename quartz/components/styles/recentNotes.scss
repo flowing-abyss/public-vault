@@ -1,24 +1,149 @@
+@use "sass:color";
+
 .recent-notes {
-  & > h3 {
-    margin: 0.5rem 0 0 0;
-    font-size: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #555555;
+
+  .recent-title {
+    margin: 0 0 0.75rem 0;
   }
 
-  & > ul.recent-ul {
-    list-style: none;
-    margin-top: 1rem;
-    padding-left: 0;
+  .recent-filters-wrap {
+    margin-bottom: 0.6rem;
+  }
 
-    & > li {
-      margin: 1rem 0;
-      .section > .desc > h3 > a {
-        background-color: transparent;
+  .recent-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0;
+    margin: 0;
+
+    &.recent-filters-type {
+      margin-bottom: 0.35rem;
+    }
+  }
+
+  .filter-btn {
+    font-family: var(--bodyFont);
+    font-size: 0.8rem;
+    padding: 0.2rem 0.65rem;
+    border: 1px solid #4a4a4a;
+    border-radius: 2px;
+    background: #252525;
+    color: #888888;
+    cursor: pointer;
+    transition:
+      background 0.15s,
+      border-color 0.15s,
+      color 0.15s;
+
+    &:hover {
+      background: #333333;
+      border-color: #888888;
+      color: #dddddd;
+    }
+
+    &.active {
+      background: #3e3e3e;
+      border-color: #aaaaaa;
+      color: #f0f0f0;
+    }
+  }
+
+  // th/td/tr visuals all come from custom.scss div .table-container rules
+  .recent-table-wrap {
+    overflow-x: auto;
+  }
+
+  .recent-table {
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+
+      .sort-icon {
+        visibility: hidden;
       }
 
-      .section > .meta {
-        margin: 0 0 0.5rem 0;
-        opacity: 0.6;
+      &.sort-active .sort-icon {
+        visibility: visible;
       }
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    th.sort-active {
+      color: #ffffff;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    tbody tr:hover {
+      background-color: #333333 !important;
+    }
+
+    .td-title {
+      a.internal {
+        color: var(--secondary);
+        font-weight: 500;
+        text-decoration: none;
+        background: none;
+
+        &:hover {
+          color: var(--tertiary);
+          text-decoration: underline;
+        }
+      }
+
+      &[data-type="essay"] a.internal {
+        color: #a39070;
+        &:hover {
+          color: color.adjust(#a39070, $lightness: 15%);
+        }
+      }
+
+      &[data-type="article"] a.internal {
+        color: #b87535;
+        &:hover {
+          color: color.adjust(#b87535, $lightness: 15%);
+        }
+      }
+
+      .type-icon {
+        margin-right: 0.3rem;
+        font-style: normal;
+        cursor: default;
+      }
+    }
+
+    .td-tag {
+      white-space: normal;
+      color: var(--gray);
+      font-size: 0.8rem;
+    }
+
+    .td-date {
+      white-space: nowrap;
+
+      .date-rel {
+        font-family: var(--codeFont);
+        font-size: 0.85em;
+        color: var(--dark);
+        background: var(--lightgray);
+        border-radius: 5px;
+        padding: 0.1rem 0.3rem;
+      }
+    }
+  }
+
+  .recent-more {
+    margin-top: 0.75rem;
+    a {
+      color: var(--secondary);
     }
   }
 }

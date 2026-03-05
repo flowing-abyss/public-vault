@@ -1,15 +1,26 @@
 ---
 tags:
-  - note/basic/fern
+  - status/published
+  - project/single
+  - priority/c
   - category/knowledge_base
 aliases:
   - Простой и бесполезный bottom-up способ ведения заметок
-description: "Почему чистый bottom-up подход к ведению заметок не работает в долгосрочной перспективе — и какие архитектуры реально масштабируются."
+description: Почему чистый bottom-up подход к ведению заметок не работает в долгосрочной перспективе — и какие архитектуры реально масштабируются.
+status: 📢
+priority: 🇨
+category:
+  - "[[knowledge base]]"
+meta:
+  - "[[obsidian]]"
+problem:
+creator:
+production:
 url: "[flowing-abyss](https://flowing-abyss.com/Simple-and-Useless-Bottom-Up-Note-Taking)"
 created: 2026-02-25T09:34:20+07:00
-updated: 2026-03-05T12:49:51+07:00
+updated: 2026-03-05T23:36:09+07:00
 share: true
-title: "Простой и бесполезный bottom-up способ ведения заметок"
+title: Простой и бесполезный bottom-up способ ведения заметок
 comments: true
 enableToc: false
 cssclasses:

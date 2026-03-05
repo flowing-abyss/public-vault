@@ -3,12 +3,16 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/knowledge_base
 aliases:
   - Freemium модель для Obsidian Vault
+description: Как freemium-модель помогла открыть 12-часовое видео по Obsidian Vault всем желающим — и почему это честнее, чем paywall.
 status: 📢
 priority: 🇨
 category:
+  - "[[knowledge base]]"
 meta:
+  - "[[obsidian]]"
 problem:
 creator:
 production:
@@ -19,10 +23,9 @@ start: 2025-09-20T17:50:42+07:00
 end: 2025-09-20
 total_hours: 0
 created: 2025-09-20T17:50:42+07:00
-updated: 2025-11-01T12:39:20+07:00
+updated: 2026-03-05T21:58:30+07:00
 share: true
 title: Freemium модель для Obsidian Vault
-description: "Как freemium-модель помогла открыть 12-часовое видео по Obsidian Vault всем желающим — и почему это честнее, чем paywall."
 comments: false
 ---
 

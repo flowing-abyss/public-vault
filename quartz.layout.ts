@@ -15,7 +15,6 @@ export const sharedPageComponents: SharedLayout = {
         title: "Recent",
         limit: 100,
         linkToMore: false,
-        showTags: false,
         filter: (page) => {
           // Exclude index page and obsidian-vault folder
           if (page.slug === "index" || page.slug?.startsWith("obsidian-vault/")) {

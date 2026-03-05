@@ -1,15 +1,18 @@
 ---
 tags:
   - note/basic/primary
+  - category/knowledge_base
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
 created: 2025-08-18T13:27:42
 updated: 2025-11-05T14:00:22+07:00
 share: true
-title: "MarkDB-Connect"
+title: MarkDB-Connect
 description: "Как настроить плагин MarkDB-Connect для Zotero: автоматические теги и быстрый переход к заметке в Obsidian прямо из библиотеки."
 cssclasses:
   - small-title
+category:
+  - "[[knowledge base]]"
 ---
 
 [Плагин для Zotero](https://github.com/daeh/zotero-markdb-connect), который добавляет тег к элементу Zotero, если по нему есть заметка в Obsidian. Также он добавляет пункт в контекстное меню Zotero, который открывает соответствующую заметку в Obsidian.

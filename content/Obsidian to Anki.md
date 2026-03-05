@@ -1,15 +1,20 @@
 ---
 tags:
   - note/basic/primary
+  - category/knowledge_base
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-to-Anki)"
 created: 2025-12-11T18:58:42+07:00
 updated: 2026-02-20T21:20:19+07:00
 share: true
-title: "Obsidian to Anki"
-description: "Пошаговая инструкция по настройке интеграции Obsidian и Anki через плагин AnkiConnect для синхронизации карточек интервального повторения."
+title: Obsidian to Anki
+description: Пошаговая инструкция по настройке интеграции Obsidian и Anki через плагин AnkiConnect для синхронизации карточек интервального повторения.
 comments: true
 enableToc: false
+category:
+  - "[[knowledge base]]"
+meta:
+  - "[[obsidian]]"
 ---
 
 Отройте Anki.

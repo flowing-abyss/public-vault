@@ -8,6 +8,7 @@ import popoverScript from "../../components/scripts/popover.inline"
 // @ts-ignore
 import { transform as transpile } from "esbuild"
 import { Features, transform } from "lightningcss"
+// @ts-ignore
 import footnotePopoverScript from "../../components/scripts/footnotePopover.inline"
 // @ts-ignore
 import footnoteCollapseScript from "../../components/scripts/footnoteCollapse.inline"

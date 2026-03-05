@@ -3,7 +3,35 @@ const svgCopy =
 const svgCheck =
   '<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true"><path fill-rule="evenodd" fill="rgb(63, 185, 80)" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>'
 
+function showCopiedTooltip(target: HTMLElement) {
+  const existing = target.querySelector<HTMLElement>(".inline-copy-tooltip")
+  if (existing) return
+  const tooltip = document.createElement("span")
+  tooltip.className = "inline-copy-tooltip"
+  tooltip.textContent = "Copied!"
+  target.appendChild(tooltip)
+  // trigger fade-in next frame
+  requestAnimationFrame(() => tooltip.classList.add("visible"))
+  setTimeout(() => {
+    tooltip.classList.remove("visible")
+    tooltip.addEventListener("transitionend", () => tooltip.remove(), { once: true })
+  }, 800)
+}
+
 document.addEventListener("nav", () => {
+  // Inline code click-to-copy via event delegation (works in popovers too)
+  function onDocClick(e: MouseEvent) {
+    const el = (e.target as HTMLElement).closest<HTMLElement>("code:not(pre code)")
+    if (!el) return
+    const source = el.innerText
+    navigator.clipboard.writeText(source).then(
+      () => showCopiedTooltip(el),
+      (error) => console.error(error),
+    )
+  }
+  document.addEventListener("click", onDocClick)
+  window.addCleanup(() => document.removeEventListener("click", onDocClick))
+
   const els = document.getElementsByTagName("pre")
   for (let i = 0; i < els.length; i++) {
     const codeBlock = els[i].getElementsByTagName("code")[0]

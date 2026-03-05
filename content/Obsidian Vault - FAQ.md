@@ -16,7 +16,7 @@ meta:
 problem:
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-03-05T23:38:36+07:00
+updated: 2026-03-06T01:07:25+07:00
 share: true
 title: Obsidian Vault - FAQ
 comments: false

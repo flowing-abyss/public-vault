@@ -30,6 +30,16 @@ document.addEventListener("nav", () => {
     section.appendChild(details)
   }
 
+  function flashTarget(target: HTMLElement) {
+    target.classList.remove("footnote-flash")
+    // Force reflow to restart animation if already applied
+    void target.offsetWidth
+    target.classList.add("footnote-flash")
+    target.addEventListener("animationend", () => target.classList.remove("footnote-flash"), {
+      once: true,
+    })
+  }
+
   // When navigating to a footnote anchor, open <details> first, then scroll
   function openAndScrollToHash(hash: string) {
     if (!hash) return
@@ -38,7 +48,13 @@ document.addEventListener("nav", () => {
     const details = target.closest("details.footnotes-details") as HTMLDetailsElement | null
     if (details && !details.open) {
       details.open = true
-      requestAnimationFrame(() => target.scrollIntoView({ block: "start" }))
+      requestAnimationFrame(() => {
+        target.scrollIntoView({ block: "start" })
+        flashTarget(target)
+      })
+    } else {
+      target.scrollIntoView({ block: "start" })
+      flashTarget(target)
     }
   }
 
@@ -49,6 +65,28 @@ document.addEventListener("nav", () => {
     }
     link.addEventListener("click", handler)
     window.addCleanup(() => link.removeEventListener("click", handler))
+  }
+
+  // When navigating back from footnote to text, flash the source paragraph
+  for (const backref of document.querySelectorAll<HTMLAnchorElement>("a[data-footnote-backref]")) {
+    const handler = (e: MouseEvent) => {
+      e.preventDefault()
+      const href = backref.getAttribute("href")
+      if (!href) return
+      const target = document.getElementById(href.slice(1))
+      if (!target) return
+      const para = target.closest("p, li") as HTMLElement | null
+      const flashEl = para ?? target
+      target.scrollIntoView({ block: "center", behavior: "smooth" })
+      flashEl.classList.remove("footnote-flash")
+      void flashEl.offsetWidth
+      flashEl.classList.add("footnote-flash")
+      flashEl.addEventListener("animationend", () => flashEl.classList.remove("footnote-flash"), {
+        once: true,
+      })
+    }
+    backref.addEventListener("click", handler)
+    window.addCleanup(() => backref.removeEventListener("click", handler))
   }
 
   if (window.location.hash) {

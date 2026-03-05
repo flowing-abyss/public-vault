@@ -316,6 +316,22 @@ a {
   border-top: 1px solid var(--lightgray);
 }
 
+@keyframes footnote-flash {
+  0%,
+  100% {
+    outline: 2px solid transparent;
+    border-radius: 3px;
+  }
+  50% {
+    outline: 2px solid rgb(171, 70, 66);
+    border-radius: 3px;
+  }
+}
+
+.footnote-flash {
+  animation: footnote-flash 1s ease-in-out 2;
+}
+
 sup:has(a[data-footnote-ref]) {
   vertical-align: baseline;
   position: relative;

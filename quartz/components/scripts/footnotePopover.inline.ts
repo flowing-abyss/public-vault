@@ -66,13 +66,25 @@ document.addEventListener("nav", () => {
               const details = target.closest(
                 "details.footnotes-details",
               ) as HTMLDetailsElement | null
+              const flash = () => {
+                target.classList.remove("footnote-flash")
+                void (target as HTMLElement).offsetWidth
+                target.classList.add("footnote-flash")
+                target.addEventListener(
+                  "animationend",
+                  () => target.classList.remove("footnote-flash"),
+                  { once: true },
+                )
+              }
               if (details && !details.open) {
                 details.open = true
-                requestAnimationFrame(() =>
-                  target.scrollIntoView({ block: "start", behavior: "smooth" }),
-                )
+                requestAnimationFrame(() => {
+                  target.scrollIntoView({ block: "start", behavior: "smooth" })
+                  flash()
+                })
               } else {
                 target.scrollIntoView({ block: "start", behavior: "smooth" })
+                flash()
               }
             }
           })

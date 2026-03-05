@@ -122,20 +122,21 @@
 
     .td-tag {
       white-space: normal;
-      color: var(--gray);
+      color: #888888;
       font-size: 0.8rem;
     }
 
     .td-date {
-      white-space: nowrap;
+      white-space: nowrap !important;
 
       .date-rel {
         font-family: var(--codeFont);
         font-size: 0.85em;
-        color: var(--dark);
-        background: var(--lightgray);
-        border-radius: 5px;
-        padding: 0.1rem 0.3rem;
+        color: #cccccc;
+        background: #404040;
+        border-radius: 4px;
+        padding: 0.1rem 0.35rem;
+        display: inline-block;
       }
     }
   }

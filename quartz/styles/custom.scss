@@ -511,3 +511,26 @@ section.footnotes {
 .toc {
   overflow: visible !important;
 }
+
+// Code block scrollbar
+pre {
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 3px;
+
+    &:hover {
+      background: #666;
+    }
+  }
+
+  scrollbar-color: #444 #1a1a1a;
+  scrollbar-width: thin;
+}

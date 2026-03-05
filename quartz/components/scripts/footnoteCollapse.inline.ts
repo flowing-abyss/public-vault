@@ -3,6 +3,12 @@ document.addEventListener("nav", () => {
     // Skip if already transformed
     if (section.querySelector("details.footnotes-details")) continue
 
+    // Replace browser-inconsistent ↩ emoji with a plain arrow
+    section.querySelectorAll<HTMLElement>("a[data-footnote-backref]").forEach((el) => {
+      el.textContent = "↑"
+      el.style.cssText = "font-size:0.8em;opacity:0.6;text-decoration:none;"
+    })
+
     const details = document.createElement("details")
     details.className = "footnotes-details"
 

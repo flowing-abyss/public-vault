@@ -13,6 +13,8 @@ cssclasses:
   - small-title
 category:
   - "[[knowledge base]]"
+meta:
+  - "[[obsidian]]"
 ---
 
 [Плагин для Zotero](https://github.com/daeh/zotero-markdb-connect), который добавляет тег к элементу Zotero, если по нему есть заметка в Obsidian. Также он добавляет пункт в контекстное меню Zotero, который открывает соответствующую заметку в Obsidian.

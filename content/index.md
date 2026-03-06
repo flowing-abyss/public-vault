@@ -1,5 +1,5 @@
 ---
-title: "instruction"
+title: "entry point"
 cssclasses:
   - small-title
 comments: false

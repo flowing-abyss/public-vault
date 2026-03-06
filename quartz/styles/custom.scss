@@ -571,3 +571,28 @@ pre {
   scrollbar-color: var(--lightgray) transparent;
   scrollbar-width: thin;
 }
+
+// Search modal scrollbar
+.search-container,
+.results-container,
+.preview-container {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+    border-radius: 3px;
+
+    &:hover {
+      background: var(--gray);
+    }
+  }
+
+  scrollbar-color: var(--lightgray) transparent;
+  scrollbar-width: thin;
+}

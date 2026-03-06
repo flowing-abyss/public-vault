@@ -109,6 +109,27 @@ export default ((userOpts?: Partial<Options>) => {
             ))}
           </div>
         </div>
+        <ul class="recent-list">
+          {pages.slice(0, opts.limit).map((page) => {
+            const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+            const tags = page.frontmatter?.tags ?? []
+            const typeInfo = getTypeInfo(tags)
+            const createdISO = page.dates?.created?.toISOString() ?? ""
+            return (
+              <li class="recent-list-item" data-type={typeInfo?.label ?? ""}>
+                {typeInfo && (
+                  <span class="type-icon" title={typeInfo.label}>
+                    {typeInfo.icon}
+                  </span>
+                )}
+                <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                  {title}
+                </a>
+                <span class="list-date date-rel" data-ts={createdISO}></span>
+              </li>
+            )
+          })}
+        </ul>
         <div class="recent-table-wrap table-container">
           <table class="recent-table">
             <thead>

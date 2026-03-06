@@ -51,6 +51,78 @@
     }
   }
 
+  .recent-list {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+    .recent-filters-wrap {
+      display: none;
+    }
+
+    .recent-table-wrap {
+      display: none;
+    }
+
+    .recent-list {
+      display: block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      .recent-list-item {
+        display: flex;
+        align-items: baseline;
+        gap: 0.4rem;
+        padding: 0.45rem 0;
+        border-bottom: 1px solid #333333;
+
+        &:first-child {
+          border-top: 1px solid #555555;
+        }
+
+        a.internal {
+          flex: 1;
+          color: var(--secondary);
+          font-weight: 500;
+          text-decoration: none;
+          background: none;
+
+          &:hover {
+            color: var(--tertiary);
+            text-decoration: underline;
+          }
+        }
+
+        &[data-type="essay"] a.internal {
+          color: #a39070;
+          &:hover {
+            color: color.adjust(#a39070, $lightness: 15%);
+          }
+        }
+
+        &[data-type="article"] a.internal {
+          color: #b87535;
+          &:hover {
+            color: color.adjust(#b87535, $lightness: 15%);
+          }
+        }
+
+        .type-icon {
+          flex-shrink: 0;
+          font-style: normal;
+        }
+
+        .list-date {
+          flex-shrink: 0;
+          font-family: var(--codeFont);
+          font-size: 0.78em;
+          color: #666666;
+        }
+      }
+    }
+  }
+
   // th/td/tr visuals all come from custom.scss div .table-container rules
   .recent-table-wrap {
     overflow-x: auto;

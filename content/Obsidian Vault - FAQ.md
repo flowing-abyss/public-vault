@@ -16,7 +16,7 @@ meta:
 problem:
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Vault----FAQ)"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-03-06T13:50:34+07:00
+updated: 2026-03-06T23:18:40+07:00
 share: true
 title: Obsidian Vault - FAQ
 comments: false
@@ -254,7 +254,7 @@ enableToc: true
 
 Плюс в том, что у иерархических заметок можно легко менять метаданные, вкладывать одни иерархии в другие. Это даёт контроль, но не ломает общую, основную структуру.
 
-Вдобавок в иерархических заметках можно реализовать подход [Discourse graph](https://t.me/flowing_abyss_chat/7914) или использовать их как [[zotero tags - structure.png|ключевые слова]].
+Вдобавок в иерархических заметках можно реализовать подход [[#Discourse Graph|Discourse graph]] или использовать их как [[zotero tags - structure.png|ключевые слова]].
 
 > [!info]- Источник идеи иерархических заметок
 > Изначально идея таких заметок строилась вокруг [плагина Breadcrumbs](https://breadcrumbs-wiki.onrender.com/docs/Alternative%20Hierarchies/Hierarchy%20Notes). Выстраивать заметки в иерархические списки само по себе чертовски полезное занятие, так ещё и был способ быстро навигироваться по этой иерархии.

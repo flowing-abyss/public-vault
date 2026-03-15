@@ -1,5 +1,9 @@
 @use "./base.scss";
 
+.page {
+  max-width: 1400px;
+}
+
 body {
   font-family: "Rubik", "Noto Color Emoji", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
 }

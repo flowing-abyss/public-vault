@@ -21,7 +21,7 @@ published:
 start: 2025-08-17
 end: 2025-08-17
 created: 2025-08-17T10:54:15+07:00
-updated: 2026-03-05T21:34:18+07:00
+updated: 2026-03-15T19:54:59+07:00
 title: Obsidian Vault
 share: true
 comments: false

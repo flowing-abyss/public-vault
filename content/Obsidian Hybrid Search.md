@@ -1,6 +1,6 @@
 ---
 tags:
-  - status/wip
+  - status/published
   - project/single
   - priority/c
   - category/knowledge_base
@@ -9,7 +9,7 @@ tags:
 aliases:
   - MCP семантический поиск для Obsidian
   - CLI Obsidian
-status: 🟦
+status: 📢
 priority: 🇨
 addition:
   - "[[Obsidian Hybrid Search - specifications|➕]]"
@@ -32,9 +32,9 @@ url:
   - "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search)"
 cover: https://flowing-abyss.com/Obsidian-Hybrid-Search-2026-03-15.png
 start: 2026-03-07T19:54:34+07:00
-end:
+end: 2026-03-16
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-03-16T22:51:21+07:00
+updated: 2026-03-16T23:20:47+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
@@ -124,14 +124,14 @@ enableToc: true
 
 Результаты всех поисков объединяются через RRF.[^5] [^6]
 
-> [!info] **RRF**
+> [!info] RRF
 > Reciprocal Rank Fusion – это метод ансамблирования ранжированных списков.
 > <br>• • •<br>
 > Суть его в том, что каждый из трёх поисков возвращает свой отсортированный список. RRF объединяет их по принципу: чем выше заметка сразу в нескольких списках, тем выше её итоговая позиция.
 > > [!example] Пример
 > > Заметка, которая занимает первое место в одном списке и последнее в двух других, проиграет заметке со стабильно высокими позициями везде.
 >
-Это нивелирует слабые стороны каждого метода в отдельности.
+> Это нивелирует слабые стороны каждого метода в отдельности.
 
 Поверх вишенкой на торте – опциональный cross-encoder reranking через `bge-reranker-v2-m3` для более точного ранжирования. Улучшает ранжирование весьма круто, но это требовательно к железу. Поэтому реранкинг сделан как опция.
 
@@ -202,7 +202,7 @@ ohs "как достичь величия и вершин мастерства"
 ## MCP
 
 В корне хранилища нужно создать такой конфиг. На примере [[Obsidian Vault - FAQ#Claude Code|Claude Code]]:
-> [!note] `.mcp.json`
+> [!code] `.mcp.json`
 > ```json
 > {
 >   "mcpServers": {

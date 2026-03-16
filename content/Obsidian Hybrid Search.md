@@ -34,7 +34,7 @@ cover: https://flowing-abyss.com/Obsidian-Hybrid-Search-2026-03-15.png
 start: 2026-03-07T19:54:34+07:00
 end: 2026-03-16
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-03-16T23:20:47+07:00
+updated: 2026-03-16T23:22:08+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
@@ -174,6 +174,7 @@ npm install -g obsidian-hybrid-search
 > # Модель для эмбеддингов
 > export OPENAI_EMBEDDING_MODEL="baai/bge-m3"
 > ```
+> <br>• • •<br>
 > Удобные сокращения:
 > ```bash
 > alias ohs='obsidian-hybrid-search'
@@ -257,6 +258,7 @@ ohs "как достичь величия и вершин мастерства"
 Отдельно отмечу, что в CLI есть опция `--json`, чтобы было проще использовать в скриптах. Вывод будет примерно такой:
 > [!code]- json
 > `ohs "типы внимания" --limit 1 --rerank --json `
+> <br>• • •<br>
 > ```json
 > [
 >   {

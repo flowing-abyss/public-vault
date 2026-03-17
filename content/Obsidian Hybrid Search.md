@@ -34,7 +34,7 @@ cover: https://flowing-abyss.com/Obsidian-Hybrid-Search-2026-03-15.png
 start: 2026-03-07T19:54:34+07:00
 end: 2026-03-16
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-03-17T00:45:43+07:00
+updated: 2026-03-17T10:52:07+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
@@ -234,7 +234,7 @@ ohs "как достичь величия и вершин мастерства"
 > Это дефолтный паттерн использования в том числе для агента.
 
 > [!example]- Паттерн – найти конкретную заметку, когда знаешь примерное название или содержание
-> `ohs "zettleksten" --mode title` – fuzzy title через триграм терпит опечатки
+> `ohs "zettleksten" --mode title` – fuzzy title через триграм терпит опечатки<br>
 > `ohs "zettelkasten" --mode fulltext` – полнотекстовый поиск
 > <br>• • •<br>
 > Быстрый режим, без семантики, нужен когда примерно знаешь, что ищешь.

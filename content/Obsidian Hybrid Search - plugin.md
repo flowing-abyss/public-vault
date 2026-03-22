@@ -5,7 +5,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin)"
 created: 2026-03-22T07:42:35.000Z
-updated: 2026-03-22T21:57:35+07:00
+updated: 2026-03-22T22:32:56+07:00
 share: true
 title: "Obsidian Hybrid Search - plugin"
 comments: true
@@ -46,7 +46,7 @@ npm install -g obsidian-hybrid-search
 
 ## Как пользоваться
 
-Открыть поиск можно через иконку на боковой панели или через командную палитру (`Hybrid search: Open search`). Я поставил его на хоткей `ctrl+shift+f`. Результаты появляются по мере набора – с оценкой релевантности.
+Открыть поиск можно через иконку на боковой панели или через командную палитру (`Hybrid search: Open search`). Я поставил его на хоткей `Ctrl+Shift+F`. Результаты появляются по мере набора – с оценкой релевантности.
 
 | Score       | Цвет                                         | Значение              |
 | ----------- | -------------------------------------------- | --------------------- |

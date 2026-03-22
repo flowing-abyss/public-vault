@@ -5,7 +5,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin)"
 created: 2026-03-22T07:42:35.000Z
-updated: 2026-03-22T21:31:43+07:00
+updated: 2026-03-22T21:42:27+07:00
 share: true
 title: "Obsidian Hybrid Search - plugin"
 comments: true
@@ -93,7 +93,7 @@ npm install -g obsidian-hybrid-search
 
 ## Хоткеи внутри модального окна
 
-Mod = Ctrl (Windows/Linux) = Command (macOS)
+Mod = Ctrl (Windows/Linux) = Command (macOS)<br>
 Alt = Option (macOS)
 
 | Хоткей            | Действие                                                 |

@@ -85,7 +85,7 @@ npm install -g obsidian-hybrid-search
 
 ![[Obsidian Hybrid Search - plugin 20260322203514697.png]]
 
-Первый способ для тех, кто знаком с [операторами поиска](https://obsidian.md/help/plugins/search#Search+operators). Второй мне нравится больше, так как эти идентификаторы можно оставлять в любом месте.
+Первый способ для тех, кто знаком с [операторами поиска](https://obsidian.md/help/plugins/search#Search+operators). Второй больше нравится мне, так как эти идентификаторы можно оставлять в любом месте.
 
 ## Настройки
 

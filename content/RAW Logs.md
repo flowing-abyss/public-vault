@@ -2,13 +2,15 @@
 tags:
   - system/high/meta
   - mark/ignore
+  - category/public
 aliases: []
 description: Нефильтрованные логи PKM-эксперта
 category:
+  - "[[public]]"
 url: "[flowing-abyss](https://flowing-abyss.com/RAW-Logs)"
 relevant: false
 created: 2025-12-22T17:25:28+07:00
-updated: 2026-02-27T23:10:23+07:00
+updated: 2026-03-18T22:50:21+07:00
 share: true
 title: RAW Logs
 comments: false

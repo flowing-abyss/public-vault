@@ -10,6 +10,9 @@ aliases:
   - Семантический поиск
   - Гибридный поиск
   - гибридный поиск
+  - гибридному поиску
+  - гибридном поиске
+  - гибридного поиска
   - MCP семантический поиск для Obsidian
   - cемантический поиск
   - CLI Obsidian
@@ -18,6 +21,7 @@ priority: 🇨
 addition:
   - "[[Obsidian Hybrid Search - specifications|➕]]"
   - "[[Obsidian Hybrid Search - social networks|🗣️]]"
+  - "[[Obsidian Hybrid Search - plugin|➕]]"
   - "[[Obsidian Hybrid Search - description|🪪]]"
 category:
   - "[[knowledge base]]"
@@ -38,7 +42,7 @@ cover: https://flowing-abyss.com/Obsidian-Hybrid-Search-2026-03-15.png
 start: 2026-03-07T19:54:34+07:00
 end: 2026-03-16
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-03-17T12:44:37+07:00
+updated: 2026-03-22T21:15:52+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
@@ -47,14 +51,14 @@ enableToc: true
 
 ![[Obsidian Hybrid Search 2026-03-16.png]]
 
-%%
-[[github-icon.png]]
-%%
-
-<div style="display: flex; justify-content: center; margin: auto 0;">
+<div style="display: flex; justify-content: center; margin: auto 0; gap: 5px">
 	<a href="https://github.com/flowing-abyss/obsidian-hybrid-search" style="display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 16px; border:1px solid #EBEBEC; border-radius:8px; text-decoration:none; color: inherit; box-sizing:border-box;">
 		<img src="github-icon.png" style="max-height: 20px; height:auto;">
 		<span style="font-size: 18px; font-weight: 500;">GitHub</span>
+	</a>
+	<a href="https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin" style="display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 16px; border:1px solid #EBEBEC; border-radius:8px; text-decoration:none; color: inherit; box-sizing:border-box;">
+		<img src="obsidian-icon.png" style="max-height: 20px; height:auto;">
+		<span style="font-size: 18px; font-weight: 500;">Plugin</span>
 	</a>
 </div>
 
@@ -132,7 +136,7 @@ enableToc: true
 > Reciprocal Rank Fusion – это метод ансамблирования ранжированных списков.
 > <br>• • •<br>
 > Суть его в следующем. Каждый из трёх поисков возвращает свой отсортированный список. RRF объединяет их по принципу: чем выше заметка сразу в нескольких списках, тем выше её итоговая позиция.
-> 
+>
 > > [!example] Пример
 > > Заметка, которая занимает первое место в одном списке и последнее в двух других, проиграет заметке со стабильно высокими позициями везде.
 >
@@ -335,10 +339,14 @@ ohs "как достичь величия и вершин мастерства"
 
 На этом у меня всё.
 
-<div style="display: flex; justify-content: center; margin: auto 0;">
+<div style="display: flex; justify-content: center; margin: auto 0; gap: 5px">
 	<a href="https://github.com/flowing-abyss/obsidian-hybrid-search" style="display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 16px; border:1px solid #EBEBEC; border-radius:8px; text-decoration:none; color: inherit; box-sizing:border-box;">
 		<img src="github-icon.png" style="max-height: 20px; height:auto;">
 		<span style="font-size: 18px; font-weight: 500;">GitHub</span>
+	</a>
+	<a href="https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin" style="display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 16px; border:1px solid #EBEBEC; border-radius:8px; text-decoration:none; color: inherit; box-sizing:border-box;">
+		<img src="obsidian-icon.png" style="max-height: 20px; height:auto;">
+		<span style="font-size: 18px; font-weight: 500;">Plugin</span>
 	</a>
 </div>
 

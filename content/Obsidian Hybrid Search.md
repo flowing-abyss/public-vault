@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/public
   - category/knowledge_base
   - category/development
   - category/artificial_intelligence
@@ -21,9 +22,11 @@ priority: 🇨
 addition:
   - "[[Obsidian Hybrid Search - specifications|➕]]"
   - "[[Obsidian Hybrid Search - social networks|🗣️]]"
-  - "[[Obsidian Hybrid Search - plugin|➕]]"
+  - "[[Obsidian Hybrid Search - roadmap|🗺️]]"
+  - "[[Obsidian Hybrid Search - plugin|🔌]]"
   - "[[Obsidian Hybrid Search - description|🪪]]"
 category:
+  - "[[public]]"
   - "[[knowledge base]]"
   - "[[development]]"
   - "[[artificial intelligence]]"
@@ -34,15 +37,25 @@ meta:
   - "[[AI tools]]"
 problem:
 creator:
+  - "[[Me]]"
 production:
+  - "[[Telegram]]"
+  - "[[Habr]]"
+  - "[[GitHub]]"
+  - "[[flowing-abyss.com]]"
+  - "[[Boosty]]"
 url:
+  - "[Telegram](https://t.me/flowing_abyss/91)"
+  - "[Telegram](https://t.me/flowing_abyss/90)"
+  - "[Habr](https://habr.com/en/posts/1011010/)"
   - "[GitHub](https://github.com/flowing-abyss/obsidian-hybrid-search)"
   - "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search)"
-cover: https://flowing-abyss.com/Obsidian-Hybrid-Search-2026-03-15.png
+  - "[Boosty](https://boosty.to/flowing-abyss/posts/cfee790a-5f61-4eec-84ee-1748ca6a438e)"
+cover: "[[Obsidian Hybrid Search 2026-03-16.png]]"
 start: 2026-03-07T19:54:34+07:00
 end: 2026-03-16
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-03-22T21:15:52+07:00
+updated: 2026-03-26T15:37:27+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true

@@ -11,10 +11,12 @@ priority: 🇨
 category:
   - "[[public]]"
 meta:
-  - "[[flowing-abyss]]"
 problem:
 creator:
+  - "[[Me]]"
 production:
+  - "[[flowing-abyss.com]]"
+  - "[[Telegram]]"
 url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2024-04-25)"
 cover:
 published:

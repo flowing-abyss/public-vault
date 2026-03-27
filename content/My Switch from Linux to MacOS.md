@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/public
   - category/linux
 aliases:
   - Мой переход с Linux на MacOS
@@ -10,17 +11,23 @@ description: "Исповедь бывшего фаната Linux: почему �
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
   - "[[linux]]"
 meta:
 problem:
 creator:
+  - "[[Me]]"
 production:
-url: "[flowing-abyss](https://flowing-abyss.com/My-Switch-from-Linux-to-MacOS)"
-cover:
+  - "[[Telegram]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[Telegram](https://t.me/flowing_abyss/87)"
+  - "[flowing-abyss](https://flowing-abyss.com/My-Switch-from-Linux-to-MacOS)"
+cover: "[[My Switch from Linux to MacOS 2026-02-22.png]]"
 start: 2026-02-12
 end: 2026-02-22
 created: 2026-02-12T22:26:07+07:00
-updated: 2026-03-05T23:34:48+07:00
+updated: 2026-03-25T00:21:53+07:00
 share: true
 title: Мой переход с Linux на MacOS
 comments: true

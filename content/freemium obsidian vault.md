@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/public
   - category/knowledge_base
 aliases:
   - Freemium модель для Obsidian Vault
@@ -10,20 +11,25 @@ description: Как freemium-модель помогла открыть 12-ча�
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
   - "[[knowledge base]]"
 meta:
   - "[[obsidian]]"
 problem:
 creator:
+  - "[[Me]]"
 production:
-url: "[flowing-abyss](https://flowing-abyss.com/freemium-obsidian-vault)"
-cover:
-published:
+  - "[[Telegram]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[Telegram](https://t.me/flowing_abyss/72)"
+  - "[flowing-abyss](https://flowing-abyss.com/freemium-obsidian-vault)"
+cover: "[[flowing-abyss-free.png]]"
+published: 2025-09-20
 start: 2025-09-20T17:50:42+07:00
 end: 2025-09-20
-total_hours: 0
 created: 2025-09-20T17:50:42+07:00
-updated: 2026-03-05T21:58:30+07:00
+updated: 2026-03-25T00:01:34+07:00
 share: true
 title: Freemium модель для Obsidian Vault
 comments: false

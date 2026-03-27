@@ -12,16 +12,19 @@ priority: 🇨
 category:
   - "[[public]]"
 meta:
-  - "[[flowing-abyss]]"
 problem:
 creator:
+  - "[[Me]]"
 production:
-url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-29-11)"
-cover:
+  - "[[Telegram]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-29-11)"
+cover: "[[flowing-abyss-question.png]]"
 start: 2025-11-29T01:16:41+07:00
-end:
+end: 2025-11-29T01:16:41+07:00
 created: 2025-11-29T01:16:41+07:00
-updated: 2026-03-01T15:04:49+07:00
+updated: 2026-03-25T00:33:06+07:00
 title: Промежуточная информация по паблику
 share: true
 comments: false

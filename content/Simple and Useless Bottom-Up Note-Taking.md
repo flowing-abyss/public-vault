@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/public
   - category/knowledge_base
 aliases:
   - Простой и бесполезный bottom-up способ ведения заметок
@@ -10,15 +11,23 @@ description: Почему чистый bottom-up подход к ведению 
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
   - "[[knowledge base]]"
 meta:
   - "[[obsidian]]"
 problem:
 creator:
+  - "[[Me]]"
 production:
-url: "[flowing-abyss](https://flowing-abyss.com/Simple-and-Useless-Bottom-Up-Note-Taking)"
+  - "[[Telegram]]"
+  - "[[Habr]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[Telegram](https://t.me/flowing_abyss/88)"
+  - "[Habr](https://habr.com/en/posts/1007164/)"
+  - "[flowing-abyss](https://flowing-abyss.com/Simple-and-Useless-Bottom-Up-Note-Taking)"
 created: 2026-02-25T09:34:20+07:00
-updated: 2026-03-14T13:37:54+07:00
+updated: 2026-03-25T00:20:44+07:00
 share: true
 title: Простой и бесполезный bottom-up способ ведения заметок
 comments: true

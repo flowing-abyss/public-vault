@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/short
   - priority/c
+  - category/public
   - category/knowledge_base
 aliases:
   - Профанация сложности
@@ -10,13 +11,21 @@ description: "О трёх формах профанации PKM: продавц�
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
   - "[[knowledge base]]"
 meta:
-  - "[[flowing-abyss]]"
 problem:
-url: "[flowing-abyss](https://flowing-abyss.com/Profanation-of-Complexity)"
+creator:
+  - "[[Me]]"
+production:
+  - "[[Telegram]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[Telegram](https://t.me/flowing_abyss/76)"
+  - "[flowing-abyss](https://flowing-abyss.com/Profanation-of-Complexity)"
+cover: "[[Profanation of Complexity - cover.jpg]]"
 created: 2025-12-05T20:14:00+07:00
-updated: 2026-03-05T23:34:46+07:00
+updated: 2026-03-25T00:28:33+07:00
 share: true
 title: Профанация сложности
 comments: false

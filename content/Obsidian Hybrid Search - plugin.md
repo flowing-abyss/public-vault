@@ -5,7 +5,7 @@ tags:
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin)"
 created: 2026-03-22T07:42:35.000Z
-updated: 2026-03-22T22:32:56+07:00
+updated: 2026-03-23T00:19:05+07:00
 share: true
 title: "Obsidian Hybrid Search - plugin"
 comments: true

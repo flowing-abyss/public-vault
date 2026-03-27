@@ -33,6 +33,7 @@ function getCategories(frontmatter: Record<string, unknown> | undefined | null):
         .trim(),
     )
     .filter(Boolean)
+    .filter((cat) => cat !== "public")
 }
 
 const TYPE_MAP: Record<string, { icon: string; label: string }> = {

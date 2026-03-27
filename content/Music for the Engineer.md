@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/public
   - category/hobby
 aliases:
   - Музыка для инженера
@@ -10,17 +11,25 @@ description: "Два режима прослушивания для инжене
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
   - "[[hobby]]"
 meta:
 problem:
 creator:
+  - "[[Me]]"
 production:
-url: "[flowing-abyss](https://flowing-abyss.com/Music-for-the-Engineer)"
-cover:
+  - "[[Telegram]]"
+  - "[[Habr]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[Telegram](https://t.me/flowing_abyss/77)"
+  - "[Habr](https://habr.com/en/posts/982062/)"
+  - "[flowing-abyss](https://flowing-abyss.com/Music-for-the-Engineer)"
+cover: "[[Music for the Engineer - cover.png]]"
 start: 2025-12-05
 end: 2025-12-30
 created: 2025-12-05T19:35:55+07:00
-updated: 2026-03-15T13:26:26+07:00
+updated: 2026-03-25T00:30:59+07:00
 share: true
 title: Музыка для инженера
 comments: true
@@ -29,7 +38,7 @@ cssclasses:
   - hide-table-thead
 ---
 
-![[flowing-abyss-gimp.png]]
+![[Music for the Engineer - cover.png]]
 
 # Deep Dive
 

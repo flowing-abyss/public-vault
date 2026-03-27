@@ -5,19 +5,19 @@ tags:
 aliases:
   - Передача файла из n8n в Obsidian через WebDAV
 description: Как настроить WebDAV через Docker и автоматически передавать файлы из n8n в Obsidian с помощью HTTP PUT-запроса.
+category:
+  - "[[knowledge base]]"
+meta:
+  - "[[obsidian]]"
 url: "[flowing-abyss](https://flowing-abyss.com/sending-a-file-from-n8n-to-Obsidian-via-WebDAV)"
 created: 2025-08-18T17:18:11+07:00
-updated: 2026-03-05T12:50:17+07:00
+updated: 2026-03-26T14:17:11+07:00
 cssclasses:
   - small-title
 share: true
 title: Передача файла из n8n в Obsidian через WebDAV
 comments: true
 enableToc: false
-category:
-  - "[[knowledge base]]"
-meta:
-  - "[[obsidian]]"
 ---
 
 Paul Dickson [выпустил ролик](https://youtu.be/NyL0ovWYj7M), в котором показал, как отправлять файлы из n8n в Obsidian с помощью плагина [Local REST API](https://obsidian.md/plugins?id=obsidian-local-rest-api). Я же покажу, как отправлять файлы с помощью WebDAV.

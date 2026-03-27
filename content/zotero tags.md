@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/single
   - priority/c
+  - category/public
   - category/knowledge_base
 aliases:
   - Теги Zotero
@@ -10,14 +11,24 @@ description: "Трёхмерная система тегов Zotero: стату�
 status: 📢
 priority: 🇨
 category:
+  - "[[public]]"
   - "[[knowledge base]]"
 meta:
+  - "[[research]]"
 problem:
 creator:
+  - "[[Me]]"
 production:
-url: "[flowing-abyss](https://flowing-abyss.com/zotero-tags)"
+  - "[[Telegram]]"
+  - "[[Habr]]"
+  - "[[flowing-abyss.com]]"
+url:
+  - "[Telegram](https://t.me/flowing_abyss/68)"
+  - "[Habr](https://habr.com/en/posts/944478/)"
+  - "[flowing-abyss](https://flowing-abyss.com/zotero-tags)"
+cover: "[[zotero tags - items.png]]"
 created: 2025-07-23T12:27:52+07:00
-updated: 2026-03-05T22:01:15+07:00
+updated: 2026-03-27T10:07:50+07:00
 share: true
 title: Zotero Tags
 comments: true

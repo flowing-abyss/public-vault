@@ -9,7 +9,7 @@ aliases:
   - Сравнение локальных embedding-моделей
   - embedding model comparison local benchmark
   - Comparison of local embedding models
-description: "Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Golden set из 58 запросов, метрика nDCG@5, разбивка по категориям (keyword, conceptual, multilingual, syntax), влияние реранкинга. Лидер – snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом. Маленькая специализированная e5-small обходит модели в 8 раз крупнее. Концептуальный поиск – слабое место всех моделей без исключения."
+description: "Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом."
 status: 🟦
 priority: 🇨
 addition:

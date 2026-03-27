@@ -328,7 +328,7 @@ tbody tr:nth-child(odd) {
   color: #dc9656;
 }
 .no-table-number-highlight table .highlight-number {
-  color: inherit;
+  color: inherit !important;
 }
 
 .text-highlight {

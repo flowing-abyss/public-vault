@@ -30,7 +30,7 @@ cover:
 start: 2026-03-24T23:26:45+07:00
 end:
 created: 2026-03-24T23:26:45+07:00
-updated: 2026-03-27T12:17:41+07:00
+updated: 2026-03-27T12:19:28+07:00
 share: true
 title: "Сравнение локальных embedding-моделей"
 comments: true
@@ -56,7 +56,7 @@ Golden Set сделан на основе [официальной докумен
 
 | #   | Model                                | context | size   | nDCG@5 ↓ | +rerank                                |
 | --- | ------------------------------------ | ------- | ------ | -------- | -------------------------------------- |
-| 1   | `snowflake-arctic-embed2`            | 8192    | 1.2 GB | 0.767    | <font color="#a1b56c">**0.784**</font> |
+| 1   | `snowflake-arctic-embed2`            | 8192    | 1.2 GB | 0.767    | <font color="#a1b56c">0.784</font> |
 | 2   | `bge-m3`                             | 8192    | 1.2 GB | 0.755    | <font color="#a1b56c">0.768</font>     |
 | 3   | `embeddinggemma`                     | 2048    | 622 MB | 0.747    | <font color="#a1b56c">0.767</font>     |
 | 4   | `paraphrase-multilingual`            | 512     | 563 MB | 0.738    | 0.739                                  |

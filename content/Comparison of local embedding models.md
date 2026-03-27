@@ -82,11 +82,11 @@ Golden Set сделан на основе [официальной докумен
 | `paraphrase-multilingual`            | 0.874   | 0.476      | 0.334        | 0.762  |
 | `multilingual-e5-small` *(baseline)* | 0.870   | 0.420      | 0.421        | 0.770  |
 | `nomic-embed-text-v2-moe`            | 0.858   | 0.451      | 0.300        | 0.762  |
-| `all-minilm`                         | 0.866   | 0.482      | 0.000        | 0.762  |
-| `granite-embedding`                  | 0.877   | 0.424      | 0.000        | 0.762  |
-| `mxbai-embed-large`                  | 0.861   | 0.424      | 0.000        | 0.770  |
-| `nomic-embed-text`                   | 0.779   | 0.466      | 0.000        | 0.563  |
-| `snowflake-arctic-embed`             | 0.542   | 0.242      | 0.000        | 0.650  |
+| `all-minilm`                         | 0.866   | 0.482      | <font color="#ab4642">0.000</font>        | 0.762  |
+| `granite-embedding`                  | 0.877   | 0.424      | <font color="#ab4642">0.000</font>        | 0.762  |
+| `mxbai-embed-large`                  | 0.861   | 0.424      | <font color="#ab4642">0.000</font>        | 0.770  |
+| `nomic-embed-text`                   | 0.779   | 0.466      | <font color="#ab4642">0.000</font>        | 0.563  |
+| `snowflake-arctic-embed`             | 0.542   | 0.242      | <font color="#ab4642">0.000</font>        | 0.650  |
 
 Категории:
 - **keyword** – поиск по упоминаемым ключевым словам (36 запросов)

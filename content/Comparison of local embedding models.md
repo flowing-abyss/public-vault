@@ -8,7 +8,6 @@ tags:
 aliases:
   - Сравнение локальных embedding-моделей
   - embedding model comparison local benchmark
-  - Comparison of local embedding models
 description: "Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом."
 status: 🟦
 priority: 🇨
@@ -26,14 +25,14 @@ production:
   - "[[Telegram]]"
   - "[[flowing-abyss.com]]"
   - "[[Boosty]]"
+url: "[flowing-abyss](https://flowing-abyss.com/Comparison-of-local-embedding-models)"
 cover:
 start: 2026-03-24T23:26:45+07:00
 end:
 created: 2026-03-24T23:26:45+07:00
-updated: 2026-03-27T12:02:13+07:00
+updated: 2026-03-27T12:17:41+07:00
 share: true
 title: "Сравнение локальных embedding-моделей"
-url: "[flowing-abyss](https://flowing-abyss.com/Comparison-of-local-embedding-models)"
 comments: true
 enableToc: true
 ---

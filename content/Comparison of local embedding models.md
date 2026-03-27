@@ -30,7 +30,7 @@ cover:
 start: 2026-03-24T23:26:45+07:00
 end:
 created: 2026-03-24T23:26:45+07:00
-updated: 2026-03-27T12:31:51+07:00
+updated: 2026-03-27T12:55:15+07:00
 share: true
 title: "Сравнение локальных embedding-моделей"
 comments: true

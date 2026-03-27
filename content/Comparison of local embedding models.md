@@ -35,6 +35,8 @@ share: true
 title: "Сравнение локальных embedding-моделей"
 comments: true
 enableToc: true
+cssclasses:
+  - no-number-highlight
 ---
 
 Разрабатывать утилиту для поиска без метрик довольно опасно.

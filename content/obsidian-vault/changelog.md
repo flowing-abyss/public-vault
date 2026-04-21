@@ -86,7 +86,7 @@ enableToc: false
 - Добавлен [[multicolumn callout.png|multicolumn callout]]
 - Плагин [Paste Image Rename](https://github.com/reorx/obsidian-paste-image-rename) заменён на более надёжную и гибко настраиваемую альтернативу [Custom Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location)
 
-💔 Breaking change
+💔 Breaking change<br>
 В Supercharged Links я добавил более элегантный способ задания иконок и цветов.
 Это значительно сократило css-сниппет (было ~500+ строчек, а стало 7) и упростило добавление новых типов заметок (через манифесты).
 Однако при старте у вас все иконки пропадут. Чтобы их вернуть, вызовите команду `Metadata Validator: Open validation panel` и нажмите на панели кнопку [[auto-fix button.png|Auto-fix]].

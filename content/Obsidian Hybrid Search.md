@@ -1,6 +1,6 @@
 ---
 tags:
-  - status/published
+  - status/wip
   - project/single
   - priority/c
   - category/public
@@ -8,58 +8,64 @@ tags:
   - category/development
   - category/artificial_intelligence
 aliases:
-  - Семантический поиск
-  - Гибридный поиск
-  - гибридный поиск
-  - гибридному поиску
-  - гибридном поиске
-  - гибридного поиска
-  - MCP семантический поиск для Obsidian
-  - cемантический поиск
   - CLI Obsidian
-status: 📢
-priority: 🇨
+  - cемантический поиск
+  - MCP семантический поиск для Obsidian
+  - OHS
+  - гибридного поиска
+  - гибридном поиске
+  - гибридному поиску
+  - гибридный поиск
+  - Гибридный поиск
+  - Семантический поиск
 addition:
-  - "[[Obsidian Hybrid Search - specifications|➕]]"
-  - "[[Obsidian Hybrid Search - social networks|🗣️]]"
-  - "[[Obsidian Hybrid Search - roadmap|🗺️]]"
-  - "[[Obsidian Hybrid Search - plugin|🔌]]"
   - "[[Obsidian Hybrid Search - description|🪪]]"
+  - "[[Obsidian Hybrid Search - plugin|🔌]]"
+  - "[[Obsidian Hybrid Search - roadmap.canvas|🗺️]]"
+  - "[[Obsidian Hybrid Search - social networks|🗣️]]"
+  - "[[Obsidian Hybrid Search - specifications|⚙️]]"
+  - "[[Obsidian Hybrid Search - tasks|✅️]]"
+status: 🟦
+priority: 🇨
 category:
-  - "[[public]]"
-  - "[[knowledge base]]"
-  - "[[development]]"
   - "[[artificial intelligence]]"
+  - "[[development]]"
+  - "[[knowledge base]]"
+  - "[[public]]"
 meta:
-  - "[[obsidian]]"
-  - "[[LLM]]"
-  - "[[information processing]]"
   - "[[AI tools]]"
+  - "[[information processing]]"
+  - "[[LLM]]"
+  - "[[obsidian]]"
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
-  - "[[Habr]]"
-  - "[[GitHub]]"
-  - "[[flowing-abyss.com]]"
   - "[[Boosty]]"
-url:
-  - "[Telegram](https://t.me/flowing_abyss/91)"
-  - "[Telegram](https://t.me/flowing_abyss/90)"
-  - "[Habr](https://habr.com/en/posts/1011010/)"
-  - "[GitHub](https://github.com/flowing-abyss/obsidian-hybrid-search)"
-  - "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search)"
-  - "[Boosty](https://boosty.to/flowing-abyss/posts/cfee790a-5f61-4eec-84ee-1748ca6a438e)"
-cover: "[[Obsidian Hybrid Search 2026-03-16.png]]"
+  - "[[flowing-abyss.com]]"
+  - "[[GitHub]]"
+  - "[[Habr]]"
+  - "[[Telegram]]"
 start: 2026-03-07T19:54:34+07:00
 end: 2026-03-16
+url:
+  - "[Boosty](https://boosty.to/flowing-abyss/posts/cfee790a-5f61-4eec-84ee-1748ca6a438e)"
+  - "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search)"
+  - "[GitHub](https: //github.com/flowing-abyss/obsidian-hybrid-search)"
+  - "[Habr](https: //habr.com/en/posts/1011010/)"
+  - "[Telegram](https: //t.me/flowing_abyss/90)"
+  - "[Telegram](https: //t.me/flowing_abyss/91)"
+cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
+icon: ✏️
+color: "#b87535"
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-03-27T13:10:31+07:00
+updated: 2026-04-15T19:31:11+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
 enableToc: true
+prefix: OHS
+taskCount: 50
 ---
 
 ![[Obsidian Hybrid Search 2026-03-16.png]]

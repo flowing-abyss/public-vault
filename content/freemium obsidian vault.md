@@ -7,29 +7,32 @@ tags:
   - category/knowledge_base
 aliases:
   - Freemium модель для Obsidian Vault
-description: Как freemium-модель помогла открыть 12-часовое видео по Obsidian Vault всем желающим — и почему это честнее, чем paywall.
+published: 2025-09-20
+addition:
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
   - "[[knowledge base]]"
+  - "[[public]]"
 meta:
   - "[[obsidian]]"
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
   - "[[flowing-abyss.com]]"
-url:
-  - "[Telegram](https://t.me/flowing_abyss/72)"
-  - "[flowing-abyss](https://flowing-abyss.com/freemium-obsidian-vault)"
-cover: "[[flowing-abyss-free.png]]"
-published: 2025-09-20
+  - "[[Telegram]]"
 start: 2025-09-20T17:50:42+07:00
 end: 2025-09-20
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/freemium-obsidian-vault)"
+  - "[Telegram](https://t.me/flowing_abyss/72)"
+cover: "[[flowing-abyss-free.png]]"
+icon: ✏️
+color: "#b87535"
 created: 2025-09-20T17:50:42+07:00
 updated: 2026-03-25T00:01:34+07:00
+description: Как freemium-модель помогла открыть 12-часовое видео по Obsidian Vault всем желающим — и почему это честнее, чем paywall.
 share: true
 title: Freemium модель для Obsidian Vault
 comments: false

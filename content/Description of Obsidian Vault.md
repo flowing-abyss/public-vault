@@ -6,9 +6,10 @@ tags:
   - category/public
   - category/knowledge_base
 aliases:
-  - Хранилище в Obsidian
   - Obsidian Vault
-description: Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией.
+  - Хранилище в Obsidian
+published: 2025-02-10
+addition:
 status: 📢
 priority: 🇨
 category:
@@ -20,21 +21,23 @@ problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[YouTube]]"
-  - "[[Telegram]]"
-  - "[[flowing-abyss.com]]"
   - "[[Boosty]]"
-url:
-  - "[YouTube](https://youtu.be/4wB-Ph5XYV0)"
-  - "[Telegram](https://t.me/flowing_abyss/66)"
-  - "[flowing-abyss](https://flowing-abyss.com/Description-of-Obsidian-Vault)"
-  - "[Boosty](https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee)"
-cover: "[[Description of Obsidian Vault - cover.jpg]]"
-published: 2025-02-10
+  - "[[flowing-abyss.com]]"
+  - "[[Telegram]]"
+  - "[[YouTube]]"
 start: 2025-08-17
 end: 2025-08-17
+url:
+  - "[Boosty](https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee)"
+  - "[flowing-abyss](https://flowing-abyss.com/Description-of-Obsidian-Vault)"
+  - "[Telegram](https://t.me/flowing_abyss/66)"
+  - "[YouTube](https://youtu.be/4wB-Ph5XYV0)"
+cover: "[[Description of Obsidian Vault - cover.jpg]]"
+icon: ✏️
+color: "#b87535"
 created: 2025-08-17T10:54:15+07:00
 updated: 2026-03-24T23:57:25+07:00
+description: Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией.
 title: Obsidian Vault
 share: true
 comments: false

@@ -8,6 +8,7 @@ enableToc: false
 >
 > `Obsidian >= 1.12.4`
 >
+>  - [[#7.0.0]]
 >  - [[#6.0.0]]
 >
 > `Obsidian <= 1.11.4`
@@ -30,6 +31,68 @@ enableToc: false
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 7.0.0
+
+- Обновлены плагины и тема
+- Обновлено оформление
+    - Улучшены [[geometric list markers.png|маркеры в списках]] и [[checkboxes you want to click.png|чекбоксы]]
+    - Сделаны [[bright inline callouts.png|ярче]] Inline Callouts
+- Изменены дефолтные шрифты на семейство [IBM Plex](https://github.com/IBM/plex) ([[ibm font example.png|пример, как в среднем будут выглядеть заметки]])
+    - В теме форсируется `anti-aliasing`
+    - Поднята дефолтная толщина шрифта до `500`
+        - Можно изменить в `general-view.css` через переменную `--font-weight-normal`
+    - Если вам нужен ещё более выраженный терминальный стиль с инженерным характером, то рекомендую посмотреть на шрифт [Berkeley Mono](https://usgraphics.com/products/berkeley-mono)
+- Переработаны скиллы для [[Obsidian Vault - FAQ#Claude Code|Claude Code]]
+    - Сокращены названия
+    - Добавлены валидирующие скрипты
+    - Форсируется поиск заметок через [Ripgrep](https://github.com/burntsushi/ripgrep) или [Obsidian CLI](https://obsidian.md/help/cli) (в зависимости от доступности)
+    - Добавлена команда [/verify](https://github.com/flowing-abyss/obsidian-vault-skills/blob/main/commands/verify.md)
+        - Оставляете в сомнительных местах маркер `[?]` и вызываете команду. Агент найдёт первоисточник, проверит репликацию, исправит или уточнит утверждение, найдёт альтернативные модели и теории и вставит callout с источниками и статусом верификации
+- Внедрена новая глобальная механика для задач в проектах
+    - Добавлен `tasks.base`
+    - Структурно подход [будет напоминать](https://boosty.to/flowing-abyss/posts/c21078fa-ee82-42c2-bd35-6920c1ee97a9) работу в [Linear](https://linear.app/)
+    - В хранилище теперь есть формальное разделение на **inline tasks** (GTD) и **task notes** (Projects)
+    - Добавлен новый скилл [/task-note](https://github.com/flowing-abyss/obsidian-vault-skills/tree/main/skills/task-note) для Claude Code, который позволит быстрее искать задачи (Ripgrep/Obsidian CLI) и надёжно их менять через скрипт с жёсткой валидацией метаданных
+    - Добавлен плагин [Timelime](https://github.com/TfTHacker/timeline-for-bases) для управления задачами [[timeline-for-bases.png|во времени]]
+    - Заменён Kanban-плагин [Board View](https://github.com/seventhxiv/obsidian-board-view) на [Bases Board](https://github.com/flowing-abyss/obsidian-bases-board) – [[bases-board.png|мой форк]] с исправленными багами и расширенной функциональностью (оригинальный проект не поддерживается)
+    - Добавлен плагин [Bases Tasks](https://github.com/ocapraro/obsidian-bases-tasks) для подсчёта inline tasks
+    - Добавлен плагин [Block View](https://github.com/TimoBechtel/obsidian-block-view) для отображения inline tasks (в сценариях с простым отображением и фильтрацией inline tasks плагин потенциально может заменить Dataview и Tasks)
+    - Добавлен плагин [Calendar Bases](https://github.com/edrickleong/obsidian-calendar-bases)
+- Структура хранилища полностью переведена на **Manifest-driven** подход, который поддерживается плагином [Metadata Validator](https://github.com/flowing-abyss/obsidian-metadata-validator)
+    - Плагин на основе чётко описанной структуры валидирует метаданные и [[problematic metadata.png|показывает проблемы]] на панели свойств, таблицах Bases и на [[knowledge base health.png|отдельной панели]] для всех заметок в хранилище
+    - Плагин добавляет отдельную [[metadata panel.png|панель метаданных]]
+    - Пикеры на панели метаданных и Bases для выбора предзаданных значений
+    - Плагин поддерживает [[filter query.png|сложные фильтры]] через API Obsidian и Dataview
+    - Автоматическое форматирование метаданных согласно манифесту (порядок, дефолтные значения, required свойства)
+    - Удалён плагин [Metadata Menu](https://github.com/mdelobelle/metadatamenu)
+    - Удалён плагин [Auto Note Mover](https://github.com/farux/obsidian-auto-note-mover)
+    - Удалена директория `classes/`
+    - Удалена `templates/lists/`
+    - Karpathy был бы в восторге от такого подхода, так как это решение [закрывает главные дыры](https://boosty.to/flowing-abyss/posts/57909b55-e12e-4532-b720-e14e1c99dd77) в его подходе – консистентность и "здоровье" хранилища
+- Добавлено [[bases-charts.png|больше статистики]] на основе плагина [Bases Chart Views](https://github.com/haiqiang-zhang/obsidian-bases-charts)
+    - Статистика внедрена почти во все `home/databases/*.base`
+    - Добавлен трекинг активностей для периодических заметок с простой статистикой
+- Удалена отдельная mermaid [[Gantt - projects.png|Gantt-диаграмма]] для проектов
+- Упрощён процесс добавления additions
+    - Команда для добавления будет сразу формировать заметку для выбранного дополнения
+    - Команда для создания стала контекстно-зависимой – у определённых типов заметок свои дополнения
+    - Вернул плагин [Meta Bind](https://github.com/mProjectsCode/obsidian-meta-bind-plugin) для упрощения создания заметок внутри дополнений
+- Добавлен новый статус `📥` (inbox) для источников и проектов
+- Обновлён [[obsidian web clipper|Web Clipper]]
+	-  Добавлен плагин [Local Images Plus](https://github.com/Sergei-Korneev/obsidian-local-images-plus) для быстрой автоматической загрузки изображений
+- Добавлен плагин [Bases Auto Search](https://github.com/churnish/bases-auto-search)
+	- Убийственно простой плагин, который убирает лишние клики
+- Добавлен [[multicolumn callout.png|multicolumn callout]]
+- Плагин [Paste Image Rename](https://github.com/reorx/obsidian-paste-image-rename) заменён на более надёжную и гибко настраиваемую альтернативу [Custom Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location)
+
+💔 Breaking change
+В Supercharged Links я добавил более элегантный способ задания иконок и цветов.
+Это значительно сократило css-сниппет (было ~500+ строчек, а стало 7) и упростило добавление новых типов заметок (через манифесты).
+Однако при старте у вас все иконки пропадут. Чтобы их вернуть, вызовите команду `Metadata Validator: Open validation panel` и нажмите на панели кнопку [[auto-fix button.png|Auto-fix]].
+
+> [!info] Обновление
+> - Обновление с `6.0.0` на `7.0.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 6.0.0
 

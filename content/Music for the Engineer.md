@@ -7,29 +7,32 @@ tags:
   - category/hobby
 aliases:
   - Музыка для инженера
-description: "Два режима прослушивания для инженера: культовые альбомы для глубокого погружения и идеальный прогулочный плейлист от Krautrock до Radiohead."
+addition:
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
   - "[[hobby]]"
+  - "[[public]]"
 meta:
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
-  - "[[Habr]]"
   - "[[flowing-abyss.com]]"
-url:
-  - "[Telegram](https://t.me/flowing_abyss/77)"
-  - "[Habr](https://habr.com/en/posts/982062/)"
-  - "[flowing-abyss](https://flowing-abyss.com/Music-for-the-Engineer)"
-cover: "[[Music for the Engineer - cover.png]]"
+  - "[[Habr]]"
+  - "[[Telegram]]"
 start: 2025-12-05
 end: 2025-12-30
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/Music-for-the-Engineer)"
+  - "[Habr](https://habr.com/en/posts/982062/)"
+  - "[Telegram](https://t.me/flowing_abyss/77)"
+cover: "[[Music for the Engineer - cover.png]]"
+icon: ✏️
+color: "#b87535"
 created: 2025-12-05T19:35:55+07:00
 updated: 2026-03-25T00:30:59+07:00
+description: "Два режима прослушивания для инженера: культовые альбомы для глубокого погружения и идеальный прогулочный плейлист от Krautrock до Radiohead."
 share: true
 title: Музыка для инженера
 comments: true

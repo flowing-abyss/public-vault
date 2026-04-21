@@ -7,28 +7,31 @@ tags:
   - category/knowledge_base
 aliases:
   - RSS в Obsidian или путь к цифровой свалке
-description: Почему встраивать RSS-ридер в Obsidian — это путь к цифровой свалке, и как сохранить хранилище как пространство для глубокой работы.
+published: 2025-11-10
+addition:
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
   - "[[knowledge base]]"
+  - "[[public]]"
 meta:
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
   - "[[flowing-abyss.com]]"
-url:
-  - "[Telegram](https://t.me/flowing_abyss/73)"
-  - "[flowing-abyss](https://flowing-abyss.com/RSS-in-Obsidian-or-the-Path-to-a-Digital-Dump)"
-cover: "[[RSS in Obsidian or the Path to a Digital Dump - cover.jpg]]"
-published: 2025-11-10
+  - "[[Telegram]]"
 start: 2025-11-02T14:06:41+07:00
 end: 2025-11-10T14:06:41+07:00
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/RSS-in-Obsidian-or-the-Path-to-a-Digital-Dump)"
+  - "[Telegram](https://t.me/flowing_abyss/73)"
+cover: "[[RSS in Obsidian or the Path to a Digital Dump - cover.jpg]]"
+icon: 🗞️
+color: "#a39070"
 created: 2025-11-02T14:06:41+07:00
 updated: 2026-03-25T00:38:02+07:00
+description: Почему встраивать RSS-ридер в Obsidian — это путь к цифровой свалке, и как сохранить хранилище как пространство для глубокой работы.
 share: true
 title: RSS в Obsidian или путь к цифровой свалке
 comments: true

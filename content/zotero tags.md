@@ -7,28 +7,33 @@ tags:
   - category/knowledge_base
 aliases:
   - Теги Zotero
-description: "Трёхмерная система тегов Zotero: статусы жизненного цикла источника, субъективная оценка качества и классификация по уровню научности."
+addition:
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
   - "[[knowledge base]]"
+  - "[[public]]"
 meta:
   - "[[research]]"
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
-  - "[[Habr]]"
   - "[[flowing-abyss.com]]"
+  - "[[Habr]]"
+  - "[[Telegram]]"
+start:
+end:
 url:
-  - "[Telegram](https://t.me/flowing_abyss/68)"
-  - "[Habr](https://habr.com/en/posts/944478/)"
   - "[flowing-abyss](https://flowing-abyss.com/zotero-tags)"
+  - "[Habr](https://habr.com/en/posts/944478/)"
+  - "[Telegram](https://t.me/flowing_abyss/68)"
 cover: "[[zotero tags - items.png]]"
+icon: ✏️
+color: "#b87535"
 created: 2025-07-23T12:27:52+07:00
 updated: 2026-03-27T10:07:50+07:00
+description: "Трёхмерная система тегов Zotero: статусы жизненного цикла источника, субъективная оценка качества и классификация по уровню научности."
 share: true
 title: Zotero Tags
 comments: true

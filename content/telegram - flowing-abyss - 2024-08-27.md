@@ -6,6 +6,8 @@ tags:
   - mark/ignore
   - category/public
 aliases: []
+published:
+addition:
 status: 📢
 priority: 🇨
 category:
@@ -17,14 +19,16 @@ creator:
 production:
   - "[[flowing-abyss.com]]"
   - "[[Telegram]]"
-url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2024-08-27)"
-cover:
-published:
 start: 2025-08-27T11:16:53+07:00
 end: 2025-08-27T11:16:53+07:00
-total_hours: 0
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2024-08-27)"
+cover:
+icon: 🗞️
+color: "#a39070"
 created: 2025-08-27T11:16:53+07:00
 updated: 2026-01-19T19:55:41+07:00
+total_hours: 0
 share: true
 title: Промежуточная информация по паблику
 description: "Архив лучших сообщений чата flowing-abyss: структуры хранилищ, конспекты, алгоритмы работы с Zotero и советы по базе знаний."

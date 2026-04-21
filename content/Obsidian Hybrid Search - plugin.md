@@ -2,12 +2,12 @@
 tags:
   - mark/ignore
   - mark/addition/aggregator
+created: 2026-03-22T07:42:35.000Z
+updated: 2026-04-16T08:40:30+07:00
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin)"
-created: 2026-03-22T07:42:35.000Z
-updated: 2026-03-23T00:19:05+07:00
 share: true
-title: "Obsidian Hybrid Search - plugin"
+title: Obsidian Hybrid Search - plugin
 comments: true
 enableToc: true
 ---
@@ -64,7 +64,7 @@ npm install -g obsidian-hybrid-search
 
 ## Синтаксис запросов
 
-По умолчанию поиск гибридный: BM25 + семантика. Но можно управлять режимом явно из поисковой строки:
+По умолчанию поиск гибридный: BM25 + триграм + семантика. Но можно управлять режимом явно из поисковой строки:
 
 | inline (ключ: значение)                                                    | @-постфикс               | Что делает                          |
 | -------------------------------------------------------------------------- | ------------------------ | ----------------------------------- |

@@ -6,6 +6,8 @@ tags:
   - mark/ignore
   - category/public
 aliases: []
+published:
+addition:
 status: 📢
 priority: 🇨
 category:
@@ -15,16 +17,18 @@ problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
   - "[[flowing-abyss.com]]"
-url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-20-09)"
-cover:
-published:
+  - "[[Telegram]]"
 start: 2025-09-20T21:46:10+07:00
 end: 2025-09-20
-total_hours: 1
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-20-09)"
+cover:
+icon: 🗞️
+color: "#a39070"
 created: 2025-09-20T21:46:10+07:00
 updated: 2026-01-21T18:29:40+07:00
+total_hours: 1
 share: true
 title: Промежуточная информация по паблику
 description: "Дайджест сообщества flowing-abyss: новые плагины, автоматизации, обсуждения PKM, ИИ-инструменты и советы по рабочему процессу."

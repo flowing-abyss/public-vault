@@ -1,38 +1,41 @@
 ---
 tags:
-  - status/wip
+  - status/published
   - project/single
   - priority/c
   - category/public
   - category/artificial_intelligence
 aliases:
-  - Сравнение локальных embedding-моделей
   - embedding model comparison local benchmark
-description: "Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом."
-status: 🟦
-priority: 🇨
+  - Сравнение локальных embedding-моделей
 addition:
-  - "[[Сравнение локальных embedding-моделей - social|💬]]"
   - "[[Сравнение локальных embedding-моделей - researches|🕵]]"
+  - "[[Сравнение локальных embedding-моделей - social|💬]]"
+status: 📢
+priority: 🇨
 category:
-  - "[[public]]"
   - "[[artificial intelligence]]"
+  - "[[public]]"
 meta:
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
-  - "[[flowing-abyss.com]]"
   - "[[Boosty]]"
-url: "[flowing-abyss](https://flowing-abyss.com/Comparison-of-local-embedding-models)"
-cover:
+  - "[[flowing-abyss.com]]"
+  - "[[Telegram]]"
 start: 2026-03-24T23:26:45+07:00
 end:
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/Comparison-of-local-embedding-models)"
+cover:
+icon: ✏️
+color: "#b87535"
 created: 2026-03-24T23:26:45+07:00
-updated: 2026-03-27T12:55:15+07:00
+updated: 2026-04-16T14:15:07+07:00
+description: Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом.
 share: true
-title: "Сравнение локальных embedding-моделей"
+title: Сравнение локальных embedding-моделей
 comments: true
 enableToc: true
 cssclasses:

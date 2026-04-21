@@ -7,27 +7,32 @@ tags:
   - category/knowledge_base
 aliases:
   - Простой и бесполезный bottom-up способ ведения заметок
-description: Почему чистый bottom-up подход к ведению заметок не работает в долгосрочной перспективе — и какие архитектуры реально масштабируются.
+addition:
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
   - "[[knowledge base]]"
+  - "[[public]]"
 meta:
   - "[[obsidian]]"
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
-  - "[[Habr]]"
   - "[[flowing-abyss.com]]"
+  - "[[Habr]]"
+  - "[[Telegram]]"
+start:
+end:
 url:
-  - "[Telegram](https://t.me/flowing_abyss/88)"
-  - "[Habr](https://habr.com/en/posts/1007164/)"
   - "[flowing-abyss](https://flowing-abyss.com/Simple-and-Useless-Bottom-Up-Note-Taking)"
+  - "[Habr](https://habr.com/en/posts/1007164/)"
+  - "[Telegram](https://t.me/flowing_abyss/88)"
+icon: ✏️
+color: "#b87535"
 created: 2026-02-25T09:34:20+07:00
 updated: 2026-03-25T00:20:44+07:00
+description: Почему чистый bottom-up подход к ведению заметок не работает в долгосрочной перспективе — и какие архитектуры реально масштабируются.
 share: true
 title: Простой и бесполезный bottom-up способ ведения заметок
 comments: true

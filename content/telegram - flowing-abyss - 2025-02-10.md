@@ -6,6 +6,8 @@ tags:
   - mark/ignore
   - category/public
 aliases: []
+published:
+addition:
 status: 📢
 priority: 🇨
 category:
@@ -17,14 +19,16 @@ creator:
 production:
   - "[[flowing-abyss.com]]"
   - "[[Telegram]]"
-url: "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-02-10)"
-cover:
-published:
 start: 2025-08-27T10:54:36+07:00
 end: 2025-08-27T10:54:36+07:00
-total_hours: 0
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-02-10)"
+cover:
+icon: 🗞️
+color: "#a39070"
 created: 2025-08-27T10:54:36+07:00
 updated: 2026-02-03T11:43:14+07:00
+total_hours: 0
 share: true
 title: Промежуточная информация по паблику
 description: "Подборка лучших ссылок из чата flowing-abyss: советы по Obsidian, примеры структур хранилищ, плагины и инструменты для PKM."

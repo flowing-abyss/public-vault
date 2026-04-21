@@ -3,14 +3,16 @@ tags:
   - note/basic/primary
   - category/knowledge_base
 aliases: []
-url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
+cssclasses:
+  - small-title
+icon: 📝
+color: "#70a0b5"
 created: 2025-08-18T13:27:42
 updated: 2025-11-05T14:00:22+07:00
+url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
 share: true
 title: MarkDB-Connect
 description: "Как настроить плагин MarkDB-Connect для Zotero: автоматические теги и быстрый переход к заметке в Obsidian прямо из библиотеки."
-cssclasses:
-  - small-title
 category:
   - "[[knowledge base]]"
 meta:

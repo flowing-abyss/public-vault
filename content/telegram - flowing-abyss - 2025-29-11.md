@@ -6,7 +6,7 @@ tags:
   - mark/ignore
   - category/public
 aliases: []
-description: "Актуальный дайджест сообщества flowing-abyss: структуры для инженеров, n8n, GTD, Bases, Zotero и дискуссии о роли ИИ в PKM."
+addition:
 status: 📢
 priority: 🇨
 category:
@@ -16,15 +16,18 @@ problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
   - "[[flowing-abyss.com]]"
+  - "[[Telegram]]"
+start: 2025-11-29T01:16:41+07:00
+end: 2025-11-29T01:16:41+07:00
 url:
   - "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2025-29-11)"
 cover: "[[flowing-abyss-question.png]]"
-start: 2025-11-29T01:16:41+07:00
-end: 2025-11-29T01:16:41+07:00
+icon: 🗞️
+color: "#a39070"
 created: 2025-11-29T01:16:41+07:00
 updated: 2026-03-25T00:33:06+07:00
+description: "Актуальный дайджест сообщества flowing-abyss: структуры для инженеров, n8n, GTD, Bases, Zotero и дискуссии о роли ИИ в PKM."
 title: Промежуточная информация по паблику
 share: true
 comments: false

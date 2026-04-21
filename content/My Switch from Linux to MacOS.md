@@ -7,27 +7,30 @@ tags:
   - category/linux
 aliases:
   - Мой переход с Linux на MacOS
-description: "Исповедь бывшего фаната Linux: почему перекомпилировать Gentoo больше не имеет смысла и как macOS стал рабочим инструментом."
+addition:
 status: 📢
 priority: 🇨
 category:
-  - "[[public]]"
   - "[[linux]]"
+  - "[[public]]"
 meta:
 problem:
 creator:
   - "[[Me]]"
 production:
-  - "[[Telegram]]"
   - "[[flowing-abyss.com]]"
-url:
-  - "[Telegram](https://t.me/flowing_abyss/87)"
-  - "[flowing-abyss](https://flowing-abyss.com/My-Switch-from-Linux-to-MacOS)"
-cover: "[[My Switch from Linux to MacOS 2026-02-22.png]]"
+  - "[[Telegram]]"
 start: 2026-02-12
 end: 2026-02-22
+url:
+  - "[flowing-abyss](https://flowing-abyss.com/My-Switch-from-Linux-to-MacOS)"
+  - "[Telegram](https://t.me/flowing_abyss/87)"
+cover: "[[My Switch from Linux to MacOS 2026-02-22.png]]"
+icon: ✏️
+color: "#b87535"
 created: 2026-02-12T22:26:07+07:00
 updated: 2026-03-25T00:21:53+07:00
+description: "Исповедь бывшего фаната Linux: почему перекомпилировать Gentoo больше не имеет смысла и как macOS стал рабочим инструментом."
 share: true
 title: Мой переход с Linux на MacOS
 comments: true

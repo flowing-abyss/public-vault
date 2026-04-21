@@ -92,7 +92,7 @@ enableToc: false
 Однако при старте у вас все иконки пропадут. Чтобы их вернуть, вызовите команду `Metadata Validator: Open validation panel` и нажмите на панели кнопку [[auto-fix button.png|Auto-fix]].
 
 > [!info] Видео 
-> - На Boosty [разобрал пример](https://boosty.to/flowing-abyss/posts/69c75cd9-5614-4ba2-b7fc-620dbb97cd35) новой системы задач для проектов на примере Product Owner-а в авиакомпании.
+> - На Boosty [разобрал пример](https://boosty.to/flowing-abyss/posts/69c75cd9-5614-4ba2-b7fc-620dbb97cd35) новой системы задач для проектов на примере Product Owner-а в авиакомпании
 
 > [!info] Обновление
 > - Обновление с `6.0.0` на `7.0.0` делается через [[upgrade vault using a script.mp4|скрипт]]

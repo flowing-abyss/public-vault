@@ -6,7 +6,7 @@ aliases: []
 icon: 📝
 color: "#70a0b5"
 created: 2026-01-01T21:58:29+07:00
-updated: 2026-03-06T09:59:48+07:00
+updated: 2026-04-22T13:37:13+07:00
 description: Как реализовать логику супертегов Tana в Obsidian с помощью Metadata Menu и динамическими DataviewJS-отображениями по типу заметки.
 category:
   - "[[knowledge base]]"

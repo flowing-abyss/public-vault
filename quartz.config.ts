@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "umami",
       host: "https://umami.flowing-abyss.com",
-      websiteId: "a40322ae-9ec6-4313-9cd4-9564fcca1961",
+      websiteId: "b1d1ee1d-cb7b-483f-b13c-3cf23e898480",
     },
     locale: "en-US",
     baseUrl: "flowing-abyss.com",

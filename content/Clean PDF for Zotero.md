@@ -1,11 +1,12 @@
 ---
 tags:
   - note/basic/primary
+  - category/knowledge_base
 aliases: []
 icon: 📝
 color: "#70a0b5"
 created: 2026-05-18T18:22:54+07:00
-updated: 2026-05-18T18:46:49+07:00
+updated: 2026-05-18T19:05:08+07:00
 share: true
 title: Чистый PDF для Zotero
 url: "[flowing-abyss](https://flowing-abyss.com/Clean-PDF-for-Zotero)"
@@ -15,9 +16,9 @@ enableToc: false
 
 Кратко о том, как работает генерация PDF.
 
-Сервис скачивает страницу по URL, через [Defuddle](https://github.com/kepano/defuddle) вытаскивает из нее главное содержимое без рекламы, меню и прочего мусора, затем собирает чистую HTML-версию.
+Сервис скачивает страницу по URL, через [Defuddle](https://github.com/kepano/defuddle) вытаскивает из неё главное содержимое без рекламы, меню и прочего мусора, затем собирает чистую HTML-версию.
 
-После этого Playwright рендерит HTML в настоящий PDF с нормальной типографикой, форматами A4/Letter, светлой или темной темой и оглавлением.
+После этого Playwright рендерит HTML в настоящий PDF с нормальной типографикой, форматами A4/Letter, светлой или тёмной темой и оглавлением.
 
 Сервисом можно воспользоваться [напрямую](http://pdf.brainysnipe.ru/) или через Zotero скрипт.
 

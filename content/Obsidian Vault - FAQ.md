@@ -517,7 +517,7 @@ deck: obsidian::computer_science::basics
 
 > [!code]- 3. В `zotero-link.sh` вам нужно поместить вот этот скрипт
 > Обязательно поменяйте путь до экспортированной библиотеки в переменной<br>
-> `library="$HOME/Base/Obsidian/.library.json"`
+> `library="$HOME/Base/Obsidian/.library.json"`<br>
 > • • •
 > ```bash
 > #!/usr/bin/env bash

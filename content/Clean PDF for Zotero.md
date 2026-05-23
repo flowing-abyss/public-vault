@@ -6,12 +6,14 @@ aliases: []
 icon: 📝
 color: "#70a0b5"
 created: 2026-05-18T18:22:54+07:00
-updated: 2026-05-18T19:05:08+07:00
+updated: 2026-05-21T16:43:24+07:00
 share: true
 title: Чистый PDF для Zotero
 url: "[flowing-abyss](https://flowing-abyss.com/Clean-PDF-for-Zotero)"
 comments: false
 enableToc: false
+category:
+  - "[[knowledge base]]"
 ---
 
 Кратко о том, как работает генерация PDF.

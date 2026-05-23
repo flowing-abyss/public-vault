@@ -36,7 +36,7 @@ cover: "[[Description of Obsidian Vault - cover.jpg]]"
 icon: ✏️
 color: "#b87535"
 created: 2025-08-17T10:54:15+07:00
-updated: 2026-03-24T23:57:25+07:00
+updated: 2026-05-23T12:44:33+07:00
 description: Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией.
 title: Obsidian Vault
 share: true

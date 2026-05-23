@@ -655,8 +655,8 @@ deck: obsidian::computer_science::basics
 > ```
 
 Работают три режима вставки:<br>
-`:zl` – вставляет [[Obsidian Vault - FAQ 20260523130429244.png|ссылку на аннотацию]]
-`:zq` – вставляет [[Obsidian Vault - FAQ 20260523130509463.png|полностью цитату]]
+`:zl` – вставляет [[Obsidian Vault - FAQ 20260523130429244.png|ссылку на аннотацию]]<br>
+`:zq` – вставляет [[Obsidian Vault - FAQ 20260523130509463.png|полностью цитату]]<br>
 `:zc` – вставляет [[Obsidian Vault - FAQ 20260523130542158.png|citekey]]
 
 # Claude Code

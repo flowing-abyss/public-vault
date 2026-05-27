@@ -27,7 +27,7 @@ cover:
 icon: 🗞️
 color: "#a39070"
 created: 2025-08-27T11:24:51+07:00
-updated: 2025-12-12T23:33:58+07:00
+updated: 2026-05-27T09:29:05+07:00
 total_hours: 0
 share: true
 title: Промежуточная информация по паблику

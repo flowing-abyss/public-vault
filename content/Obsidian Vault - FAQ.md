@@ -27,7 +27,7 @@ url:
 icon: ✏️
 color: "#b87535"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-05-23T13:17:53+07:00
+updated: 2026-05-23T13:25:06+07:00
 description: "Ответы на все вопросы по Obsidian Vault: структура системных заметок, механика Alt+P, метаданные, иерархии и советы по масштабированию."
 share: true
 title: Obsidian Vault - FAQ

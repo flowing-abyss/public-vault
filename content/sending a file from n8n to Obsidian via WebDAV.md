@@ -9,7 +9,7 @@ cssclasses:
 icon: 📝
 color: "#70a0b5"
 created: 2025-08-18T17:18:11+07:00
-updated: 2026-03-26T14:17:11+07:00
+updated: 2026-05-29T23:38:28+07:00
 description: Как настроить WebDAV через Docker и автоматически передавать файлы из n8n в Obsidian с помощью HTTP PUT-запроса.
 category:
   - "[[knowledge base]]"

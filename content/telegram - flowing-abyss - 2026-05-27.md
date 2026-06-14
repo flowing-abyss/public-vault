@@ -1,13 +1,13 @@
 ---
 tags:
-  - status/wip
+  - status/published
   - project/short
   - priority/c
   - mark/ignore
   - category/public
 aliases: []
 addition:
-status: 🟦
+status: 📢
 priority: 🇨
 category:
   - "[[public]]"

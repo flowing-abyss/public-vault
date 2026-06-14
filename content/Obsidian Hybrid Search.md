@@ -59,13 +59,13 @@ cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
 icon: ✏️
 color: "#b87535"
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-05-29T13:10:42+07:00
+updated: 2026-06-06T00:11:25+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
 enableToc: true
 prefix: OHS
-taskCount: 178
+taskCount: 179
 ---
 
 ![[Obsidian Hybrid Search 2026-03-16.png]]

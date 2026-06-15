@@ -1,6 +1,6 @@
 ---
 tags:
-  - status/wip
+  - status/published
   - project/short
   - priority/c
   - category/public
@@ -8,7 +8,7 @@ tags:
 aliases:
   - Философские столпы моей системы знаний
 addition:
-status: 🟦
+status: 📢
 priority: 🇨
 category:
   - "[[knowledge base]]"

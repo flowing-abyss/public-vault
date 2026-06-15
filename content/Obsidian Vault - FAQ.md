@@ -667,7 +667,7 @@ deck: obsidian::computer_science::basics
 
 Основная особенность в том, что это агент, и он является достаточно автономным (например, агент в один проход может найти релевантные заметки, сформировать из них проект, декомпозировать на задачи, сформировать в дополнение canvas с подробным треком развития).
 
-Инструмент также хорош тем, что имеет свою инфраструктуру, крайне активно развивается и легко расширяется интеграциями через MCP. Например, можно интегрировать [Zotero](https://github.com/54yyyu/zotero-mcp) или [Anki](https://github.com/nailuoGG/anki-mcp-server). Можно также добавить интеграцию с [YouTube](https://github.com/jkawamoto/mcp-youtube-transcript), [научными поисковиками](https://github.com/openags/paper-search-mcp), Google [презентациями](https://smithery.ai/servers/googleslides), [документами](https://smithery.ai/servers/googledocs) и прочим.
+Инструмент также хорош тем, что имеет свою инфраструктуру, крайне активно развивается и легко расширяется интеграциями через MCP. Например, можно интегрировать [Zotero](https://github.com/54yyyu/zotero-mcp) или [Anki](https://github.com/ankimcp/anki-mcp-server). Можно также добавить интеграцию с [YouTube](https://github.com/jkawamoto/mcp-youtube-transcript), [научными поисковиками](https://github.com/openags/paper-search-mcp), Google [презентациями](https://smithery.ai/servers/googleslides), [документами](https://smithery.ai/servers/googledocs) и прочим.
 
 Интеграция этого инструмента с хранилищем заключается в том, что я добавил [скиллы](https://github.com/flowing-abyss/obsidian-vault-skills), которые позволят делать какие-то полезные операции, но так, чтобы они не ломали[^1] архитектуру или метаданные (без них агент за одно мгновение превратит хранилище в сломанный PARA).
 

@@ -32,7 +32,7 @@ cover: "[[zotero tags - items.png]]"
 icon: ✏️
 color: "#b87535"
 created: 2025-07-23T12:27:52+07:00
-updated: 2026-05-31T09:24:10+07:00
+updated: 2026-06-28T16:43:38+07:00
 description: "Трёхмерная система тегов Zotero: статусы жизненного цикла источника, субъективная оценка качества и классификация по уровню научности."
 share: true
 title: Zotero Tags
@@ -41,6 +41,11 @@ enableToc: true
 ---
 
 ![[zotero tags - items.png]]
+
+%%
+[[search-query-telegram.png]]
+[[relevant-sources-zotero.png]]
+%%
 
 # Введение
 

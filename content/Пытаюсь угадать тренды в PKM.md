@@ -6,7 +6,7 @@ aliases: []
 icon: 📝
 color: "#70a0b5"
 created: 2026-06-14T20:10:00+07:00
-updated: 2026-06-14T23:26:22+07:00
+updated: 2026-06-15T20:07:23+07:00
 share: true
 title: "Пытаюсь угадать тренды в PKM"
 url: "[flowing-abyss](https://flowing-abyss.com/Пытаюсь-угадать-тренды-в-PKM)"

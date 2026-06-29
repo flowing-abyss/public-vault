@@ -6,7 +6,7 @@ const ArticleTitle: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const cssclasses = fileData.frontmatter?.cssclasses
 
   if (title) {
-    return <h1 class={classNames(cssclasses, "article-title")}>{title}</h1>
+    return <h1 class={classNames(undefined, "article-title", ...(cssclasses ?? []))}>{title}</h1>
   } else {
     return null
   }

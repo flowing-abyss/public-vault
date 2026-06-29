@@ -21,6 +21,7 @@ function initRecentNotes() {
   if (!container) return
   const table = container.querySelector<HTMLTableElement>(".recent-table")
   if (!table) return
+  const recentTable = table
 
   // Fill relative times
   container.querySelectorAll<HTMLElement>(".date-rel[data-ts]").forEach((el) => {
@@ -34,7 +35,7 @@ function initRecentNotes() {
   let activeType = "all"
 
   function applyFilters() {
-    table.querySelectorAll<HTMLElement>("tbody tr").forEach((row) => {
+    recentTable.querySelectorAll<HTMLElement>("tbody tr").forEach((row) => {
       const catMatch =
         activeCategory === "all" ||
         (row.getAttribute("data-category") ?? "").split("|").includes(activeCategory)
@@ -67,13 +68,13 @@ function initRecentNotes() {
   let sortCol = "created"
   let sortDir: "asc" | "desc" = "desc"
 
-  const headers = table.querySelectorAll<HTMLElement>("th.sortable")
+  const headers = recentTable.querySelectorAll<HTMLElement>("th.sortable")
 
   // Apply initial sort so DOM order matches the created-desc default
   applySort()
 
   function applySort() {
-    const tbody = table!.querySelector("tbody")!
+    const tbody = recentTable.querySelector("tbody")!
     const rows = Array.from(tbody.querySelectorAll<HTMLElement>("tr"))
 
     rows.sort((a, b) => {

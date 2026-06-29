@@ -2,7 +2,7 @@ function highlightSymbols() {
   const content = document.querySelector(".special-symbols-wrapper")
   if (!content) return
 
-  const textNodes = new Set()
+  const textNodes = new Set<Text>()
   const punctuation = '+.,/#$%^&;:{}=\\-~()"|–@—'
   const punctuationRegex = new RegExp(
     `[${punctuation.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&")}]`,
@@ -11,16 +11,17 @@ function highlightSymbols() {
   const specialCharsRegex = /[!?]/gu
   const numbersRegex = /\d+/gu
 
-  function getTextNodes(element) {
+  function getTextNodes(element: Element) {
     for (const child of element.childNodes) {
       if (child.nodeType === Node.TEXT_NODE && child.textContent?.trim() !== "") {
-        textNodes.add(child)
+        textNodes.add(child as Text)
       } else if (child.nodeType === Node.ELEMENT_NODE) {
+        const childElement = child as Element
         if (
-          !["SCRIPT", "STYLE", "A", "CODE", "PRE"].includes(child.tagName) &&
-          !child.classList.contains("highlight")
+          !["SCRIPT", "STYLE", "A", "CODE", "PRE"].includes(childElement.tagName) &&
+          !childElement.classList.contains("highlight")
         ) {
-          getTextNodes(child)
+          getTextNodes(childElement)
         }
       }
     }
@@ -33,7 +34,7 @@ function highlightSymbols() {
     if (!parent) continue
 
     const fragment = document.createDocumentFragment()
-    const text = node.textContent
+    const text = node.textContent ?? ""
     let lastIndex = 0
     let match
 

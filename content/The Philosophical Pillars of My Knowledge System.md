@@ -25,7 +25,7 @@ cover:
 icon: 🗞️
 color: "#a39070"
 created: 2026-05-29T19:59:21+07:00
-updated: 2026-05-30T00:10:49+07:00
+updated: 2026-07-13T20:23:52+07:00
 share: true
 title: Философские столпы моей системы знаний
 comments: false

@@ -1,6 +1,6 @@
 ---
 tags:
-  - status/wip
+  - status/done
   - project/single
   - priority/c
   - category/public
@@ -25,7 +25,7 @@ addition:
   - "[[Obsidian Hybrid Search - social networks|🗣️]]"
   - "[[Obsidian Hybrid Search - specifications|⚙️]]"
   - "[[Obsidian Hybrid Search - tasks|✅️]]"
-status: 🟦
+status: 🟩
 priority: 🇨
 category:
   - "[[artificial intelligence]]"
@@ -59,7 +59,7 @@ cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
 icon: ✏️
 color: "#b87535"
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-06-06T00:11:25+07:00
+updated: 2026-07-23T00:43:34+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true

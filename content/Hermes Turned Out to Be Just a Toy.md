@@ -25,7 +25,7 @@ color: "#a39070"
 created: 2026-06-20T10:38:14+07:00
 updated: 2026-07-24T16:59:43+07:00
 share: true
-title: Hermes Turned Out to Be Just a Toy
+title: Hermes оказался для меня игрушкой
 comments: true
 enableToc: true
 ---

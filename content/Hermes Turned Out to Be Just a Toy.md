@@ -23,14 +23,14 @@ cover:
 icon: 🗞️
 color: "#a39070"
 created: 2026-06-20T10:38:14+07:00
-updated: 2026-07-24T16:44:50+07:00
+updated: 2026-07-24T16:57:17+07:00
 share: true
 title: Hermes Turned Out to Be Just a Toy
 comments: true
 enableToc: true
 ---
 
-![[Hermes оказался для меня игрушкой 20260724163521397.png]]
+![[Hermes Turned Out to Be Just a Toy 20260724163521397.png]]
 
 Рассказываю про свой опыт использования Hermes на домашней лаборатории.
 

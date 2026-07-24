@@ -3,18 +3,20 @@ tags:
   - status/wip
   - project/short
   - priority/c
+  - category/artificial_intelligence
 aliases:
   - Hermes оказался для меня игрушкой
 addition:
 status: 🟦
 priority: 🇨
 category:
+  - "[[artificial intelligence]]"
 meta:
 problem:
 creator:
 production:
 start: 2026-06-20T10:38:14+07:00
-end:
+end: 2026-07-24
 url:
   - "[flowing-abyss](https://flowing-abyss.com/Hermes-Turned-Out-to-Be-Just-a-Toy)"
 cover:

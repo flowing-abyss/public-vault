@@ -82,12 +82,7 @@ export const minimalImage: SocialImageOptions["imageStructure"] = ({
         }}
       >
         {iconBase64 && (
-          <img
-            src={iconBase64}
-            width={48}
-            height={48}
-            style={{ borderRadius: "50%" }}
-          />
+          <img src={iconBase64} width={48} height={48} style={{ borderRadius: "50%" }} />
         )}
         <span
           style={{

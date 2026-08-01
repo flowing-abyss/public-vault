@@ -3,7 +3,7 @@ tags:
   - mark/ignore
   - mark/addition/aggregator
 created: 2026-03-22T07:42:35.000Z
-updated: 2026-04-16T08:40:30+07:00
+updated: 2026-07-28T12:09:23+07:00
 aliases: []
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search---plugin)"
 share: true
@@ -73,8 +73,9 @@ npm install -g obsidian-hybrid-search
 | <font color="#ab4642">fulltext:</font> <font color="#646a73">запрос</font> | @full                    | полнотекстовый поиск                |
 | <font color="#ab4642">title:</font> <font color="#646a73">запрос</font>    | @title                   | нечёткий поиск по названию          |
 | <font color="#7cafc2">tag:</font> <font color="#646a73">project</font>     | `#project`               | фильтр по тегу                      |
-| <font color="#7cafc2">tag:</font> <font color="#646a73">-archive</font>    | `-#archive`              | исключить тег                       |
-| <font color="#f7ca88">folder:</font> <font color="#646a73">work</font>     | -                        | ограничить папкой                   |
+| <font color="#7cafc2">-tag:</font> <font color="#646a73">archive</font>    | `-#archive`              | исключить тег                       |
+| <font color="#f7ca88">folder:</font> <font color="#646a73">work</font>     | -                        | ограничить папкой (или `path:`)     |
+| <font color="#f7ca88">-folder:</font> <font color="#646a73">archive</font> | -                        | исключить папку (или `-path:`)      |
 | <font color="#a1b56c">limit:</font> <font color="#646a73">20</font>        | @limit:20 / @lim:20      | изменить количество результатов     |
 | <font color="#ba8baf">threshold:</font> <font color="#646a73">0.5</font>   | @threshold:0.5 / @th:0.5 | минимальный порог релевантности     |
 | -                                                                          | @rerank                  | переранжировать через cross-encoder |
@@ -85,11 +86,15 @@ npm install -g obsidian-hybrid-search
 
 ![[Obsidian Hybrid Search - plugin 20260322203514697.png]]
 
-Первый способ для тех, кто знаком с [операторами поиска](https://obsidian.md/help/plugins/search#Search+operators). Второй больше нравится мне, так как эти идентификаторы можно оставлять в любом месте.
+Первый способ для тех, кто с знаком с [дефолтными операторами поиска в Obsidian](https://obsidian.md/help/plugins/search#Search+operators). Второй больше нравится мне, так как эти идентификаторы можно оставлять в любом месте.
 
 ## Настройки
 
 В настройках плагина можно указать путь к бинарнику `obsidian-hybrid-search`, если он не в системном `PATH` (например, при нестандартной установке Node.js). Там же выбирается режим поиска по умолчанию при открытии окна: hybrid, semantic, fulltext или title.
+
+Отдельная настройка **Default search filters** позволяет задать фильтры, которые подставляются к каждому запросу автоматически – удобно, чтобы навсегда убрать из выдачи, например, архив или шаблоны (`-tag:archive -folder:templates`), не набирая их каждый раз руками. Это не влияет на индексацию – заметки остаются в индексе, просто не показываются по умолчанию. Чтобы исключить папки/файлы из индексации целиком (и тем самым ускорить индексацию), используйте `OBSIDIAN_IGNORE_PATTERNS` на стороне основной [[Obsidian Hybrid Search|OHS-утилиты]].
+
+Там же можно завести свои постфиксы – короткие `@name`, которые разворачиваются в строку фильтров, например `@work` → `-tag:personal folder:work`. Удобно для повторяющихся выборок, которые не хочется прописывать каждый раз целиком.
 
 ## Хоткеи внутри модального окна
 

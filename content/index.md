@@ -8,6 +8,7 @@ enableToc: false
 
 %%
 [[DEATHCHANNEL - Суета.mp3]]
+[[local-fonts.zip]]
 %%
 
 <audio controls src="DEATHCHANNEL - Суета.mp3"></audio>

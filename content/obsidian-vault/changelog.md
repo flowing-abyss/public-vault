@@ -169,8 +169,8 @@ enableToc: false
 		- Таски из milestones внутри links
 	- Добавлены карточки во `fleetings.base` и `people.base`
 	- Улучшены валидации
-- В `Alt + P -> Settings` добавлена команда `meta + lint`
-	- meta – автофикс из Metadata Validator (выполняет безопасный форматинг и ❗исполняет rules)
+- В `Alt + P -> Settings` добавлена команда `validate + lint`
+	- validate – автофикс из Metadata Validator (выполняет безопасный форматинг и ❗исполняет rules)
 	- lint – форматирование заметок через [Linter](https://github.com/platers/obsidian-linter)
 		- ❗В Linter были добавлены кастомные и местами радикальные замены
 		- Если не понравится, то правила можно отключить в `Настройки Linter -> Custom -> Custom regex replacement`

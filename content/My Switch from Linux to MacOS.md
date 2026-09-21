@@ -2,14 +2,16 @@
 tags:
   - status/published
   - project/single
-  - priority/c
+  - priority/normal
   - category/public
   - category/linux
 aliases:
   - Мой переход с Linux на MacOS
+description: "Исповедь бывшего фаната Linux: почему перекомпилировать Gentoo больше не имеет смысла и как macOS стал рабочим инструментом."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[linux]]"
   - "[[public]]"
@@ -30,7 +32,6 @@ icon: ✏️
 color: "#b87535"
 created: 2026-02-12T22:26:07+07:00
 updated: 2026-06-09T10:48:38+07:00
-description: "Исповедь бывшего фаната Linux: почему перекомпилировать Gentoo больше не имеет смысла и как macOS стал рабочим инструментом."
 share: true
 title: Мой переход с Linux на MacOS
 comments: true

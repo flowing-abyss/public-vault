@@ -2,14 +2,15 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - mark/ignore
   - category/public
 aliases: []
-published:
+description: "Архив лучших сообщений чата flowing-abyss: структуры хранилищ, конспекты, алгоритмы работы с Zotero и советы по базе знаний."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[public]]"
 meta:
@@ -31,7 +32,6 @@ updated: 2026-01-19T19:55:41+07:00
 total_hours: 0
 share: true
 title: Промежуточная информация по паблику
-description: "Архив лучших сообщений чата flowing-abyss: структуры хранилищ, конспекты, алгоритмы работы с Zotero и советы по базе знаний."
 comments: false
 ---
 

@@ -2,14 +2,15 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - mark/ignore
   - category/public
 aliases: []
-published:
+description: "Первый большой дайджест чата flowing-abyss: рабочие алгоритмы, архитектура хранилища, инструменты Obsidian и список донатеров."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[public]]"
 meta:
@@ -31,7 +32,6 @@ updated: 2026-05-27T09:29:05+07:00
 total_hours: 0
 share: true
 title: Промежуточная информация по паблику
-description: "Первый большой дайджест чата flowing-abyss: рабочие алгоритмы, архитектура хранилища, инструменты Obsidian и список донатеров."
 comments: false
 ---
 

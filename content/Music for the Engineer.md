@@ -2,14 +2,16 @@
 tags:
   - status/published
   - project/single
-  - priority/c
+  - priority/normal
   - category/public
   - category/hobby
 aliases:
   - Музыка для инженера
+description: "Два режима прослушивания для инженера: культовые альбомы для глубокого погружения и идеальный прогулочный плейлист от Krautrock до Radiohead."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[hobby]]"
   - "[[public]]"
@@ -32,7 +34,6 @@ icon: ✏️
 color: "#b87535"
 created: 2025-12-05T19:35:55+07:00
 updated: 2026-03-25T00:30:59+07:00
-description: "Два режима прослушивания для инженера: культовые альбомы для глубокого погружения и идеальный прогулочный плейлист от Krautrock до Radiohead."
 share: true
 title: Музыка для инженера
 comments: true

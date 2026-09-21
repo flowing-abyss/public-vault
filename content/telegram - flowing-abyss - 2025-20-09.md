@@ -2,14 +2,15 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - mark/ignore
   - category/public
 aliases: []
-published:
+description: "Дайджест сообщества flowing-abyss: новые плагины, автоматизации, обсуждения PKM, ИИ-инструменты и советы по рабочему процессу."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[public]]"
 meta:
@@ -31,7 +32,6 @@ updated: 2026-01-21T18:29:40+07:00
 total_hours: 1
 share: true
 title: Промежуточная информация по паблику
-description: "Дайджест сообщества flowing-abyss: новые плагины, автоматизации, обсуждения PKM, ИИ-инструменты и советы по рабочему процессу."
 comments: false
 ---
 

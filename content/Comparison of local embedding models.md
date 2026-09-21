@@ -2,17 +2,19 @@
 tags:
   - status/published
   - project/single
-  - priority/c
+  - priority/normal
   - category/public
   - category/artificial_intelligence
 aliases:
   - embedding model comparison local benchmark
   - Сравнение локальных embedding-моделей
+description: Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом.
+published: 2026-09-18
 addition:
   - "[[Сравнение локальных embedding-моделей - researches|🕵]]"
   - "[[Сравнение локальных embedding-моделей - social|💬]]"
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[artificial intelligence]]"
   - "[[public]]"
@@ -25,7 +27,7 @@ production:
   - "[[flowing-abyss.com]]"
   - "[[Telegram]]"
 start: 2026-03-24T23:26:45+07:00
-end:
+end: 2026-09-18
 url:
   - "[flowing-abyss](https://flowing-abyss.com/Comparison-of-local-embedding-models)"
 cover:
@@ -33,7 +35,6 @@ icon: ✏️
 color: "#b87535"
 created: 2026-03-24T23:26:45+07:00
 updated: 2026-04-16T14:15:07+07:00
-description: Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом.
 share: true
 title: Сравнение локальных embedding-моделей
 comments: true

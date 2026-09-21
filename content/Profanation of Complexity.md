@@ -2,14 +2,16 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - category/public
   - category/knowledge_base
 aliases:
   - Профанация сложности
+description: "О трёх формах профанации PKM: продавцах упрощений, карго-культе Лумана и тех, кто путает жидкий блоггинг с базой знаний."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[knowledge base]]"
   - "[[public]]"
@@ -21,7 +23,7 @@ production:
   - "[[flowing-abyss.com]]"
   - "[[Telegram]]"
 start:
-end:
+end: 2026-09-18
 url:
   - "[flowing-abyss](https://flowing-abyss.com/Profanation-of-Complexity)"
   - "[Telegram](https://t.me/flowing_abyss/76)"
@@ -30,7 +32,6 @@ icon: 🗞️
 color: "#a39070"
 created: 2025-12-05T20:14:00+07:00
 updated: 2026-03-25T00:28:33+07:00
-description: "О трёх формах профанации PKM: продавцах упрощений, карго-культе Лумана и тех, кто путает жидкий блоггинг с базой знаний."
 share: true
 title: Профанация сложности
 comments: false

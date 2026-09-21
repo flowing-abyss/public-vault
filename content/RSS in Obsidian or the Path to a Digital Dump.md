@@ -2,15 +2,16 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - category/public
   - category/knowledge_base
 aliases:
   - RSS в Obsidian или путь к цифровой свалке
+description: Почему встраивать RSS-ридер в Obsidian — это путь к цифровой свалке, и как сохранить хранилище как пространство для глубокой работы.
 published: 2025-11-10
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[knowledge base]]"
   - "[[public]]"
@@ -31,7 +32,6 @@ icon: 🗞️
 color: "#a39070"
 created: 2025-11-02T14:06:41+07:00
 updated: 2026-03-25T00:38:02+07:00
-description: Почему встраивать RSS-ридер в Obsidian — это путь к цифровой свалке, и как сохранить хранилище как пространство для глубокой работы.
 share: true
 title: RSS в Obsidian или путь к цифровой свалке
 comments: true

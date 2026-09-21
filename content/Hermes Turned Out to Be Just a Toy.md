@@ -2,18 +2,21 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - category/artificial_intelligence
 aliases:
   - Hermes оказался для меня игрушкой
+description:
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[artificial intelligence]]"
 meta:
 problem:
 creator:
+  - "[[Me]]"
 production:
 start: 2026-06-20T10:38:14+07:00
 end: 2026-07-24

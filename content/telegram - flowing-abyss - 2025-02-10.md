@@ -2,14 +2,15 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - mark/ignore
   - category/public
 aliases: []
-published:
+description: "Подборка лучших ссылок из чата flowing-abyss: советы по Obsidian, примеры структур хранилищ, плагины и инструменты для PKM."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[public]]"
 meta:
@@ -31,7 +32,6 @@ updated: 2026-05-27T09:30:20+07:00
 total_hours: 0
 share: true
 title: Промежуточная информация по паблику
-description: "Подборка лучших ссылок из чата flowing-abyss: советы по Obsidian, примеры структур хранилищ, плагины и инструменты для PKM."
 comments: false
 ---
 

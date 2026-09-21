@@ -2,13 +2,15 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - mark/ignore
   - category/public
 aliases: []
+description: "Актуальный дайджест сообщества flowing-abyss: структуры для инженеров, n8n, GTD, Bases, Zotero и дискуссии о роли ИИ в PKM."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[public]]"
 meta:
@@ -27,7 +29,6 @@ icon: 🗞️
 color: "#a39070"
 created: 2025-11-29T01:16:41+07:00
 updated: 2026-07-15T01:06:34+07:00
-description: "Актуальный дайджест сообщества flowing-abyss: структуры для инженеров, n8n, GTD, Bases, Zotero и дискуссии о роли ИИ в PKM."
 title: Промежуточная информация по паблику
 share: true
 comments: false

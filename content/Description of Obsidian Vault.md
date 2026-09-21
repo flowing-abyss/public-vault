@@ -2,16 +2,17 @@
 tags:
   - status/published
   - project/single
-  - priority/c
+  - priority/normal
   - category/public
   - category/knowledge_base
 aliases:
   - Obsidian Vault
   - Хранилище в Obsidian
+description: Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией.
 published: 2025-02-10
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[knowledge base]]"
   - "[[public]]"
@@ -36,9 +37,8 @@ cover: "[[Description of Obsidian Vault - cover.jpg]]"
 icon: ✏️
 color: "#b87535"
 created: 2025-08-17T10:54:15+07:00
-updated: 2026-05-23T12:44:33+07:00
-description: Профессиональный Obsidian Vault с гибридной структурой, интеграцией Zotero и Anki, системой GTD и 12-часовой видеоинструкцией.
-title: Obsidian Vault
+updated: 2026-09-08T13:11:41+07:00
+title: Abyss Vault
 share: true
 comments: false
 ---

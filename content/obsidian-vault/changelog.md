@@ -38,7 +38,153 @@ enableToc: false
 
 # 8.0.0
 
-В разработке.
+- Обновлены плагины
+- Радикально переработана тема [Base16 Default Dark](https://github.com/flowing-abyss/obsidian-base16-default-dark)
+	- Тема формируется на основе токенов
+	- Цвет кодирует смысл, яркость кодирует важность
+	- Заметно улучшена типографика
+	- Единый вертикальный ритм у всего контента
+		- Live Preview и Reading View выглядят одинаково
+	- Улучшены списки, чтобы структура легче считывалась
+	- Поддержка плагинов: Abyss Tasks, Bases, Tabbed, Metadata Validator, Longform, QuickAdd
+	- Ужесточена проверка мобильной версии
+	- Переработаны callouts
+- Добавлен плагин [Abyss Tasks](https://github.com/flowing-abyss/obsidian-abyss-tasks)
+	- [Видео-онбординг](https://youtu.be/F2w9zK7_xhI?t=98)
+	- Всё в одном
+		- Задачи (+блокировка, +повторяющиеся)
+		- Проекты (таблица, канбан, таймлайн)
+		- Календарь
+		- Тайм-трекинг
+		- Сортировки и группировки
+		- Быстрая клавиатурная навигация
+	- Открыть `Alt + Shift + T`
+	- Быстро добавить задачу `Q`
+	- ❗Удалён плагин [Tag Replacer](https://github.com/flowing-abyss/obsidian-tag-replacer/) и `tags.css`
+	- Удалены `Task Calendar` и `calendar.md`
+- Обновлены [[Obsidian Vault - FAQ#Claude Code|скиллы]]
+	- Добавлен отдельный [движок](https://github.com/flowing-abyss/obsidian-vault-skills/tree/main/_engine) для аудита и валидации
+		- Работает по тем же `manifest.md`, что и Metadata Validator
+		- Агент создаёт заметки и правит метаданные только через него
+			- Это защищает от невалидных изменений
+		- Можно попросить сделать аудит, и агент найдёт ошибки в метаданных и битые ссылки
+		- Python без зависимостей
+	- Добавлены скиллы `manifest`, `vault-check`, `humanizer`
+	- `Commands` перенесены в `skills`
+	- `tools` удалены
+	- Скиллы стали короче
+- Заменён плагин [Dynamic Highlights](https://github.com/nothingislost/obsidian-dynamic-highlights) на [aDHL](https://github.com/tine-schreibt/aDHL)
+	- Добавлены правила, которые подсвечивают [[adhl-ai-slop-highlights.png|AI-slop фразы]]. По умолчанию выключены
+	- Добавлена [[adhl-inline-task-styling.png|стилизация inline-задач]], чтобы метаданные от Abyss Tasks не сливались с полезными комментариями
+- Заменён плагин [Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location) на [Attachment Management](https://github.com/trganda/obsidian-attachment-management), потому что негоже людей заставлять два плагина ставить, чтобы работал один
+- Добавлен плагин [Micropatches](https://github.com/flowing-abyss/obsidian-micropatches). По умолчанию все патчи включены. Каждый отключается отдельно и без перезагрузки. Делает следующее
+	- Удаляет лаг курсора при зажатии
+	- Держит курсор примерно в центре. Удалён плагин [Scroll Offset](https://github.com/lijyze/scroll-offset)
+	- Скрывает [[micropatches-hidden-traffic-lights.png|светофор]] на macOS
+	- Автоматически открывает поиск у Bases. Удалён плагин [Bases Auto Search](https://github.com/churnish/bases-auto-search)
+	- Убирает анимации
+	- Провайдит метаданные для [[micropatches-code-block-metadata.png|кодовых блоков]] (используется темой Base16 Default Dark)
+	- При нажатии на `блок кода` или `==выделенное==` отправляет текст в буфер обмена
+	- Добавляет [[micropatches-tufte-footnotes.png|Tufte footnotes]]. Сноски на полях можно редактировать
+	- Когда открыта периодическая заметка, то сверху показывается [[micropatches-periodic-breadcrumbs.png|переключение]] по дням
+	- Сохраняет настройки для обратных ссылок. Удалён плагин [Query Control](https://github.com/reply2za/obsidian-query-control/issues)
+	- Если на заголовок есть ссылка, то это будет [[micropatches-heading-backlinks.png|видно]]. Автоматически обновляет ссылки при переименовании заголовка
+	- Базовый плагин Outline следует за видимой частью заметки, а не за курсором
+	- Добавляет локальный [[micropatches-local-graph.png|граф]] в конце заметки
+	- Добавляет горячие углы. Зажимаете `Shift`, подводите мышь к [[micropatches-hot-corners.png|углу]], и срабатывает команда
+		- Левый верхний – `создать заметку`, правый – `открыть fleetings`
+		- Левый нижний – `добавить задачу`, правый – `открыть Abyss Tasks`
+	- Добавлен жёсткий Focus-mode, который скрывает всё, кроме текста, и приглушает все строки, кроме текущей
+	- Добавлены двойные табы
+		- `Shift + Shift` – поиск
+		- `Ctrl + Ctrl` – focus mode
+		- `Opt + Opt` – Abyss Tasks
+		- `Cmd + Cmd` – палитра команд
+- Удалён плагин [Bases Tasks](https://github.com/ocapraro/obsidian-bases-tasks), так как плагин заброшен
+- Обновлён плагин [Metadata Validator](https://github.com/flowing-abyss/obsidian-metadata-validator)
+	- Удалён плагин [Frontmatter Sync](https://github.com/flowing-abyss/obsidian-frontmatter-sync)
+	- Обновлены все манифесты и шаблоны
+		- Добавлены [description](https://t.me/s/flowing_abyss_chat/15218)
+	- ❗Добавлена механика с [[automated rules|автоматизированными rules]]
+		- В `manifest.md` описывается `when` (условие) и `then` (что поменять в метаданных)
+		- Правило видит связанные заметки
+			- Задача наследует структуру проекта, а блокеры сами двигают статусы
+			- Структурные заметки двигаются в источниках и проектах, если они поменяли тип
+		- Общие правила для нескольких манифестов лежат в `rules.md` рядом с ними
+		- Всё, что раньше прокликивалось руками, теперь делается само
+		- Есть большой шанс, что после команды Autofix у вас половина хранилища поменяется :) Будьте внимательны
+- ❗Изменены приоритеты проектов: `🇦 → ⏫`, `🇧 → 🔼`, `🇨 → ◽`, `🇩 → 🔽`, `🇪 → ⏬`
+	- Сделано для консистентности с Tasks и Abyss Tasks
+- Удалён плагин [Zoom](https://github.com/vslinko/obsidian-zoom)
+	- Удобный. Но пока не вспомнишь, что он существует, не воспользуешься
+	- А когда вспомнишь, уже и не надо
+- Заменён плагин [Zotero Integration](https://github.com/obsidian-community/obsidian-zotero-integration) на [Zotlit](https://github.com/aidenlx/zotlit)
+	- Аннотации больше не выгружаются в заметку, так как их можно посмотреть на [[zotlit-annotations-panel.png|правой панели]]
+	- В Zotero желательно поставить [плагин-компаньон](https://zotlit.aidenlx.site/docs/install-companion)
+- Удалён плагин [Task Search](https://github.com/flowing-abyss/obsidian-task-search), так как в Tasks появилась [прямая замена](https://github.com/obsidian-tasks-group/obsidian-tasks/releases/tag/8.4.0)
+- Добавлен плагин [Bases Structure](https://github.com/flowing-abyss/obsidian-bases-structure)
+	- Им заменена диаграмма Mermaid, которая показывала [[bases-structure-system-notes.png|структуру системных заметок]]
+	- Структуру можно менять перетягиванием
+		- Без `Shift` безопасные перестановки
+		- С зажатым `Shift` со сменой типа заметки
+	- В `tasks.base` добавлено отображение структуры с группировкой по Milestones
+- Добавлен плагин [Dynamic Views](https://github.com/churnish/dynamic-views)
+	- В основном из-за отображения [[dynamic-views-cards.png|карточек с контентом]]
+- Добавлен плагин [Fakelink](https://github.com/godfatherlg/fakelink) (альтернатива [Virtual Linker](https://github.com/vschroeter/obsidian-virtual-linker))
+	- Оказывается, видеть незалинкованные заметки в самом тексте чертовски полезно и удобно
+- Улучшен обзор периодических заметок
+	- Добавлен плагин [Journal Base](https://github.com/dsebastien/obsidian-journal-base)
+	- Добавлен плагин [Life Tracker](https://github.com/dsebastien/obsidian-life-tracker-base-view)
+	- Оба плагина от [Sebastien Dubois](https://www.youtube.com/@dsebastien)
+		- Я лишь словами описал, как стоит обозревать дневник, а человек эти [процессы формализовал](https://youtu.be/VHdccDohK10)
+		- Даже забавно, насколько одинаково могут мыслить совершенно разные обсидианщики :)
+	- Обзоры делаются через `Alt + P -> inbox`
+- Добавлен плагин [Tabbed](https://github.com/flowing-abyss/obsidian-tabbed)
+	- Теперь вкладки и кнопки повсюду
+	- Вкладки загружаются лениво, и за раз загруженными держатся 5 вкладок
+	- Есть колонки с весами (например, `2:1`)
+	- Работает на телефоне
+	- Радикально улучшен шаблон для категорий
+- Добавлен плагин [Local Fonts](https://github.com/flowing-abyss/obsidian-local-fonts)
+	- Удалён `font.css`
+	- Шрифты лежат в самом хранилище (`.fonts`). Никаких сетевых запросов
+	- Грузятся только те начертания, которые реально используются
+	- Работает на телефоне
+	- Шрифты по умолчанию
+		- Текст и интерфейс – `IBM Plex Sans`
+		- Заголовки – `IBM Plex Serif`
+		- Код – `IBM Plex Mono`
+		- Эмодзи – `Noto Color Emoji` (опционально `Twemoji`)
+- Добавлен плагин [Base Visuals](https://github.com/gabrielbacha/obsidian-base-visuals)
+	- Раскрашивает списки в таблицах Bases
+	- По умолчанию выключен, так как требует персональной настройки
+- Переорганизованы сниппеты
+	- Удалены `backlinks.css`, `calendar.css`, `mobile.css`, `modals.css`
+- Вернул статусбар и tab title bar
+	- Статус находится внизу справа и появляется при наведении
+- Обновлены `home/databases/*.base`
+	- Добавлены `scenes.base` для longform-проектов и `triage.base` для разбора заметок
+	- Улучшен [[bases replaces breadcrumbs|breadcrumbs.base]]
+		- [[2hop links|2hop-ссылки]] теперь быстрые, поэтому перенесены внутрь links
+		- Таски из milestones внутри links
+	- Добавлены карточки во `fleetings.base` и `people.base`
+	- Улучшены валидации
+- В `Alt + P -> Settings` добавлена команда `meta + lint`
+	- meta – автофикс из Metadata Validator (выполняет безопасный форматинг и ❗исполняет rules)
+	- lint – форматирование заметок через [Linter](https://github.com/platers/obsidian-linter)
+		- ❗В Linter были добавлены кастомные и местами радикальные замены
+		- Если не понравится, то правила можно отключить в `Настройки Linter -> Custom -> Custom regex replacement`
+- Улучшен скрипт для создания заметок через префиксы
+- Заметки через `Alt + Shift + I` наследуют категорию из активной заметки
+- Обновлена страница со статистикой хранилища (`Alt + P -> settings -> vault statistics`)
+	- Улучшен [[stats-heatmap.png|heatmap]]
+		- Он теперь интерактивный
+		- Показывает заметки и задачи сделанные в конкретный день
+	- Улучшены графовые статистики
+	- Улучшены статистики по типам
+
+> [!info] Обновление
+> - Обновление с `7.x.x` на `8.0.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 7.0.0
 

@@ -2,13 +2,15 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - mark/ignore
   - category/public
 aliases: []
+description: "Свежий дайджест чата flowing-abyss: заметки, Zotero, Habr, YouTube, Graph Analysis, критическое мышление и живые обсуждения PKM."
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[public]]"
 meta:
@@ -19,7 +21,7 @@ production:
   - "[[flowing-abyss.com]]"
   - "[[Telegram]]"
 start: 2026-05-27T09:29:19+07:00
-end:
+end: 2026-09-18
 url:
   - "[flowing-abyss](https://flowing-abyss.com/telegram---flowing-abyss---2026-05-27)"
 cover:
@@ -27,10 +29,8 @@ icon: 🗞️
 color: "#a39070"
 created: 2026-05-27T09:29:19+07:00
 updated: 2026-05-27T10:48:31+07:00
-tasks: []
 share: true
 title: Промежуточная информация по паблику
-description: "Свежий дайджест чата flowing-abyss: заметки, Zotero, Habr, YouTube, Graph Analysis, критическое мышление и живые обсуждения PKM."
 comments: false
 enableToc: false
 ---

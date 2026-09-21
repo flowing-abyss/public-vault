@@ -1,8 +1,8 @@
 ---
 tags:
-  - status/done
+  - status/wip
   - project/single
-  - priority/c
+  - priority/normal
   - category/public
   - category/knowledge_base
   - category/development
@@ -18,6 +18,7 @@ aliases:
   - гибридный поиск
   - Гибридный поиск
   - Семантический поиск
+description:
 addition:
   - "[[Obsidian Hybrid Search - description|🪪]]"
   - "[[Obsidian Hybrid Search - plugin|🔌]]"
@@ -25,8 +26,8 @@ addition:
   - "[[Obsidian Hybrid Search - social networks|🗣️]]"
   - "[[Obsidian Hybrid Search - specifications|⚙️]]"
   - "[[Obsidian Hybrid Search - tasks|✅️]]"
-status: 🟩
-priority: 🇨
+status: 🟦
+priority: ◽
 category:
   - "[[artificial intelligence]]"
   - "[[development]]"
@@ -47,7 +48,7 @@ production:
   - "[[Habr]]"
   - "[[Telegram]]"
 start: 2026-03-07T19:54:34+07:00
-end: 2026-03-16
+end:
 url:
   - "[Boosty](https://boosty.to/flowing-abyss/posts/cfee790a-5f61-4eec-84ee-1748ca6a438e)"
   - "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search)"
@@ -59,14 +60,40 @@ cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
 icon: ✏️
 color: "#b87535"
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-07-23T00:43:34+07:00
+updated: 2026-09-18T00:15:13+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
 enableToc: true
 prefix: OHS
-taskCount: 186
+taskCount: 197
 ---
+
+%%
+~~~~tabs
+tab: ☰ TOC
+```table-of-contents
+```
+
+tab: ✔️ Tasks
+```tasks
+path includes {{query.file.path}}
+group by heading
+hide task count
+```
+
+tab: ➕ Additions
+~~~tabs
+tab: 🗣️ Interim
+`BUTTON[add-addition]`
+![[interim.base#📋 Workflow: Kanban (v)]]
+
+tab: ✅ Task notes
+`BUTTON[add-task-note]` `BUTTON[add-milestone-note]`
+![[tasks.base#📋 Workflow: Kanban (v)]]
+~~~
+~~~~
+%%
 
 ![[Obsidian Hybrid Search 2026-03-16.png]]
 
@@ -196,7 +223,7 @@ npm install -g obsidian-hybrid-search
 > # Игнорируемые папки
 > export OBSIDIAN_IGNORE_PATTERNS=".obsidian/**,templates/**"
 > # API-ключ для OpenRouter
-> export OPENAI_API_KEY="sk-..."
+> export OPENAI_API_KEY="sk-…"
 > # End-point до OpenRouter
 > export OPENAI_BASE_URL="https://openrouter.ai/api/v1"
 > # Модель для эмбеддингов
@@ -241,7 +268,7 @@ ohs "как достичь величия и вершин мастерства"
 >       "env": {
 >         "OBSIDIAN_VAULT_PATH": "/path/to/your/vault",
 >         "OBSIDIAN_IGNORE_PATTERNS": ".obsidian/**,templates/**",
->         "OPENAI_API_KEY": "sk-or-v1-...",
+>         "OPENAI_API_KEY": "sk-or-v1-…",
 >         "OPENAI_BASE_URL": "https://openrouter.ai/api/v1",
 >         "OPENAI_EMBEDDING_MODEL": "baai/bge-m3"
 >       }

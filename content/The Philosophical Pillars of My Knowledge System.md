@@ -2,20 +2,23 @@
 tags:
   - status/published
   - project/short
-  - priority/c
+  - priority/normal
   - category/public
   - category/knowledge_base
 aliases:
   - Философские столпы моей системы знаний
+description: О том, почему мне до сих пор интересно вести базу знаний, искать связи и постепенно усложнять собственное мышление.
+published: 2026-09-18
 addition:
 status: 📢
-priority: 🇨
+priority: ◽
 category:
   - "[[knowledge base]]"
   - "[[public]]"
 meta:
 problem:
 creator:
+  - "[[Me]]"
 production:
 start: 2026-05-29T19:59:21+07:00
 end: 2026-05-29
@@ -25,14 +28,13 @@ cover:
 icon: 🗞️
 color: "#a39070"
 created: 2026-05-29T19:59:21+07:00
-updated: 2026-07-13T20:23:52+07:00
+updated: 2026-09-05T18:22:55+07:00
 share: true
 title: Философские столпы моей системы знаний
 comments: false
 enableToc: false
 cssclasses:
   - small-title
-description: О том, почему мне до сих пор интересно вести базу знаний, искать связи и постепенно усложнять собственное мышление.
 ---
 
 ![[The Philosophical Pillars of My Knowledge System 20260529233618701.png]]

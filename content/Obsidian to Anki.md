@@ -6,7 +6,7 @@ aliases: []
 icon: 📝
 color: "#70a0b5"
 created: 2025-12-11T18:58:42+07:00
-updated: 2026-02-20T21:20:19+07:00
+updated: 2026-09-17T11:00:07+07:00
 url: "[flowing-abyss](https://flowing-abyss.com/Obsidian-to-Anki)"
 share: true
 title: Obsidian to Anki
@@ -21,7 +21,7 @@ meta:
 
 Отройте Anki.
 
-Наверху в левом меню выберите: `Tools -> Add-ons`
+Наверху в левом меню выберите: `Tools → Add-ons`
 ![[Obsidian to Anki 2025-12-11.png]]
 
 Появится меню с расшрениями. Вам нужно нажать `Get Add-ons`, чтобы установить аддон для синхронизации.

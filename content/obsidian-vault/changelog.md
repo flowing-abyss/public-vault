@@ -78,7 +78,7 @@ enableToc: false
 	- Добавлена [[adhl-inline-task-styling.png|стилизация inline-задач]], чтобы метаданные от Abyss Tasks не сливались с полезными комментариями
 - Заменён плагин [Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location) на [Attachment Management](https://github.com/trganda/obsidian-attachment-management), потому что негоже людей заставлять два плагина ставить, чтобы работал один
 - Добавлен плагин [Micropatches](https://github.com/flowing-abyss/obsidian-micropatches). По умолчанию все патчи включены. Каждый отключается отдельно и без перезагрузки. Делает следующее
-	- Удаляет лаг курсора при зажатии
+	- Убирает лаг курсора при зажатии
 	- Держит курсор примерно в центре. Удалён плагин [Scroll Offset](https://github.com/lijyze/scroll-offset)
 	- Скрывает [[micropatches-hidden-traffic-lights.png|светофор]] на macOS
 	- Автоматически открывает поиск у Bases. Удалён плагин [Bases Auto Search](https://github.com/churnish/bases-auto-search)

@@ -77,7 +77,7 @@ enableToc: false
 	- Добавлены правила, которые подсвечивают [[adhl-ai-slop-highlights.png|AI-slop фразы]]. По умолчанию выключены
 	- Добавлена [[adhl-inline-task-styling.png|стилизация inline-задач]], чтобы метаданные от Abyss Tasks не сливались с полезными комментариями
 - Заменён плагин [Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location) на [Attachment Management](https://github.com/trganda/obsidian-attachment-management), потому что негоже людей заставлять два плагина ставить, чтобы работал один
-- Добавлен плагин [Micropatches](https://github.com/flowing-abyss/obsidian-micropatches). По умолчанию все патчи включены. Каждый отключается отдельно и без перезагрузки. Делает следующее
+- Добавлен плагин [Micropatches](https://github.com/flowing-abyss/obsidian-micropatches). По умолчанию все патчи в хранилище включены. Каждый отключается отдельно и без перезагрузки. Делает следующее
 	- Убирает лаг курсора при зажатии
 	- Держит курсор примерно в центре. Удалён плагин [Scroll Offset](https://github.com/lijyze/scroll-offset)
 	- Скрывает [[micropatches-hidden-traffic-lights.png|светофор]] на macOS

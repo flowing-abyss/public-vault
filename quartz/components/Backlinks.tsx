@@ -23,6 +23,11 @@ export default ((opts?: Partial<BacklinksOptions>) => {
     displayClass,
     cfg,
   }: QuartzComponentProps) => {
+    const cssclasses = fileData.frontmatter?.cssclasses ?? []
+    if (cssclasses.includes("hide-backLinks") || cssclasses.includes("hide-backlinks")) {
+      return null
+    }
+
     const slug = simplifySlug(fileData.slug!)
     const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
     if (options.hideWhenEmpty && backlinkFiles.length == 0) {

@@ -8,7 +8,7 @@ cssclasses:
 icon: 📝
 color: "#70a0b5"
 created: 2025-08-18T13:27:42
-updated: 2025-11-05T14:00:22+07:00
+updated: 2026-09-26T21:33:51+07:00
 url: "[flowing-abyss](https://flowing-abyss.com/MarkDB-Connect)"
 share: true
 title: MarkDB-Connect
@@ -36,8 +36,10 @@ Edit ➝ Settings ➝ MarkDB-Connect
 ![[MarkDB-Connect - folder.png]]
 
 Примеры директорий:
-- Для UNIX: `/home/flowing-abyss/data/vault/sources`
-- Для Windows: `C:\Users\flowing-abyss\data\vault\sources`
+- Для UNIX
+	- `/home/flowing-abyss/data/vault/sources`
+- Для Windows
+	- `C:\Users\flowing-abyss\data\vault\sources`
 
 **Первая опция** (`Default File Filter`) включена по дефолту. Она позволяет вычленить `citekey` из названия файла, если он назван как `@citekey.md`. Это самый быстрый способ, как можно сопоставить элементы в Zotero и заметки в Obsidian. Но у такого способа есть очевидный минус – в Obsidian будут ужасные названия у заметок.
 

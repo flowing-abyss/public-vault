@@ -66,7 +66,7 @@ title: Obsidian Hybrid Search
 comments: true
 enableToc: true
 prefix: OHS
-taskCount: 197
+taskCount: 199
 ---
 
 %%

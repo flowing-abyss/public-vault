@@ -60,7 +60,7 @@ cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
 icon: ✏️
 color: "#b87535"
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-09-18T00:15:13+07:00
+updated: 2026-10-02T22:11:31+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true
@@ -307,7 +307,7 @@ ohs "как достичь величия и вершин мастерства"
 > - `ohs --path notes/pkm/zettelkasten.md --related` – показывает связанные заметки.<br>
 > 	- $-1/-2 = \text{backlinks}$ (кто ссылается на эту заметку)<br>
 > 	- $+1/+2 = \text{outgoing links}$ (что эта заметка порождает)
-> 
+>
 > <br>• • •<br>
 > Это быстрый способ понять откуда заметка идет и куда ведёт.
 

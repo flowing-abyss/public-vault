@@ -370,6 +370,9 @@ deck: obsidian::computer_science::basics
 
 # Шрифты
 
+>[!info]+ Deprecated
+> Информация устарела для актуальной (`8.x.x`) версии хранилища. Теперь за шрифты отвечает плагин [Local Fonts](https://github.com/flowing-abyss/obsidian-local-fonts).
+
 В хранилище шрифты загружаются из сниппета `fonts.css`. По существу, это хак, направленный на то, чтобы, когда вы открыли хранилище, то увидели практически ту же типографику, как изначально задумывалось.
 
 Вдобавок, это крайне удобно, когда, например, нет возможности загрузить на компьютер нужные шрифты или просто нет интернета, чтобы, например, [подтянуть их из Google Fonts](https://t.me/flowing_abyss_chat/3457).
@@ -423,7 +426,7 @@ deck: obsidian::computer_science::basics
 > - Gray (`#aaaaaa`) – 📌 Statistics and info<br>
 >  <br>
 > • • • <br>
-> Адаптированный код для `templates/create/sources/zotero template.md`:
+> Адаптированный код для `templates/create/sources/zotero template.md` (не актуален для версии хранилища `8.x.x`):
 > ```
 > {% for annotation in annotations -%}
 > {%- if annotation.color in ["#2ea8e5", "#5fb236", "#ffd400", "#f19837", "#a28ae5", "#e56eee", "#ff6666", "#aaaaaa"] -%}

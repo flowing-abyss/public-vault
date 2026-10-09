@@ -6,7 +6,11 @@ enableToc: false
 
 >[!toc]+ Vault versions
 >
-> `Obsidian > 1.14`
+> `Obsidian >= 1.14.4`
+>
+> - [[#8.1.0]]
+> 
+> `Obsidian <= 1.13.7`
 >
 > - [[#8.0.0]]
 >
@@ -35,6 +39,25 @@ enableToc: false
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 8.1.0
+
+- Обновлены плагины и тема
+- [Bases Board](https://github.com/flowing-abyss/obsidian-bases-board) и [Micropathes](https://github.com/flowing-abyss/obsidian-micropatches) адаптированы под Obsidian `1.14.4`
+  - Обновлены `home/databases/*.base`
+- Кастомные правила в Linter исключают frontmatter и блоки кода
+- Заменён плагин [Calendar Bases](https://github.com/edrickleong/obsidian-calendar-bases) на [Just Simple Calendar](https://github.com/DavidHurtadoAI/just-simple-calendar)
+- Вернул плагин [Image Context Menus](https://github.com/nomarcub/obsidian-copy-url-in-preview), так как Obsidian ухудшила контекстное меню для картинок в последней версии
+- Добавил в QuickAdd команду для Abyss Tasks (`Alt+P -> tasks -> overall`)
+- Удалён плагин [Base Visuals](https://github.com/gabrielbacha/obsidian-base-visuals), так как автор плагина игнорирует проблему 100% загрузки CPU
+- Включил цвета карточек в `sources.base` для отображения с kanban
+- Добавил в `tasks.base` отображение `📋 Workflow: Kanban-m (h)`, которое группирует задачи по milestone
+- Включил микропатчи для Bases
+- Исправил проблему с некоторыми additions
+- Создание задачи в inbox теперь будет [показывать календарь](https://raw.githubusercontent.com/chhoumann/quickadd/8194b5379d8b23db5c9885a51cf8c120e27cf418/docs/public/img/release-2.24.0/pick-a-day.gif) для выбора даты
+
+> [!info] Обновление
+> - Обновление с `7.x.x`/`8.0.0.` на `8.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 8.0.0
 

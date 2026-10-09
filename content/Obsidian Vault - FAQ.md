@@ -29,7 +29,7 @@ url:
 icon: ✏️
 color: "#b87535"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-10-02T22:11:30+07:00
+updated: 2026-10-04T20:15:59+07:00
 share: true
 title: Obsidian Vault - FAQ
 comments: false
@@ -370,7 +370,7 @@ deck: obsidian::computer_science::basics
 
 # Шрифты
 
->[!info]+ Deprecated
+> [!info]+ Deprecated
 > Информация устарела для актуальной (`8.x.x`) версии хранилища. Теперь за шрифты отвечает плагин [Local Fonts](https://github.com/flowing-abyss/obsidian-local-fonts).
 
 В хранилище шрифты загружаются из сниппета `fonts.css`. По существу, это хак, направленный на то, чтобы, когда вы открыли хранилище, то увидели практически ту же типографику, как изначально задумывалось.

@@ -3,6 +3,7 @@ tags:
   - status/published
   - project/short
   - priority/normal
+  - category/public
   - category/artificial_intelligence
 aliases:
   - Hermes оказался для меня игрушкой
@@ -13,6 +14,7 @@ status: 📢
 priority: ◽
 category:
   - "[[artificial intelligence]]"
+  - "[[public]]"
 meta:
 problem:
 creator:

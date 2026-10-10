@@ -47,7 +47,7 @@ enableToc: false
   - Обновлены `home/databases/*.base`
 - Кастомные правила в Linter исключают frontmatter и блоки кода
 - Заменён плагин [Calendar Bases](https://github.com/edrickleong/obsidian-calendar-bases) на [Just Simple Calendar](https://github.com/DavidHurtadoAI/just-simple-calendar)
-- Вернул плагин [Image Context Menus](https://github.com/nomarcub/obsidian-copy-url-in-preview), так как Obsidian ухудшила контекстное меню для картинок в последней версии
+- Вернул плагин [Image Context Menus](https://github.com/nomarcub/obsidian-copy-url-in-preview), так как Obsidian ухудшил контекстное меню для картинок в последней версии
 - Добавил в QuickAdd команду для Abyss Tasks (`Alt+P -> tasks -> overall`)
 - Удалён плагин [Base Visuals](https://github.com/gabrielbacha/obsidian-base-visuals), так как автор плагина игнорирует проблему 100% загрузки CPU
 - Включил цвета карточек в `sources.base` для отображения с kanban

@@ -57,7 +57,7 @@ enableToc: false
 - Создание задачи в inbox теперь будет [показывать календарь](https://raw.githubusercontent.com/chhoumann/quickadd/8194b5379d8b23db5c9885a51cf8c120e27cf418/docs/public/img/release-2.24.0/pick-a-day.gif) для выбора даты
 
 > [!info] Обновление
-> - Обновление с `7.x.x`/`8.0.0.` на `8.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
+> - Обновление с `7.x.x`/`8.0.0` на `8.1.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 8.0.0
 

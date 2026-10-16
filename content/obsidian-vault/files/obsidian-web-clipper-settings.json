@@ -44,7 +44,7 @@
       "type": "multitext"
     },
     {
-      "defaultValue": "📥",
+      "defaultValue": "🟥",
       "name": "status",
       "type": "text"
     },
@@ -100,21 +100,24 @@
     "appearance": "dark",
     "autoScroll": true,
     "blendImages": true,
-    "colorLinks": false,
-    "customCss": "b, strong {\n  color: #ab4642;\n}\n\ni, em {\n  color: #a1b56c;\n}",
+    "colorLinks": true,
+    "customCss": "html,\nbody,\nmain,\narticle,\nsection,\ndiv[data-theme],\ndiv[class*=\"content\"],\ndiv[class*=\"reader\"],\ndiv[class*=\"article\"] {\n  background: #1E1E1E !important;\n}\n\nhtml,\nbody,\nmain,\narticle,\nsection,\ndiv[data-theme],\ndiv[class*=\"content\"],\ndiv[class*=\"reader\"],\ndiv[class*=\"article\"],\nhtml *,\nbody *,\nmain *,\narticle *,\nsection *,\ndiv[data-theme] *,\ndiv[class*=\"content\"] *,\ndiv[class*=\"reader\"] *,\ndiv[class*=\"article\"] * {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-weight: 500;\n}\n\n.obsidian-reader-nav {\n  opacity: 0;\n  transition: opacity 0.2s ease;\n}\n\n.obsidian-reader-nav:hover {\n  opacity: 1;\n}\n\nb, strong {\n  color: #ab4642;\n  font-weight: 700 !important;\n}\n\ni, em {\n  color: #a1b56c;\n}",
     "darkTheme": "same",
-    "defaultFont": "Inter 18pt",
+    "defaultFont": "IBM Plex Sans",
     "followLinks": true,
-    "fontSize": 17,
-    "fonts": ["Inter 18pt"],
+    "fontSize": 18,
+    "fonts": [
+      "Inter 18pt",
+      "IBM Plex Sans"
+    ],
     "highlightActiveLine": true,
     "lightTheme": "default",
-    "lineHeight": 1.4,
-    "maxWidth": 50,
+    "lineHeight": 1.5,
+    "maxWidth": 42,
     "pinPlayer": true
   },
   "stats": {
-    "addToObsidian": 98,
+    "addToObsidian": 104,
     "copyToClipboard": 1,
     "saveFile": 0,
     "share": 0
@@ -123,7 +126,7 @@
     "schemaVersion": "0.1.0",
     "name": "article",
     "behavior": "create",
-    "noteContentFormat": "\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}",
     "properties": [
       {
         "id": "1731471350617ckx4lkl",
@@ -214,7 +217,7 @@
     "schemaVersion": "0.1.0",
     "name": "video",
     "behavior": "create",
-    "noteContentFormat": "\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n",
     "properties": [
       {
         "id": "1731471360892rytirl3",
@@ -292,10 +295,13 @@
         "id": "17314713608926vfw059",
         "name": "url",
         "value": "[YouTube]({{url}})",
-        "type": "text"
+        "type": "multitext"
       }
     ],
-    "triggers": ["https://www.youtube.com/", "https://m.youtube.com/"],
+    "triggers": [
+      "https://www.youtube.com/",
+      "https://m.youtube.com/"
+    ],
     "noteNameFormat": "{{schema:name|safe_name}}",
     "path": "sources",
     "id": "1731471360891f4jbcxk",
@@ -305,7 +311,7 @@
     "schemaVersion": "0.1.0",
     "name": "movie (imdb)",
     "behavior": "create",
-    "noteContentFormat": "\n![cover]({{schema:image}})\n\n",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n![cover]({{schema:image}})\n\n",
     "properties": [
       {
         "id": "1731471371901t5pnkm4",
@@ -377,10 +383,12 @@
         "id": "1731471371902ugct9y4",
         "name": "url",
         "value": "[IMDb]({{url}})",
-        "type": "text"
+        "type": "multitext"
       }
     ],
-    "triggers": ["https://www.imdb.com/"],
+    "triggers": [
+      "https://www.imdb.com/"
+    ],
     "noteNameFormat": "{{schema:name}}",
     "path": "sources",
     "id": "1731471371879fm6ci5i",
@@ -390,7 +398,7 @@
     "schemaVersion": "0.1.0",
     "name": "movie (letterboxd)",
     "behavior": "create",
-    "noteContentFormat": "\n![cover]({{schema:image}})\n\n",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n![cover]({{schema:image}})\n\n",
     "properties": [
       {
         "id": "17314713816898a6w61a",
@@ -462,10 +470,12 @@
         "id": "17314713816894mie7s1",
         "name": "url",
         "value": "[Letterboxd]({{url}})",
-        "type": "text"
+        "type": "multitext"
       }
     ],
-    "triggers": ["https://letterboxd.com/"],
+    "triggers": [
+      "https://letterboxd.com/"
+    ],
     "noteNameFormat": "{{schema:name}}",
     "path": "sources",
     "id": "1731471381688l9dx37r",
@@ -475,7 +485,7 @@
     "schemaVersion": "0.1.0",
     "name": "article (content)",
     "behavior": "create",
-    "noteContentFormat": "\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}\n\n# Content\n\n{{content}}",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}\n\n# Content\n\n{{content}}",
     "properties": [
       {
         "id": "1731471350617ckx4lkl",
@@ -566,7 +576,7 @@
     "schemaVersion": "0.1.0",
     "name": "video (content)",
     "behavior": "create",
-    "noteContentFormat": "\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n{{selectorHtml:ytd-engagement-panel-section-list-renderer[visibility$=\\\"EXPANDED\\\"] #segments-container|strip_tags:\"h2,ytd-transcript-segment-renderer\"|replace:\"ytd-transcript-segment-renderer\":\"li\"|markdown}}",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n{{selectorHtml:ytd-engagement-panel-section-list-renderer[visibility$=\\\"EXPANDED\\\"] #segments-container|strip_tags:\"h2,ytd-transcript-segment-renderer\"|replace:\"ytd-transcript-segment-renderer\":\"li\"|markdown}}",
     "properties": [
       {
         "id": "1731471360892rytirl3",
@@ -644,10 +654,13 @@
         "id": "17314713608926vfw059",
         "name": "url",
         "value": "[YouTube]({{url}})",
-        "type": "text"
+        "type": "multitext"
       }
     ],
-    "triggers": ["https://www.youtube.com/", "https://m.youtube.com/"],
+    "triggers": [
+      "https://www.youtube.com/",
+      "https://m.youtube.com/"
+    ],
     "noteNameFormat": "{{schema:name|safe_name}}",
     "path": "sources",
     "id": "1733898204057zy2qvmpp8",
@@ -657,7 +670,7 @@
     "schemaVersion": "0.1.0",
     "name": "article (fast)",
     "behavior": "create",
-    "noteContentFormat": "\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
     "properties": [
       {
         "id": "1731471350617ckx4lkl",
@@ -748,7 +761,7 @@
     "schemaVersion": "0.1.0",
     "name": "article (fast+content)",
     "behavior": "create",
-    "noteContentFormat": "\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}\n\n# Content\n\n{{content}}\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n{{highlights|map:item => item.text|join:\"\\n\\n\"}}\n\n# Content\n\n{{content}}\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
     "properties": [
       {
         "id": "1731471350617ckx4lkl",
@@ -839,7 +852,7 @@
     "schemaVersion": "0.1.0",
     "name": "video (fast)",
     "behavior": "create",
-    "noteContentFormat": "\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
     "properties": [
       {
         "id": "1731471360892rytirl3",
@@ -917,10 +930,13 @@
         "id": "17314713608926vfw059",
         "name": "url",
         "value": "[YouTube]({{url}})",
-        "type": "text"
+        "type": "multitext"
       }
     ],
-    "triggers": ["https://www.youtube.com/", "https://m.youtube.com/"],
+    "triggers": [
+      "https://www.youtube.com/",
+      "https://m.youtube.com/"
+    ],
     "noteNameFormat": "{{schema:name|safe_name}}",
     "path": "sources",
     "id": "1748442880789a90sovi02",
@@ -930,7 +946,7 @@
     "schemaVersion": "0.1.0",
     "name": "video (fast+content)",
     "behavior": "create",
-    "noteContentFormat": "\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n{{selectorHtml:ytd-engagement-panel-section-list-renderer[visibility$=\\\"EXPANDED\\\"] #segments-container|strip_tags:\"h2,ytd-transcript-segment-renderer\"|replace:\"ytd-transcript-segment-renderer\":\"li\"|markdown}}\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
+    "noteContentFormat": "\n{% set open = \"{\" %}{% set close = \"}\" %}\n~~~~tabs\ntab: ☰ TOC\n```table-of-contents\n```\n\ntab: ✔️ Tasks\n```tasks\npath includes {{open}}{{open}}query.file.path{{close}}{{close}}\ngroup by heading\nhide task count\n```\n\ntab: ➕ Additions\n`BUTTON[add-addition]`\n![[interim.base#📋 Workflow: Kanban (v)]]\n~~~~\n\n>[!link]+ Youtube\n> ![YouTube]({{url}})\n\n{{selectorHtml:ytd-engagement-panel-section-list-renderer[visibility$=\\\"EXPANDED\\\"] #segments-container|strip_tags:\"h2,ytd-transcript-segment-renderer\"|replace:\"ytd-transcript-segment-renderer\":\"li\"|markdown}}\n\n<%*\n\nconst dv = this.app.plugins.plugins[\"dataview\"].api\nconst getRelevantPages = (tag) => dv.pages(tag).where(p => p.file.frontmatter.relevant === true).file.name.map(p => `[[${p}]]`)\n\nconst data = {\n  category: getRelevantPages(\"#system/category\"),\n  meta: getRelevantPages(\"#system/high/meta\"),\n  problem: getRelevantPages(\"#system/high/problem\")\n}\n\nsetTimeout(() => {\n  app.fileManager.processFrontMatter(tp.config.target_file, (frontmatter) => {\n    Object.entries(data).forEach(([key, value]) => {\n      if (value.length > 0) frontmatter[key] = value\n    })\n  })\n}, 300)\n\n-%>",
     "properties": [
       {
         "id": "1731471360892rytirl3",
@@ -1011,7 +1027,10 @@
         "type": "multitext"
       }
     ],
-    "triggers": ["https://www.youtube.com/", "https://m.youtube.com/"],
+    "triggers": [
+      "https://www.youtube.com/",
+      "https://m.youtube.com/"
+    ],
     "noteNameFormat": "{{schema:name|safe_name}}",
     "path": "sources",
     "id": "1748442928792336bzmb62",
@@ -1068,4 +1087,3 @@
   ],
   "vaults": []
 }
-

@@ -164,7 +164,7 @@ ___
 
 В хранилище есть автоматизация, которая проверяет свойства заметок и поддерживает их согласованность. То есть оно будет вам само подсказывать, какие свойства заметки нужно заполнить или исправить.
 
-Также в хранилище появилась сильная интеграция с таск-менеджментом. Вы можете углубляться в тему, планировать на канбан-доске или таймлайне, получать глубокую аналитику по сделанным задачам. Это потребует определённого разбирательства, но оно того стоит :)
+Также в хранилище появилась сильная интеграция с таск-менеджментом. Вы можете углубляться в тему, планировать на канбан-доске или таймлайне, получать *глубокую аналитику* по сделанным задачам. Это потребует определённого разбирательства, но оно того стоит :)
 
 <div class="abyss-vault-nav" aria-label="Ссылки Abyss Vault" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 16px; width: 100%; max-width: 560px; margin: 1.2em auto 0; box-sizing: border-box;">
 	<a href="https://boosty.to/flowing-abyss/posts/c2e3d43f-c2bc-44e1-b771-77244a8cc8ee" style="flex: 0 1 clamp(132px, calc((100% - 32px) / 3), 176px); display: flex; align-items: center; justify-content: center; min-width: 0; height: 56px; border: 1px solid #c68054; background: rgba(247, 120, 32, 0.10); border-radius: 8px; padding: 7px; box-sizing: border-box; text-decoration: none;">

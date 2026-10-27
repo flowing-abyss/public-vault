@@ -52,10 +52,10 @@ end:
 url:
   - "[Boosty](https://boosty.to/flowing-abyss/posts/cfee790a-5f61-4eec-84ee-1748ca6a438e)"
   - "[flowing-abyss](https://flowing-abyss.com/Obsidian-Hybrid-Search)"
-  - "[GitHub](https: //github.com/flowing-abyss/obsidian-hybrid-search)"
-  - "[Habr](https: //habr.com/en/posts/1011010/)"
-  - "[Telegram](https: //t.me/flowing_abyss/90)"
-  - "[Telegram](https: //t.me/flowing_abyss/91)"
+  - "[GitHub](https://github.com/flowing-abyss/obsidian-hybrid-search)"
+  - "[Habr](https://habr.com/en/posts/1011010/)"
+  - "[Telegram](https://t.me/flowing_abyss/90)"
+  - "[Telegram](https://t.me/flowing_abyss/91)"
 cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
 icon: ✏️
 color: "#b87535"

@@ -8,10 +8,12 @@ color: "#70a0b5"
 created: 2026-10-28T23:20:33+07:00
 updated: 2026-10-31T18:45:19+07:00
 share: true
-title: "Быстрый поиск недостаточно быстрый"
+title: Быстрый поиск недостаточно быстрый
 url: "[flowing-abyss](https://flowing-abyss.com/fast-search-is-not-fast-enough)"
 comments: true
 enableToc: false
+category:
+  - "[[development]]"
 ---
 
 ![[fast search is not fast enough 20261031171055146.png]]

@@ -8,7 +8,7 @@ tags:
 aliases:
   - embedding model comparison local benchmark
   - Сравнение локальных embedding-моделей
-description: Сравнение 11 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - snowflake-arctic-embed2, единственная модель с работающим кросс-языковым поиском и лучшим общим результатом.
+description: Сравнение 12 локальных embedding-моделей для поиска в персональной базе знаний Obsidian. Лидер - qwen3-embedding:0.6b, модель с лучшим кросс-языковым поиском и общим результатом.
 published: 2026-09-18
 addition:
   - "[[Сравнение локальных embedding-моделей - researches|🕵]]"
@@ -34,7 +34,7 @@ cover:
 icon: ✏️
 color: "#b87535"
 created: 2026-03-24T23:26:45+07:00
-updated: 2026-09-26T21:33:15+07:00
+updated: 2026-11-04T08:40:35+07:00
 share: true
 title: Сравнение локальных embedding-моделей
 comments: true
@@ -60,37 +60,39 @@ cssclasses:
 
 Golden Set сделан на основе [официальной документации Obsidian](https://github.com/obsidianmd/obsidian-help) и имеет 58 разных запросов. Результаты следующие:
 
-| #   | Model                                | context | size   | nDCG@5 ↓ | +rerank                                |
-| --- | ------------------------------------ | ------- | ------ | -------- | -------------------------------------- |
-| 1   | `snowflake-arctic-embed2`            | 8192    | 1.2 GB | 0.767    | <font color="#a1b56c">0.784</font> |
-| 2   | `bge-m3`                             | 8192    | 1.2 GB | 0.755    | <font color="#a1b56c">0.768</font>     |
-| 3   | `embeddinggemma`                     | 2048    | 622 MB | 0.747    | <font color="#a1b56c">0.767</font>     |
-| 4   | `paraphrase-multilingual`            | 512     | 563 MB | 0.738    | 0.739                                  |
-| 5   | `multilingual-e5-small` *(baseline)* | 512     | 117 MB | 0.736    | 0.737                                  |
-| 6   | `nomic-embed-text-v2-moe`            | 512     | 958 MB | 0.720    | <font color="#a1b56c">0.745</font>     |
-| 7   | `all-minilm`                         | 512     | 46 MB  | 0.699    | <font color="#ab4642">0.694</font>     |
-| 8   | `granite-embedding`                  | 512     | 63 MB  | 0.696    | <font color="#ab4642">0.691</font>     |
-| 9   | `mxbai-embed-large`                  | 512     | 670 MB | 0.687    | <font color="#ab4642">0.683</font>     |
-| 10  | `nomic-embed-text`                   | 2048    | 274 MB | 0.622    | <font color="#a1b56c">0.662</font>     |
-| 11  | `snowflake-arctic-embed`             | 512     | 670 MB | 0.445    | <font color="#a1b56c">0.553</font>     |
+| #  | Model                                | context | size   | nDCG@5 ↓ | +rerank                            |
+|----|--------------------------------------|---------|--------|-----------|------------------------------------|
+| 1  | `qwen3-embedding:0.6b`               | 32768   | 639 MB | 0.802     | <font color="#a1b56c">0.812</font> |
+| 2  | `snowflake-arctic-embed2`            | 8192    | 1.2 GB | 0.767     | <font color="#a1b56c">0.784</font> |
+| 3  | `bge-m3`                             | 8192    | 1.2 GB | 0.755     | <font color="#a1b56c">0.768</font> |
+| 4  | `embeddinggemma`                     | 2048    | 622 MB | 0.747     | <font color="#a1b56c">0.767</font> |
+| 5  | `paraphrase-multilingual`            | 512     | 563 MB | 0.738     | 0.739                              |
+| 6  | `multilingual-e5-small` *(baseline)* | 512     | 117 MB | 0.736     | 0.737                              |
+| 7  | `nomic-embed-text-v2-moe`            | 512     | 958 MB | 0.720     | <font color="#a1b56c">0.745</font> |
+| 8  | `all-minilm`                         | 512     | 46 MB  | 0.699     | <font color="#ab4642">0.694</font> |
+| 9  | `granite-embedding`                  | 512     | 63 MB  | 0.696     | <font color="#ab4642">0.691</font> |
+| 10 | `mxbai-embed-large`                  | 512     | 670 MB | 0.687     | <font color="#ab4642">0.683</font> |
+| 11 | `nomic-embed-text`                   | 2048    | 274 MB | 0.622     | <font color="#a1b56c">0.662</font> |
+| 12 | `snowflake-arctic-embed`             | 512     | 670 MB | 0.445     | <font color="#a1b56c">0.553</font> |
 
-> Тройка лидеров – snowflake-arctic-embed2, bge-m3, embeddinggemma. Среднее плато 4-5. Неплохой nomic-moe.
+> Тройка лидеров – qwen3-embedding:0.6b, snowflake-arctic-embed2, bge-m3. Среднее плато 5-6. Неплохой nomic-moe.
 
 # По категориям запросов
 
-| Model                                | keyword | conceptual | multilingual | syntax |
-| ------------------------------------ | ------- | ---------- | ------------ | ------ |
-| `snowflake-arctic-embed2`            | 0.882   | 0.491      | ==0.667==    | 0.643  |
-| `bge-m3`                             | 0.865   | 0.481      | 0.541        | 0.770  |
-| `embeddinggemma`                     | 0.871   | 0.438      | 0.497        | 0.770  |
-| `paraphrase-multilingual`            | 0.874   | 0.476      | 0.334        | 0.762  |
-| `multilingual-e5-small` *(baseline)* | 0.870   | 0.420      | 0.421        | 0.770  |
-| `nomic-embed-text-v2-moe`            | 0.858   | 0.451      | 0.300        | 0.762  |
-| `all-minilm`                         | 0.866   | 0.482      | <font color="#ab4642">0.000</font>        | 0.762  |
-| `granite-embedding`                  | 0.877   | 0.424      | <font color="#ab4642">0.000</font>        | 0.762  |
-| `mxbai-embed-large`                  | 0.861   | 0.424      | <font color="#ab4642">0.000</font>        | 0.770  |
-| `nomic-embed-text`                   | 0.779   | 0.466      | <font color="#ab4642">0.000</font>        | 0.563  |
-| `snowflake-arctic-embed`             | 0.542   | 0.242      | <font color="#ab4642">0.000</font>        | 0.650  |
+| Model                                | keyword | conceptual | multilingual                       | syntax |
+|--------------------------------------|---------|------------|------------------------------------|--------|
+| `qwen3-embedding:0.6b`               | 0.883   | 0.533      | ==0.732==                          | 0.833  |
+| `snowflake-arctic-embed2`            | 0.882   | 0.491      | 0.667                              | 0.643  |
+| `bge-m3`                             | 0.865   | 0.481      | 0.541                              | 0.770  |
+| `embeddinggemma`                     | 0.871   | 0.438      | 0.497                              | 0.770  |
+| `paraphrase-multilingual`            | 0.874   | 0.476      | 0.334                              | 0.762  |
+| `multilingual-e5-small` *(baseline)* | 0.870   | 0.420      | 0.421                              | 0.770  |
+| `nomic-embed-text-v2-moe`            | 0.858   | 0.451      | 0.300                              | 0.762  |
+| `all-minilm`                         | 0.866   | 0.482      | <font color="#ab4642">0.000</font> | 0.762  |
+| `granite-embedding`                  | 0.877   | 0.424      | <font color="#ab4642">0.000</font> | 0.762  |
+| `mxbai-embed-large`                  | 0.861   | 0.424      | <font color="#ab4642">0.000</font> | 0.770  |
+| `nomic-embed-text`                   | 0.779   | 0.466      | <font color="#ab4642">0.000</font> | 0.563  |
+| `snowflake-arctic-embed`             | 0.542   | 0.242      | <font color="#ab4642">0.000</font> | 0.650  |
 
 Категории:
 - **keyword** – поиск по упоминаемым ключевым словам (36 запросов)
@@ -130,14 +132,15 @@ ohs "запрос" --limit 50 --rerank
 
 Модель реранка: `bge-reranker-v2-m3` (кросс-энкодер, ~568M параметров, ONNX int8). Результаты следующие:
 
-| Model                     | no-rerank | rerank | delta ↓                             |
-| ------------------------- | --------- | ------ | ----------------------------------- |
+| Model                     | no-rerank | rerank | delta ↓                            |
+|---------------------------|-----------|--------|-------------------------------------|
 | `snowflake-arctic-embed`  | 0.445     | 0.553  | <font color="#a1b56c">+0.108</font> |
 | `nomic-embed-text`        | 0.622     | 0.662  | <font color="#a1b56c">+0.040</font> |
 | `nomic-embed-text-v2-moe` | 0.720     | 0.745  | <font color="#a1b56c">+0.025</font> |
 | `embeddinggemma`          | 0.747     | 0.767  | <font color="#a1b56c">+0.020</font> |
 | `snowflake-arctic-embed2` | 0.767     | 0.784  | <font color="#a1b56c">+0.017</font> |
 | `bge-m3`                  | 0.755     | 0.768  | <font color="#a1b56c">+0.013</font> |
+| `qwen3-embedding:0.6b`    | 0.802     | 0.812  | <font color="#a1b56c">+0.010</font> |
 | `multilingual-e5-small`   | 0.736     | 0.737  | +0.001                              |
 | `paraphrase-multilingual` | 0.738     | 0.739  | +0.001                              |
 | `all-minilm`              | 0.699     | 0.694  | <font color="#ab4642">−0.005</font> |
@@ -149,13 +152,13 @@ ohs "запрос" --limit 50 --rerank
 # Главные выводы
 
 ==Топ модель==<br>
-Для кросс-языкового поиска (запросы на русском, а результаты на английском) – `snowflake-arctic-embed2`. Это единственная модель с работающим кросс-языковым поиском (0.667 в multilingual). При этом она имеет лучший результат по главной метрике (0.784 с реранком).
+Для кросс-языкового поиска (запросы на русском, а результаты на английском) – `qwen3-embedding:0.6b`. Это лучшая модель для кросс-языкового поиска (0.732 в multilingual). При этом она имеет лучший результат по главной метрике (0.812 с реранком).
 
 ==Размер модели ≠ качество==<br>
 `multilingual-e5-small` (117 MB) обходит `nomic-embed-text-v2-moe` (958 MB). Специализированные retrieval-модели показывают себя лучше крупных универсальных.[^1]
 
 ==Слабое место – концептуальный поиск==<br>
-Лучший результат ~0.49. Для сложных абстрактных запросов нужны дополнительные архитектурные решения (HyDE, query expansion, агентный поиск).
+Лучший результат ~0.53. Для сложных абстрактных запросов нужны дополнительные архитектурные решения (HyDE, query expansion, агентный поиск).
 
 ## Что ставить
 
@@ -163,7 +166,7 @@ ohs "запрос" --limit 50 --rerank
 
 Для мультиязычного хранилища лучший выбор:
 ```bash
-ollama pull snowflake-arctic-embed2
+ollama pull qwen3-embedding:0.6b
 ```
 
 Альтернатива с хорошим syntax-поиском:

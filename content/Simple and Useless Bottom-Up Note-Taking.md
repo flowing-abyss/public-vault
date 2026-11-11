@@ -33,7 +33,7 @@ url:
 icon: ✏️
 color: "#b87535"
 created: 2026-02-25T09:34:20+07:00
-updated: 2026-09-21T14:09:41+07:00
+updated: 2026-11-04T14:43:04+07:00
 share: true
 title: Простой и бесполезный bottom-up способ ведения заметок
 comments: true

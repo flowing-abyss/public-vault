@@ -60,7 +60,7 @@ cover: "[[Obsidian Hybrid Search 2026-03-16.png|cover]]"
 icon: ✏️
 color: "#b87535"
 created: 2026-03-07T19:54:34+07:00
-updated: 2026-10-02T22:11:31+07:00
+updated: 2026-11-04T16:18:26+07:00
 share: true
 title: Obsidian Hybrid Search
 comments: true

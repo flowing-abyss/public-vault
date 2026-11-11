@@ -31,19 +31,19 @@ export const sharedPageComponents: SharedLayout = {
       }),
     }),
     Component.Backlinks(),
-    Component.Comments({
-      provider: "giscus",
-      options: {
-        repo: "flowing-abyss/public-vault",
-        repoId: "R_kgDOPef5JQ",
-        category: "Announcements",
-        categoryId: "DIC_kwDOPef5Jc4CxUsQ",
-        mapping: "pathname",
-        strict: false,
-        reactionsEnabled: false,
-        inputPosition: "bottom",
-      },
-    }),
+    // Component.Comments({
+    //   provider: "giscus",
+    //   options: {
+    //     repo: "flowing-abyss/public-vault",
+    //     repoId: "R_kgDOPef5JQ",
+    //     category: "Announcements",
+    //     categoryId: "DIC_kwDOPef5Jc4CxUsQ",
+    //     mapping: "pathname",
+    //     strict: false,
+    //     reactionsEnabled: false,
+    //     inputPosition: "bottom",
+    //   },
+    // }),
   ],
   footer: EmptyComponent,
 }

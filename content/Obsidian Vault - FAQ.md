@@ -29,7 +29,7 @@ url:
 icon: ✏️
 color: "#b87535"
 created: 2025-12-13T19:22:49+07:00
-updated: 2026-10-04T20:15:59+07:00
+updated: 2026-11-14T15:21:09+07:00
 share: true
 title: Obsidian Vault - FAQ
 comments: false

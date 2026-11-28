@@ -8,6 +8,7 @@ enableToc: false
 >
 > `Obsidian >= 1.14.4`
 >
+> - [[#8.3.0]]
 > - [[#8.2.0]]
 > - [[#8.1.0]]
 > 
@@ -40,6 +41,29 @@ enableToc: false
 > - [[#2.1.0]]
 > - [[#2.0.0]]
 > - [[#1.0.0]]
+
+# 8.3.0
+
+- Обновлены плагины и тема
+- Обновлены [скиллы](https://github.com/flowing-abyss/obsidian-vault-skills)
+- Обновлён плагин [Abyss Tasks](https://github.com/flowing-abyss/obsidian-abyss-tasks/releases/tag/2.4.0)
+	- Добавлен командный AI-режим
+	- Добавлен голосовой ввод
+	- Добавлен публичный API
+- Оптимизированы запросы в `home/databases/*.base`
+	- Обновлён плагин [Bases Board](https://github.com/flowing-abyss/obsidian-bases-board/releases/tag/1.3.0). Добавлена ручная сортировка
+- Заменён плагин [Context Menu Hider](https://github.com/mara-li/obsidian-context-menu-hider) на [Commander](https://github.com/jsmorabito/obsidian-commander)
+- Добавлен плагин [Navbar Composer](https://github.com/volodymyrkoval/navbar-composer)
+	- В мобильной версии можно менять [[navbar-composer.png|нижнее меню]]
+	- Команда поиска заметок по умолчанию заменена на Landmark Search
+	- Добавлена команда для создания задачи в inbox
+- Переписаны шаблоны для обновлённого [Zotlit](https://github.com/aidenlx/zotlit)
+	- Команда импорта источника из Zotero открывает [Library View](https://zotlit.aidenlx.site/docs/how-to/use-library-view) внутри Obsidian
+- Улучшены скрипты для создания Additions
+- Вкладки не скрываются, когда открыты две заметки в тайлинге
+
+> [!info] Обновление
+> - Обновление с `7.x.x`/`8.x.x` на `8.3.0` делается через [[upgrade vault using a script.mp4|скрипт]]
 
 # 8.2.0
 
